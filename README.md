@@ -1,4 +1,0 @@
-Hungarian
-=========
-
-Hungarian data
