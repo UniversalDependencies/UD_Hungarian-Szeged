@@ -57,3 +57,13 @@ CONTACT
 ---------------------
 
 The UD version of the treebank has been prepared by Richárd Farkas (rfarkas@inf.u-szeged.hu) and Veronika Vincze (vinczev@inf.u-szeged.hu). For questions and comments please contact them.
+
+---------------------
+---------------------
+CHANGELOG
+---------------------
+---------------------
+
+2015-05-15 v1.1
+
+Sentences with multiple roots have been corrected.
