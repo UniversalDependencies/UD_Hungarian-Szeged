@@ -7,16 +7,16 @@
 7	olajat	olaj	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	dobj	_	_
 8	exportáló	exportáló	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	9	amod:att	_	_
 9	országokat	ország	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	dobj	_	_
-10	William	William	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name:hu	_	_
+10	William	William	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name	_	_
 11	Ramsey	Ramsey	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	nsubj	_	_
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	aki	aki	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	17	nsubj	_	_
 14	az	az	DET	_	Definite=Def|PronType=Art	16	det	_	_
-15	Egyesült	Egyesült	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name:hu	_	_
+15	Egyesült	Egyesült	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name	_	_
 16	Államokat	Államok	PROPN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	dobj	_	_
 17	képviseli	képvisel	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
-19	Nemzetközi	Nemzetközi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	name:hu	_	_
+19	Nemzetközi	Nemzetközi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	name	_	_
 20	Energiaügynökségben	Energiaügynökség	PROPN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	nmod:obl	_	_
 21	,	,	PUNCT	_	_	3	punct	_	_
 22	miután	miután	SCONJ	_	_	27	mark	_	_
@@ -88,8 +88,8 @@
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	mert	mert	SCONJ	_	_	20	mark	_	_
 11	az	az	DET	_	Definite=Def|PronType=Art	14	det	_	_
-12	ENSZ	ENSZ	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	name:hu	_	_
-13	Biztonsági	Biztonsági	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name:hu	_	_
+12	ENSZ	ENSZ	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	name	_	_
+13	Biztonsági	Biztonsági	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name	_	_
 14	Tanácsa	Tanácsa	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	nsubj	_	_
 15	múlt	múlt	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	16	amod:att	_	_
 16	hét	hét	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	nmod:att	_	_
@@ -214,9 +214,9 @@
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 1	A	a	DET	_	Definite=Def|PronType=Art	5	det	_	_
-2	Légiforgalmi	Légiforgalmi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name:hu	_	_
-3	és	és	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	name:hu	_	_
-4	Repülőtéri	Repülőtéri	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	name:hu	_	_
+2	Légiforgalmi	Légiforgalmi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name	_	_
+3	és	és	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	name	_	_
+4	Repülőtéri	Repülőtéri	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	name	_	_
 5	Igazgatóság	Igazgatóság	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	nsubj	_	_
 6	(	(	PUNCT	_	_	7	punct	_	_
 7	LRI	LRI	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	appos	_	_
@@ -256,7 +256,7 @@
 41	kanadai	kanadai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	42	amod:att	_	_
 42	beruházótól	beruházó	ADJ	_	Case=Abl|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	39	amod:obl	_	_
 43	a	a	DET	_	Definite=Def|PronType=Art	45	det	_	_
-44	Ferihegyi	Ferihegyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	45	name:hu	_	_
+44	Ferihegyi	Ferihegyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	45	name	_	_
 45	repülőtér	repülőtér	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	47	nmod:att	_	_
 46	2/B	2/B	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	47	nmod:att	_	_
 47	terminálját	terminál	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	39	dobj	_	_
@@ -296,7 +296,7 @@
 2	úgy	úgy	ADV	_	Degree=None|PronType=Dem	3	advmod:mode	_	_
 3	tudja	tud	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	Katona	Katona	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
+5	Katona	Katona	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
 6	Kálmán	Kálmán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	appos	_	_
 7	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	8	amod:att	_	_
 8	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	nsubj	_	_
@@ -309,7 +309,7 @@
 15	igazgatóját	igazgató	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	11	dobj	_	_
 16	,	,	PUNCT	_	_	11	punct	_	_
 17	de	de	CONJ	_	_	11	cc	_	_
-18	Kovács	Kovács	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	name:hu	_	_
+18	Kovács	Kovács	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	name	_	_
 19	Péter	Péter	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	21	nsubj	_	_
 20	nem	nem	ADV	_	Degree=None|PronType=Neg	21	neg	_	_
 21	ment	megy	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
@@ -437,7 +437,7 @@
 2	legfőbb	fő	ADJ	_	Case=Nom|Degree=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	3	amod:att	_	_
 3	ügyész	ügyész	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nmod:att	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	Györgyi	Györgyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
+5	Györgyi	Györgyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
 6	Kálmán	Kálmán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	appos	_	_
 7	meghallgatásával	meghallgatás	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	13	nmod:obl	_	_
 8	,	,	PUNCT	_	_	13	punct	_	_
@@ -468,7 +468,7 @@
 12	ismerteti	ismer	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	_
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	amelyeket	amely	PRON	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	24	dobj	_	_
-15	Orbán	Orbán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name:hu	_	_
+15	Orbán	Orbán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name	_	_
 16	Viktor	Viktor	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	nmod:att	_	_
 17	miniszterelnök	miniszterelnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	nmod:att	_	_
 18	október	október	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	nmod:att	_	_
@@ -481,7 +481,7 @@
 25	össze	össze	ADV	_	Degree=Pos|PronType=Default	24	compound:preverb	_	_
 26	.	.	PUNCT	_	_	12	punct	_	_
 
-1	Buza	Buza	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Buza	Buza	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Attila	Attila	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	az	az	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -529,7 +529,7 @@
 46	.	.	PUNCT	_	_	10	punct	_	_
 
 1	A	a	DET	_	Definite=Def|PronType=Art	3	det	_	_
-2	Független	Független	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name:hu	_	_
+2	Független	Független	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name	_	_
 3	Kisgazdapárt	Kisgazdapárt	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nsubj	_	_
 4	az	az	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	albizottságba	albizottság	NOUN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nmod:obl	_	_
@@ -652,7 +652,7 @@
 20	leggyorsabban	gyors	ADJ	_	Case=Ess|Degree=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	21	amod:mode	_	_
 21	elkezdeni	el+kezd	VERB	_	Aspect=None|Mood=N|Number=None|Person=None|VerbForm=Inf|Voice=Act	18	xcomp	_	_
 22	a	a	DET	_	Definite=Def|PronType=Art	25	det	_	_
-23	Békés	Békés	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	name:hu	_	_
+23	Békés	Békés	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	name	_	_
 24	megyei	megyei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	25	amod:att	_	_
 25	olajügyek	olajügy	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	26	nmod:att	_	_
 26	tisztázását	tisztázás	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	21	dobj	_	_
@@ -829,7 +829,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	mind	mind	CONJ	_	_	4	cc	_	_
 7	az	az	DET	_	Definite=Def|PronType=Art	9	det	_	_
-8	Adatvédelmi	Adatvédelmi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	name:hu	_	_
+8	Adatvédelmi	Adatvédelmi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	name	_	_
 9	Hivatal	Hivatal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	conj	_	_
 10	tehetetlen	tehetetlen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	0	root	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
@@ -983,7 +983,7 @@
 26	.	.	PUNCT	_	_	8	punct	_	_
 
 1	Az	az	DET	_	Definite=Def|PronType=Art	3	det	_	_
-2	Adatvédelmi	Adatvédelmi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name:hu	_	_
+2	Adatvédelmi	Adatvédelmi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name	_	_
 3	Hivatalba	Hivatal	PROPN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	nmod:obl	_	_
 4	is	is	CONJ	_	_	3	cc	_	_
 5	érkeznek	érkezik	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1060,7 +1060,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 1	Ezért	ezért	ADV	_	Degree=None|PronType=Dem	8	advmod:mode	_	_
-2	Alexander	Alexander	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name:hu	_	_
+2	Alexander	Alexander	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name	_	_
 3	Dubcek	Dubcek	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	nmod:att	_	_
 4	halála	halál	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	5	nmod:att	_	_
 5	körülményeinek	körülmény	NOUN	_	Case=Gen|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	6	nmod:att	_	_
@@ -1084,11 +1084,11 @@
 13	—	—	PUNCT	_	_	14	punct	_	_
 14	jelentette	jelent	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 15	ki	ki	ADV	_	Degree=Pos|PronType=Default	14	compound:preverb	_	_
-16	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	name:hu	_	_
+16	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	name	_	_
 17	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	nsubj	_	_
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	21	det	_	_
-20	Pedagógus	Pedagógus	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	21	name:hu	_	_
+20	Pedagógus	Pedagógus	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	21	name	_	_
 21	Szakszervezet	Szakszervezet	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	22	nmod:att	_	_
 22	titkára	titkár	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	17	appos	_	_
 23	.	.	PUNCT	_	_	14	punct	_	_
@@ -1160,7 +1160,7 @@
 17	lapunknak	lap	NOUN	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=Plur|Person[psor]=1	18	iobj	_	_
 18	adott	adott	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	19	amod:att	_	_
 19	interjújában	interjú	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	16	nmod:obl	_	_
-20	Melis	Melis	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	21	name:hu	_	_
+20	Melis	Melis	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	21	name	_	_
 21	György	György	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	nsubj	_	_
 22	,	,	PUNCT	_	_	16	punct	_	_
 23	akit	aki	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	32	dobj	_	_
@@ -1202,8 +1202,8 @@
 5	első	első	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=Ord|Person[psor]=None|VerbForm=None	6	amod:att	_	_
 6	felében	fél	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	13	nmod:obl	_	_
 7	Mozart	Mozart	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	nmod:att	_	_
-8	Cosi	Cosi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	name:hu	_	_
-9	fan	fan	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	name:hu	_	_
+8	Cosi	Cosi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	name	_	_
+9	fan	fan	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	name	_	_
 10	tuttéjének	tutte	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	12	nmod:att	_	_
 11	I.	1.	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=Ord|Person[psor]=None|VerbForm=None	12	amod:att	_	_
 12	felvonása	felvonás	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
@@ -1212,7 +1212,7 @@
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	ezt	ez	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	23	dobj	_	_
 17	pedig	pedig	CONJ	_	_	13	cc	_	_
-18	Johann	Johann	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	name:hu	_	_
+18	Johann	Johann	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	name	_	_
 19	Strauss	Strauss	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	nmod:att	_	_
 20	Cigánybárójának	Cigánybáró	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	22	nmod:att	_	_
 21	I.	1.	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=Ord|Person[psor]=None|VerbForm=None	22	amod:att	_	_
@@ -1253,14 +1253,14 @@
 22	"	"	PUNCT	_	_	3	punct	_	_
 23	,	,	PUNCT	_	_	3	punct	_	_
 24	mondta	mond	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-25	Helmeczy	Helmeczy	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	26	name:hu	_	_
+25	Helmeczy	Helmeczy	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	26	name	_	_
 26	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	29	appos	_	_
 27	fideszes	fideszes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	29	amod:att	_	_
 28	országgyűlési	országgyűlési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	29	amod:att	_	_
 29	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	nsubj	_	_
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	a	a	DET	_	Definite=Def|PronType=Art	34	det	_	_
-32	Szabolcs-Szatmár-Bereg	Szabolcs-Szatmár-Bereg	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	33	name:hu	_	_
+32	Szabolcs-Szatmár-Bereg	Szabolcs-Szatmár-Bereg	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	33	name	_	_
 33	megyei	megyei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	34	amod:att	_	_
 34	közgyűlés	közgyűlés	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	35	nmod:att	_	_
 35	elnöke	elnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	29	appos	_	_
@@ -1296,7 +1296,7 @@
 7	hivatalos	hivatalos	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	8	amod:att	_	_
 8	jelöltje	jelölt	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	18	nmod	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	Tóth	Tóth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name:hu	_	_
+10	Tóth	Tóth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name	_	_
 11	András	András	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	appos	_	_
 12	ellenében	ellenében	ADP	_	_	8	case	_	_
 13	többek	több	DET	_	Definite=Ind|PronType=Ind	17	nmod	_	_
@@ -1433,7 +1433,7 @@
 28	a	a	DET	_	Definite=Def|PronType=Art	32	det	_	_
 29	nemrég	nemrég	ADV	_	Degree=None|PronType=Default	30	advmod:tlocy	_	_
 30	elhunyt	elhunyt	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	32	amod:att	_	_
-31	Zilahi	Zilahi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	32	name:hu	_	_
+31	Zilahi	Zilahi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	32	name	_	_
 32	József	József	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	36	appos	_	_
 33	MDF-es	MDF-es	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	36	amod:att	_	_
 34	megyei	megyei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	35	amod:att	_	_
@@ -1458,7 +1458,7 @@
 10	Aktuális	Aktuális	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	nmod:att	_	_
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	illetve	illetve	CONJ	_	_	10	cc	_	_
-13	Szabadság	Szabadság	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name:hu	_	_
+13	Szabadság	Szabadság	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name	_	_
 14	tér	tér	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	conj	_	_
 15	című	című	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	16	amod:att	_	_
 16	műsorából	műsor	NOUN	_	Case=Ela|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	17	nmod:obl	_	_
@@ -1470,10 +1470,10 @@
 3	MTV	MTV	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	nmod:att	_	_
 4	hírigazgatójának	hírigazgató	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	12	nmod:att	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	Csemely	Csemely	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name:hu	_	_
+6	Csemely	Csemely	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name	_	_
 7	Péternek	Péter	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	appos	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	10	det	_	_
-9	Napi	Napi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	name:hu	_	_
+9	Napi	Napi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	name	_	_
 10	Magyarországban	Magyarország	PROPN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	nmod:att	_	_
 11	megjelent	megjelent	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	12	amod:att	_	_
 12	állítását	állítás	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	1	dobj	_	_
@@ -1514,7 +1514,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	hogy	hogy	SCONJ	_	_	26	mark	_	_
 5	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
-6	Napi	Napi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name:hu	_	_
+6	Napi	Napi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name	_	_
 7	Magyarországgal	Magyarország	PROPN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	26	nmod:obl	_	_
 8	szemben	szemben	ADP	_	_	7	case	_	_
 9	,	,	PUNCT	_	_	26	punct	_	_
@@ -1537,7 +1537,7 @@
 26	kezdeményezett	kezdeményez	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:obj	_	_
 27	.	.	PUNCT	_	_	2	punct	_	_
 
-1	Várhegyi	Várhegyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Várhegyi	Várhegyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Attila	Attila	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -1553,14 +1553,14 @@
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	hogy	hogy	SCONJ	_	_	23	mark	_	_
 16	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
-17	Szabolcs	Szabolcs	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	18	name:hu	_	_
+17	Szabolcs	Szabolcs	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	18	name	_	_
 18	megyei	megyei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	19	amod:att	_	_
 19	elnök	elnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	23	nsubj	_	_
 20	legalább	legalább	ADV	_	Degree=None|PronType=Default	23	advmod:mode	_	_
 21	még	még	ADV	_	Degree=None|PronType=Default	23	advmod:tlocy	_	_
 22	egyszer	egy	ADV	_	Degree=None|PronType=Default	23	advmod:mode	_	_
 23	megkísérelje	meg+kísérel	VERB	_	Aspect=None|Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp:obj	_	_
-24	Helmeczy	Helmeczy	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	25	name:hu	_	_
+24	Helmeczy	Helmeczy	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	25	name	_	_
 25	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	26	nmod:att	_	_
 26	kizárásának	kizárás	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	27	nmod:att	_	_
 27	ügyét	ügy	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	32	dobj	_	_
@@ -1637,17 +1637,17 @@
 18	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
 19	testületnek	testület	NOUN	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	iobj	_	_
 20	beszámoló	beszámoló	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	23	amod:att	_	_
-21	Martonyi	Martonyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	22	name:hu	_	_
+21	Martonyi	Martonyi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	22	name	_	_
 22	János	János	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	23	appos	_	_
 23	külügyminiszter	külügyminiszter	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	nsubj	_	_
 24	mondja	mond	VERB	_	Aspect=None|Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp:obj	_	_
 25	el	el	ADV	_	Degree=None|PronType=Default	24	compound:preverb	_	_
 26	véleményét	vélemény	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	24	dobj	_	_
-27	Jeszenszky	Jeszenszky	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	28	name:hu	_	_
+27	Jeszenszky	Jeszenszky	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	28	name	_	_
 28	Géza	Géza	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	30	appos	_	_
 29	washingtoni	washingtoni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	30	amod:att	_	_
 30	nagykövet	nagykövet	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	38	nmod:att	_	_
-31	Fábry	Fábry	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	32	name:hu	_	_
+31	Fábry	Fábry	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	32	name	_	_
 32	Pálhoz	Pál	PROPN	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	37	nmod:obl	_	_
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	a	a	DET	_	Definite=Def|PronType=Art	35	det	_	_
@@ -1661,7 +1661,7 @@
 42	kritizál	kritizál	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	acl	_	_
 43	.	.	PUNCT	_	_	15	punct	_	_
 
-1	Molnár	Molnár	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Molnár	Molnár	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Gyula	Gyula	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -1699,7 +1699,7 @@
 11	félévente	félév	ADV	_	Degree=None|PronType=Default	13	advmod:mode	_	_
 12	botrányt	botrány	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	dobj	_	_
 13	kavaró	kavaró	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	15	amod:att	_	_
-14	Jeszenszky	Jeszenszky	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	name:hu	_	_
+14	Jeszenszky	Jeszenszky	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	name	_	_
 15	Gézától	Géza	PROPN	_	Case=Abl|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	nmod:obl	_	_
 16	,	,	PUNCT	_	_	9	punct	_	_
 17	hogy	hogy	SCONJ	_	_	19	mark	_	_
@@ -1730,12 +1730,12 @@
 7	ellen	ellen	ADP	_	_	6	case	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-1	Wisinger	Wisinger	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Wisinger	Wisinger	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	István	István	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
-5	Magyar	Magyar	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
-6	Újságírók	Újságírók	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name:hu	_	_
+5	Magyar	Magyar	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
+6	Újságírók	Újságírók	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name	_	_
 7	Szövetségének	Szövetsége	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	nmod:att	_	_
 8	elnöke	elnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	2	appos	_	_
 9	"	"	PUNCT	_	_	10	punct	_	_
@@ -1776,8 +1776,8 @@
 2	eljuttatta	el+jut	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	_
 3	közleményét	közlemény	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	2	dobj	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
-5	Nemzetközi	Nemzetközi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
-6	Újságíró	Újságíró	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name:hu	_	_
+5	Nemzetközi	Nemzetközi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
+6	Újságíró	Újságíró	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name	_	_
 7	Szövetség	Szövetség	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	nsubj	_	_
 8	is	is	CONJ	_	_	7	cc	_	_
 9	:	:	PUNCT	_	_	2	punct	_	_
@@ -1818,7 +1818,7 @@
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	aki	aki	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	35	nsubj	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
-12	Washington	Washington	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	name:hu	_	_
+12	Washington	Washington	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	name	_	_
 13	Times-ban	Times	PROPN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	nmod:obl	_	_
 14	megjelent	megjelent	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	16	amod:att	_	_
 15	olvasói	olvasói	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	16	amod:att	_	_
@@ -1878,7 +1878,7 @@
 22	ír	ír	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
 23	.	.	PUNCT	_	_	12	punct	_	_
 
-1	Világosi	Világosi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Világosi	Világosi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Gábor	Gábor	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	nmod	_	_
 3	szerint	szerint	ADP	_	_	2	case	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -1886,7 +1886,7 @@
 6	ügyben	ügy	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	nmod:obl	_	_
 7	a	a	DET	_	Definite=Def|PronType=Art	10	det	_	_
 8	fideszes	fideszes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	10	amod:att	_	_
-9	Kosztolányi	Kosztolányi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	name:hu	_	_
+9	Kosztolányi	Kosztolányi	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	name	_	_
 10	Dénes	Dénes	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	nmod	_	_
 11	által	által	ADP	_	_	10	case	_	_
 12	készített	készített	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	14	amod:att	_	_
@@ -1917,7 +1917,7 @@
 12	kellene	kell	VERB	_	Aspect=None|Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp:obj	_	_
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	hogy	hogy	SCONJ	_	_	19	mark	_	_
-15	Orbán	Orbán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name:hu	_	_
+15	Orbán	Orbán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name	_	_
 16	Viktor	Viktor	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	nmod:att	_	_
 17	miniszterelnök	miniszterelnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	18	nmod:att	_	_
 18	bejelentése	bejelentés	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	19	nmod:att	_	_
@@ -1928,7 +1928,7 @@
 23	miniszterelnök	miniszterelnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	nmod:att	_	_
 24	kijelentésének	kijelentés	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	25	nmod:att	_	_
 25	igazolására	igazolás	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	30	nmod:obl	_	_
-26	Kövér	Kövér	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	27	name:hu	_	_
+26	Kövér	Kövér	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	27	name	_	_
 27	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	28	nmod:att	_	_
 28	apparátusa	apparátus	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	30	nsubj	_	_
 29	lépéseket	lépés	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	30	dobj:lvc	_	_
@@ -1972,7 +1972,7 @@
 8	állítás	állítás	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	nsubj	_	_
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	amelyet	amely	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	16	dobj	_	_
-11	Kövér	Kövér	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	name:hu	_	_
+11	Kövér	Kövér	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	name	_	_
 12	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	nmod:att	_	_
 13	hivatala	hivatal	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	16	nsubj	_	_
 14	alaptalan	alaptalan	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	15	amod:att	_	_
@@ -1998,7 +1998,7 @@
 7	LRI	LRI	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	nmod:att	_	_
 8	igazgatója	igazgató	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	13	nmod:att	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	Kovács	Kovács	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name:hu	_	_
+10	Kovács	Kovács	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name	_	_
 11	Péter	Péter	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	appos	_	_
 12	megbízásából	megbízás	NOUN	_	Case=Ela|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	13	nmod:obl	_	_
 13	készített	készített	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	18	amod:att	_	_
@@ -2026,9 +2026,9 @@
 35	,	,	PUNCT	_	_	34	punct	_	_
 36	az	az	DET	_	Definite=Def|PronType=Art	44	det	_	_
 37	"	"	PUNCT	_	_	41	punct	_	_
-38	Értesítés	értesítés	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	39	name:hu	_	_
-39	a	a	DET	_	Definite=Def|PronType=Art	40	name:hu	_	_
-40	Végső	végső	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	41	name:hu	_	_
+38	Értesítés	értesítés	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	39	name	_	_
+39	a	a	DET	_	Definite=Def|PronType=Art	40	name	_	_
+40	Végső	végső	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	41	name	_	_
 41	Befejezésről	befejezés	NOUN	_	Case=Del|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	43	nmod:att	_	_
 42	"	"	PUNCT	_	_	41	punct	_	_
 43	című	című	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	44	amod:att	_	_
@@ -2042,7 +2042,7 @@
 51	felmentett	felmentett	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	49	conj	_	_
 52	igazgatója	igazgató	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	57	nsubj	_	_
 53	,	,	PUNCT	_	_	52	punct	_	_
-54	Erdei	Erdei	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	55	name:hu	_	_
+54	Erdei	Erdei	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	55	name	_	_
 55	Tamás	Tamás	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	52	appos	_	_
 56	ezt	ez	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	57	dobj	_	_
 57	megtagadta	meg+tagad	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	ccomp:obj	_	_
@@ -2052,7 +2052,7 @@
 2	jegyzőkönyvet	jegyzőkönyv	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	dobj	_	_
 3	azonban	azonban	CONJ	_	_	4	cc	_	_
 4	aláírta	alá+ír	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	Somogyi-Tóth	Somogyi-Tóth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
+5	Somogyi-Tóth	Somogyi-Tóth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
 6	Gábor	Gábor	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	nsubj	_	_
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	aki	aki	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	13	nsubj	_	_
@@ -2197,7 +2197,7 @@
 8	megbízott	megbízott	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	9	amod:att	_	_
 9	igazgatónak	igazgató	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	nmod:att	_	_
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	Somogyi-Tóth	Somogyi-Tóth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	name:hu	_	_
+11	Somogyi-Tóth	Somogyi-Tóth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	name	_	_
 12	Gábornak	Gábor	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	appos	_	_
 13	megbízatása	megbízatás	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	26	nmod	_	_
 14	folytán	folytán	ADP	_	_	13	case	_	_
@@ -2209,14 +2209,14 @@
 20	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	21	amod:att	_	_
 21	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	25	nmod:att	_	_
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	Katona	Katona	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	name:hu	_	_
+23	Katona	Katona	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	name	_	_
 24	Kálmán	Kálmán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	21	appos	_	_
 25	engedélyével	engedély	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	26	nmod:obl	_	_
 26	írhatta	ír	VERB	_	Aspect=Mod|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp:obl	_	_
 27	alá	alá	ADV	_	Degree=Pos|PronType=Default	26	compound:preverb	_	_
 28	.	.	PUNCT	_	_	4	punct	_	_
 
-1	Katona	Katona	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Katona	Katona	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Kálmán	Kálmán	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	appos	_	_
 3	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	4	amod:att	_	_
 4	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	nsubj	_	_
@@ -2311,7 +2311,7 @@
 42	működne	működik	VERB	_	Aspect=None|Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp:obj	_	_
 43	.	.	PUNCT	_	_	8	punct	_	_
 
-1	Tatár	Tatár	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Tatár	Tatár	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Attila	Attila	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	appos	_	_
 3	tűzoltó	tűzoltó	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	4	amod:att	_	_
 4	ezredes	ezredes	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	nsubj	_	_
@@ -2481,20 +2481,20 @@
 3	információi	információ	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 4	szerint	szerint	ADP	_	_	3	case	_	_
 5	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
-6	Legfelsőbb	Legfelsőbb	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name:hu	_	_
+6	Legfelsőbb	Legfelsőbb	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name	_	_
 7	Bíróság	Bíróság	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	nsubj	_	_
 8	elutasította	el+utasít	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	az	az	DET	_	Definite=Def|PronType=Art	10	det	_	_
 10	MSZP-frakció	MSZP-frakció	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	nmod:att	_	_
 11	fellebbezését	fellebbezés	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	8	dobj	_	_
 12	a	a	DET	_	Definite=Def|PronType=Art	15	det	_	_
-13	Magyar	Magyar	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name:hu	_	_
-14	Televízió	Televízió	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	name:hu	_	_
+13	Magyar	Magyar	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name	_	_
+14	Televízió	Televízió	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	name	_	_
 15	Közalapítvány	Közalapítvány	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	nmod:att	_	_
 16	kuratóriumi	kuratóriumi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	17	amod:att	_	_
 17	elnökének	elnök	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	22	nmod:att	_	_
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	Bakó	Bakó	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	name:hu	_	_
+19	Bakó	Bakó	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	name	_	_
 20	Lajosnak	Lajos	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	appos	_	_
 21	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
 22	nyilvántartása	nyilvántartás	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
@@ -2540,7 +2540,7 @@
 23	helyett	helyett	ADP	_	_	22	case	_	_
 24	.	.	PUNCT	_	_	4	punct	_	_
 
-1	Bakó	Bakó	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Bakó	Bakó	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	Lajos	Lajos	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	nsubj	_	_
 3	ezzel	ez	PRON	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	8	nmod:obl	_	_
 4	jogerős	jogerős	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	5	amod:att	_	_
@@ -2575,7 +2575,7 @@
 5	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	tárgyalást	tárgyalás	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	dobj	_	_
 7	az	az	DET	_	Definite=Def|PronType=Art	11	det	_	_
-8	RTL	RTL	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	name:hu	_	_
+8	RTL	RTL	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	name	_	_
 9	Klub	Klub	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	nmod:att	_	_
 10	kereskedelmi	kereskedelmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	11	amod:att	_	_
 11	televízió	televízió	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	nmod:att	_	_
@@ -2635,10 +2635,10 @@
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	hogy	hogy	SCONJ	_	_	19	mark	_	_
 12	az	az	DET	_	Definite=Def|PronType=Art	17	det	_	_
-13	Országos	Országos	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name:hu	_	_
-14	Rádió	Rádió	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	name:hu	_	_
-15	és	és	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name:hu	_	_
-16	Televízió	Televízió	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	name:hu	_	_
+13	Országos	Országos	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name	_	_
+14	Rádió	Rádió	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	name	_	_
+15	és	és	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	16	name	_	_
+16	Televízió	Televízió	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	17	name	_	_
 17	Testület	Testület	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	nsubj	_	_
 18	jogsértést	jogsértés	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	19	dobj	_	_
 19	követett	követ	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp:obl	_	_
@@ -2646,7 +2646,7 @@
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	amikor	amikor	ADV	_	Degree=None|PronType=Rel	27	advmod:tlocy	_	_
 23	az	az	DET	_	Definite=Def|PronType=Art	25	det	_	_
-24	RTL	RTL	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	25	name:hu	_	_
+24	RTL	RTL	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	25	name	_	_
 25	Klubot	Klub	PROPN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	27	dobj	_	_
 26	nem	nem	ADV	_	Degree=None|PronType=Neg	27	neg	_	_
 27	zárta	zár	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	_
@@ -2685,7 +2685,7 @@
 7	tiltakozó	tiltakozó	ADJ	_	Case=Nom|Degree=None|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	8	amod:att	_	_
 8	demonstrációt	demonstráció	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	dobj	_	_
 9	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
-10	Fiatal	Fiatal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name:hu	_	_
+10	Fiatal	Fiatal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	name	_	_
 11	Baloldal	Baloldal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	12	nmod:att	_	_
 12	elnevezésű	elnevezésű	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	14	amod:att	_	_
 13	ifjúsági	ifjúsági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	14	amod:att	_	_
@@ -2696,7 +2696,7 @@
 18	hat	hat	NUM	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=Card|Person[psor]=None	19	nummod	_	_
 19	órakor	óra	NOUN	_	Case=Tem|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	nmod:obl	_	_
 20	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
-21	Kossuth	Kossuth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	22	name:hu	_	_
+21	Kossuth	Kossuth	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	22	name	_	_
 22	téren	tér	PROPN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	nmod:obl	_	_
 23	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -2728,8 +2728,8 @@
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	rendezvény	rendezvény	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	nmod:att	_	_
 3	szónoka	szónok	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
-4	Tamás	Tamás	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	name:hu	_	_
-5	Gáspár	Gáspár	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
+4	Tamás	Tamás	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	name	_	_
+5	Gáspár	Gáspár	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
 6	Miklós	Miklós	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	appos	_	_
 7	filozófus	filozófus	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	0	root	_	_
 8	lesz	lesz	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
@@ -2740,7 +2740,7 @@
 3	petíciót	petíció	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	dobj	_	_
 4	nyújtanak	nyújt	VERB	_	Aspect=None|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	át	át	ADV	_	Degree=None|PronType=Default	4	compound:preverb	_	_
-6	Áder	Áder	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name:hu	_	_
+6	Áder	Áder	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	name	_	_
 7	Jánosnak	János	PROPN	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	iobj	_	_
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	az	az	DET	_	Definite=Def|PronType=Art	10	det	_	_
@@ -2786,18 +2786,18 @@
 24	"	"	PUNCT	_	_	20	punct	_	_
 25	.	.	PUNCT	_	_	4	punct	_	_
 
-1	Nyakó	Nyakó	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Nyakó	Nyakó	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	István	István	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
-5	Fiatal	Fiatal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name:hu	_	_
+5	Fiatal	Fiatal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	6	name	_	_
 6	Baloldal	Baloldal	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nmod:att	_	_
 7	alelnöke	alelnök	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	2	appos	_	_
 8	elmondta	el+mond	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	többek	több	DET	_	Definite=Ind|PronType=Ind	34	nmod	_	_
 11	között	között	ADP	_	_	10	case	_	_
-12	Bárdossy	Bárdossy	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	name:hu	_	_
+12	Bárdossy	Bárdossy	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	name	_	_
 13	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	15	appos	_	_
 14	egykori	egykori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=None|Person[psor]=None|VerbForm=None	15	amod:att	_	_
 15	miniszterelnöknek	miniszterelnök	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	20	nmod:att	_	_
@@ -2808,7 +2808,7 @@
 20	rehabilitációja	rehabilitáció	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	34	nmod	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	illetve	illetve	CONJ	_	_	20	cc	_	_
-23	Schmidt	Schmidt	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	name:hu	_	_
+23	Schmidt	Schmidt	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	name	_	_
 24	Máriának	Mária	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	32	nmod:att	_	_
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	a	a	DET	_	Definite=Def|PronType=Art	27	det	_	_
@@ -2888,7 +2888,7 @@
 23	—	—	PUNCT	_	_	24	punct	_	_
 24	nyilatkozta	nyilatkozik	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 25	lapunknak	lap	NOUN	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=Plur|Person[psor]=1	24	iobj	_	_
-26	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	27	name:hu	_	_
+26	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	27	name	_	_
 27	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	24	nsubj	_	_
 28	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -2955,7 +2955,7 @@
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 1	A	a	DET	_	Definite=Def|PronType=Art	3	det	_	_
-2	Pedagógus	Pedagógus	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name:hu	_	_
+2	Pedagógus	Pedagógus	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	name	_	_
 3	Szakszervezet	Szakszervezet	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	nmod:att	_	_
 4	titkára	titkár	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	úgy	úgy	ADV	_	Degree=None|PronType=Dem	6	advmod:mode	_	_
@@ -3047,7 +3047,7 @@
 23	titkára	titkár	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	18	nsubj	_	_
 24	.	.	PUNCT	_	_	18	punct	_	_
 
-1	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name:hu	_	_
+1	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	name	_	_
 2	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	3	nsubj	_	_
 3	elmondta	el+mond	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	:	:	PUNCT	_	_	3	punct	_	_
@@ -3147,7 +3147,7 @@
 10	—	—	PUNCT	_	_	11	punct	_	_
 11	jelentette	jelent	VERB	_	Aspect=None|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 12	ki	ki	ADV	_	Degree=Pos|PronType=Default	11	compound:preverb	_	_
-13	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name:hu	_	_
+13	Varga	Varga	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	14	name	_	_
 14	László	László	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	nsubj	_	_
 15	.	.	PUNCT	_	_	11	punct	_	_
 
