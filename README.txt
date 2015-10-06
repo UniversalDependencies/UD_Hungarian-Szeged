@@ -67,3 +67,9 @@ CHANGELOG
 2015-05-15 v1.1
 
 Sentences with multiple roots have been corrected.
+
+
+Documentation status: complete
+Data source: unknown
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0
