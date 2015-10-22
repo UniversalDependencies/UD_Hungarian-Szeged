@@ -7,6 +7,9 @@
   <size>
     <total><sentences>1299</sentences><tokens>26538</tokens><words>26538</words><fused>0</fused></total>
   </size>
+  <lemmas unique="6366" /><!-- a, ,, ., az, és, is, hogy, nem, —, ", ez, van, egy, :, szerint -->
+  <forms unique="9478" /><!-- a, ,, ., az, és, is, hogy, nem, —, ", egy, :, szerint, már, még -->
+  <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
     <tag name="ADJ">3297</tag><!-- magyar, új, nagy, első, jó, című, orosz, magas, olyan, teljes -->
