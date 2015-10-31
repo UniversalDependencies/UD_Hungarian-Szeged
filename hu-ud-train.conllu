@@ -186,7 +186,7 @@
 8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	szándékát	szándék	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	10	dobj	_	_
 10	fejezte	fejez	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-11	ki	ki	ADV	_	Degree=Pos_	10	compound:preverb	_	_
+11	ki	ki	ADV	_	Degree=Pos	10	compound:preverb	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	hogy	hogy	SCONJ	_	_	19	mark	_	_
 14	az	az	DET	_	Definite=Def|PronType=Art	15	det	_	_
