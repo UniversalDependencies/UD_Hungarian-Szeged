@@ -104,7 +104,7 @@
 4	Portóban	Porto	PROPN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nmod:obl	_	_
 5	például	például	ADV	_	_	7	advmod:mode	_	_
 6	felszabadultan	felszabadult	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	amod:mode	_	_
-7	játszhatunk	játszik	VERB	_	Definite=Ind|Mood=Ind,Mod|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	játszhatunk	játszik	VERB	_	Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	mivel	mivel	SCONJ	_	_	12	mark	_	_
 10	nekünk	mi	PRON	_	Case=Dat|Number=Plur|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	12	nmod:att	_	_
@@ -285,7 +285,7 @@
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
 20	barátait	barát	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	17	conj	_	_
-21	segítheti	segít	VERB	_	Definite=Def|Mood=Ind,Mod|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+21	segítheti	segít	VERB	_	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
 22	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Nem	nem	ADV	_	PronType=Neg	2	neg	_	_
@@ -448,7 +448,7 @@
 1	Aranyosabban	aranyos	ADJ	_	Case=Ess|Degree=Cmp|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	4	amod:mode	_	_
 2	nem	nem	ADV	_	PronType=Neg	4	neg	_	_
 3	is	is	ADV	_	_	4	advmod:mode	_	_
-4	zárulhatott	zárul	VERB	_	Definite=Ind|Mood=Ind,Mod|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	zárulhatott	zárul	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	_
 6	az	az	DET	_	Definite=Def|PronType=Art	8	det	_	_
 7	athéni	athéni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	amod:att	_	_
@@ -541,7 +541,7 @@
 
 1	Hogyan	hogyan	ADV	_	PronType=Int	3	advmod:mode	_	_
 2	is	is	ADV	_	_	3	advmod:mode	_	_
-3	gondolhatott	gondol	VERB	_	Definite=Ind|Mood=Ind,Mod|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	gondolhatott	gondol	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	_
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	amikor	amikor	ADV	_	PronType=Rel	10	advmod:tlocy	_	_
@@ -869,7 +869,7 @@
 6	sorozatban	sorozat	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	nmod:obl	_	_
 7	különös	különös	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	8	amod:att	_	_
 8	jelentőséggel	jelentőség	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	9	nmod:obl	_	_
-9	bírhat	bír	VERB	_	Definite=Ind|Mood=Ind,Mod|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	bírhat	bír	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
 11	11	11	NUM	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=Card|Person[psor]=None	12	nummod	_	_
 12	pont	pont	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	13	nmod:att	_	_
@@ -1313,7 +1313,7 @@
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 1	Azután	azután	ADV	_	PronType=Dem	2	advmod:tlocy	_	_
-2	jöhetett	jön	VERB	_	Definite=Ind|Mood=Ind,Mod|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	jöhetett	jön	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	hab	hab	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	2	nsubj	_	_
 5	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
@@ -2042,7 +2042,7 @@
 4	december	december	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	5	nmod:att	_	_
 5	16-án	16.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	7	nmod:obl	_	_
 6	sor	sor	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nsubj	_	_
-7	kerülhet	kerül	VERB	_	Definite=Ind|Mood=Ind,Mod|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	kerülhet	kerül	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	az	az	DET	_	Definite=Def|PronType=Art	10	det	_	_
 9	elsőfokú	elsőfokú	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	10	amod:att	_	_
 10	ítélethirdetésre	ítélethirdetés	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	7	nmod:obl	_	_
