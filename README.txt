@@ -68,8 +68,13 @@ CHANGELOG
 
 Sentences with multiple roots have been corrected.
 
+2015-11-15 v1.2
+
+Empty morphological features have been removed. Adverbial participles have been annotated as VerbForm=Trans. Format of morphological features with more than one values has been corrected.
 
 Documentation status: complete
-Data source: unknown
+Data source: manual
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
+Genre: news
+Contributors: Farkas, Richárd; Simkó, Katalin; Szántó, Zsolt; Varga, Viktor; Vincze, Veronika
