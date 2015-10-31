@@ -72,6 +72,8 @@ Sentences with multiple roots have been corrected.
 
 Empty morphological features have been removed. Adverbial participles have been annotated as VerbForm=Trans. Format of morphological features with more than one values has been corrected.
 
+--- Machine readable metadata ---
+
 Documentation status: complete
 Data source: manual
 Data available since: UD v1.0
