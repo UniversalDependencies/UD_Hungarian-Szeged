@@ -1493,7 +1493,7 @@
 28	2000.	2000.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|NumType=Ord|Person[psor]=None	29	nmod:att	_	_
 29	január	január	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	30	nmod:att	_	_
 30	elsején	első	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	31	nmod:obl	_	_
-31	elindulhasson	el+indul	VERB	_	Definite=Ind|Mood=Imp,Mod|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	ccomp:obl	_	_
+31	elindulhasson	el+indul	VERB	_	Definite=Ind|Mood=Imp,Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	ccomp:obl	_	_
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 1	Alkotmánysértőnek	alkotmánysértő	ADJ	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	2	nmod:obl	_	_
@@ -19217,7 +19217,7 @@
 
 1	Sokáig	sokáig	ADV	_	Degree=Pos|PronType=Ind	3	advmod:tto	_	_
 2	nem	nem	ADV	_	PronType=Neg	3	neg	_	_
-3	nyalogathatja	nyal	VERB	_	Aspect=Freq,Pot|Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	nyalogathatja	nyal	VERB	_	Aspect=Freq|Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	sebeit	seb	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	3	dobj	_	_
 5	itthon	itthon	ADV	_	_	3	advmod:locy	_	_
 6	,	,	PUNCT	_	_	3	punct	_	_
