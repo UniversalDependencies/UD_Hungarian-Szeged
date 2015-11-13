@@ -8,7 +8,7 @@
     <total><sentences>1299</sentences><tokens>26538</tokens><words>26538</words><fused>0</fused></total>
   </size>
   <lemmas unique="6366" /><!-- a, ,, ., az, és, is, hogy, nem, —, ", ez, van, egy, :, szerint -->
-  <forms unique="9478" /><!-- a, ,, ., az, és, is, hogy, nem, —, ", egy, :, szerint, már, még -->
+  <forms unique="9478" /><!-- a, ,, ., az, és, is, hogy, nem, —, ", egy, :, szerint, már, de -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
@@ -30,11 +30,8 @@
     <tag name="X">13</tag><!-- ad, Cosi, ars, by, clausus, giusto, hard, ice, limina, newspeak -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="79">
-    <feat name="Aspect" value="Freq" upos="VERB">7</feat><!-- bizonygatta, forgatta, hajtogatják, iszogatnak, nézegette, telefonálgattak, tologatjuk -->
-    <feat name="Aspect" value="FreqMod" upos="VERB">1</feat><!-- nyalogathatja -->
-    <feat name="Aspect" value="Mod" upos="VERB">167</feat><!-- lehet, kerülhet, helyettesítheti, láthattunk, növelheti, reménykedhet, tarthat, választhatják, adhatnák, adhatott -->
-    <feat name="Aspect" value="None" upos="AUX,VERB">2447</feat><!-- volt, kell, van, mondta, elmondta, volna, lesz, lenne, jelentette, kellene -->
+  <feats unique="72">
+    <feat name="Aspect" value="Freq" upos="VERB">8</feat><!-- bizonygatta, forgatta, hajtogatják, iszogatnak, nyalogathatja, nézegette, telefonálgattak, tologatjuk -->
     <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">73</feat><!-- attól, ettől, elejétől, hivataltól, külvilágtól, tőle, várostól, 1-től, 1948-tól, 1957-től -->
     <feat name="Case" value="Abs" upos="ADJ,NOUN,PROPN">35</feat><!-- feladatként, kellőképpen, példaként, tagjaként, Moraleseként, Rendezőként, Teiresziászaként, ajándékként, dortmundiként, díjátadóként -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">1249</feat><!-- azt, ezt, őket, magát, amit, őt, akit, forintot, részt, amelyet -->
@@ -61,14 +58,14 @@
     <feat name="Definite" value="Def" upos="AUX,DET,VERB">3939</feat><!-- a, az, egyik, mondta, elmondta, jelentette, mondja, saját, teszi, tette -->
     <feat name="Definite" value="Ind" upos="AUX,DET,VERB">1784</feat><!-- egy, volt, kell, több, van, lehet, minden, volna, lesz, néhány -->
     <feat name="Degree" value="Cmp" upos="ADJ">96</feat><!-- utóbbi, újabb, korábbi, nagyobb, magasabb, erősebb, hosszabb, jobb, főbb, gyorsabb -->
-    <feat name="Degree" value="None" upos="ADJ,ADV">2622</feat><!-- nem, már, még, csak, el, is, úgy, ma, sem, első -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2554</feat><!-- ki, magyar, fel, új, be, című, orosz, nagy, olyan, egész -->
     <feat name="Degree" value="Sup" upos="ADJ">49</feat><!-- legnagyobb, legjobb, legfontosabb, legmagasabb, legszebb, legkritikusabb, legerősebb, legfelkészültebb, legfőbb, leggyorsabb -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">101</feat><!-- volna, lenne, kellene, szeretné, szeretnék, adhatnák, adná, alakítanák, beavatkoznának, csatolnák -->
-    <feat name="Mood" value="Imp" upos="VERB">106</feat><!-- legyen, kerüljön, hagyják, menjen, tervezze, Repülj, Tégy, Vegyük, adják, alapuljon -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">2196</feat><!-- volt, kell, van, lehet, mondta, elmondta, lesz, jelentette, lehetett, került -->
-    <feat name="Mood" value="N" upos="VERB">219</feat><!-- tartani, tudni, látni, számítani, rendezni, tenni, beszélni, elfogadni, elindulni, elkerülni -->
-    <feat name="Number" value="None" upos="VERB">186</feat><!-- tartani, tudni, látni, számítani, rendezni, tenni, beszélni, elfogadni, elindulni, elkerülni -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">95</feat><!-- volna, lenne, kellene, szeretné, szeretnék, adná, alakítanák, beavatkoznának, csatolnák, csinálnám -->
+    <feat name="Mood" value="Cnd,Pot" upos="VERB">6</feat><!-- adhatnák, fordulhatna, kérdezhetné, lehetne, megtehetne, Érthetné -->
+    <feat name="Mood" value="Imp" upos="VERB">100</feat><!-- legyen, kerüljön, hagyják, menjen, tervezze, Repülj, Tégy, Vegyük, adják, alapuljon -->
+    <feat name="Mood" value="Imp,Pot" upos="VERB">6</feat><!-- elindulhasson, lehessen, megmenthesse, okozhasson, parkolhassanak, énekelhessenek -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">2040</feat><!-- volt, kell, van, mondta, elmondta, lesz, jelentette, lehetett, került, nincs -->
+    <feat name="Mood" value="Pot" upos="VERB">156</feat><!-- lehet, kerülhet, helyettesítheti, láthattunk, növelheti, reménykedhet, tarthat, választhatják, adhatott, bebizonyosodhat -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">2000</feat><!-- ezek, évek, őket, vannak, akik, voltak, amelyek, emberek, kamerák, mi -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12932</feat><!-- volt, azt, két, magyar, ez, az, kell, aki, van, ezt -->
     <feat name="Number[psed]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">12487</feat><!-- azt, két, magyar, ez, az, aki, ezt, egy, első, új -->
@@ -79,18 +76,14 @@
     <feat name="NumType" value="Card" upos="NUM">436</feat><!-- két, egy, három, millió, ezer, tíz, 30, négy, hat, száz -->
     <feat name="NumType" value="Dist" upos="NUM">4</feat><!-- egy-egy, 50-50 -->
     <feat name="NumType" value="Frac" upos="NUM">36</feat><!-- fél, másfél, 8,25, 0,7, 1,12, 1,8, 10,1, 107,5, 12,2, 2,3 -->
-    <feat name="NumType" value="None" upos="ADJ">2534</feat><!-- magyar, új, című, orosz, nagy, olyan, egész, cseh, jó, egyes -->
     <feat name="NumType" value="Ord" upos="ADJ">112</feat><!-- első, második, 2000., I., 2., negyedik, 14., 33., XVIII., ötödik -->
     <feat name="Person" value="1" upos="PRON,VERB">244</feat><!-- én, nekem, mi, nálunk, szeretem, tudtuk, vagyok, csináltam, engem, kaptam -->
     <feat name="Person" value="2" upos="PRON,VERB">6</feat><!-- Repülj, Tégy, felejtsd, keveredsz, téged, énekelsz -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">3154</feat><!-- azt, volt, ez, az, kell, aki, van, ezt, lehet, ami -->
-    <feat name="Person" value="None" upos="VERB">186</feat><!-- tartani, tudni, látni, számítani, rendezni, tenni, beszélni, elfogadni, elindulni, elkerülni -->
     <feat name="Person[psor]" value="1" upos="NOUN">102</feat><!-- lapunknak, lapunkat, napjainkban, válogatottunk, együttesünk, eszembe, kérdésünkre, lapunk, munkám, életemben -->
     <feat name="Person[psor]" value="3" upos="ADJ,NOUN,NUM,PRON,PROPN">1586</feat><!-- elnöke, vezetője, alapján, elején, idején, éve, végén, igazgatója, során, ára -->
     <feat name="Person[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">10808</feat><!-- azt, két, magyar, ez, az, aki, ezt, egy, első, új -->
-    <feat name="PronType" value="AdvPart" upos="ADV">50</feat><!-- hivatkozva, írva, mondván, nyilatkozva, zárva, biztosítva, csúszkálva, elfoglalva, elhatárolódva, emlékezve -->
     <feat name="PronType" value="Art" upos="DET">3097</feat><!-- a, az, egy -->
-    <feat name="PronType" value="Default" upos="ADV">1285</feat><!-- már, még, csak, el, ki, is, fel, ma, be, majd -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">668</feat><!-- azt, ez, az, úgy, ezt, így, arra, annak, akkor, ezért -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">213</feat><!-- több, egyik, néhány, sok, más, másik, többek, valaki, kevesebb, mindkét -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">62</feat><!-- -e, miért, hogyan, mi, miként, mit, mikor, milyen, Ki, hová -->
@@ -104,10 +97,10 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">1268</feat><!-- kell, van, lehet, volna, lesz, lenne, kellene, nincs, legyen, vannak -->
     <feat name="VerbForm" value="Fin" upos="VERB">2374</feat><!-- volt, kell, van, lehet, mondta, elmondta, lesz, lenne, jelentette, kellene -->
     <feat name="VerbForm" value="Inf" upos="VERB">219</feat><!-- tartani, tudni, látni, számítani, rendezni, tenni, beszélni, elfogadni, elindulni, elkerülni -->
-    <feat name="VerbForm" value="None" upos="ADJ">2646</feat><!-- magyar, első, új, című, orosz, nagy, olyan, egész, cseh, jó -->
     <feat name="VerbForm" value="PartFut" upos="ADJ">8</feat><!-- adandó, befejezendő, benyújtandó, elkövetkezendő, letöltendő, nyújtandó, operálandó, tartandó -->
     <feat name="VerbForm" value="PartPast" upos="ADJ">291</feat><!-- elmúlt, készült, elkövetett, kiemelt, készített, megbízott, megjelent, tervezett, elakadt, elfogadott -->
     <feat name="VerbForm" value="PartPres" upos="ADJ">352</feat><!-- jövő, következő, követően, való, várható, várhatóan, lehetővé, látható, szóló, vezető -->
+    <feat name="VerbForm" value="Trans" upos="ADV">50</feat><!-- hivatkozva, írva, mondván, nyilatkozva, zárva, biztosítva, csúszkálva, elfoglalva, elhatárolódva, emlékezve -->
     <feat name="Voice" value="Act" upos="AUX,VERB">2581</feat><!-- volt, kell, van, lehet, mondta, elmondta, volna, lesz, lenne, jelentette -->
     <feat name="Voice" value="Cau" upos="VERB">41</feat><!-- tájékoztatta, tájékoztatott, Elhitették, Kiszivárogtatott, altatja, bekérette, bányásztasson, bújtatta, dolgoztassák, elfogadtatni -->
   </feats>
