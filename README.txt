@@ -1,4 +1,4 @@
----------------------
+﻿---------------------
 ---------------------
 THE TREEBANK
 ---------------------
@@ -7,6 +7,8 @@ THE TREEBANK
 The Hungarian UD treebank is derived from the Szeged Dependency Treebank (Vincze et al. 2010). One of its newspaper sections (Népszava) has been semi-automatically converted to the Universal Dependencies scheme, and linguists have corrected the annotation manually. Hence, it contains texts from the newspaper domain with various topics (politics, economics, sport, culture etc.).
 
 Sentences 1-129 (i.e. 10% of the sentences) form the development set, then sentences 130-1162 (80%) form the training set and finally sentences 1163-1299 (10%) form the test set.
+
+In version 1.3, 500 sentences from the HVG subcorpus of the Szeged Treebank were added to the data, in harmony with the above principles.
 
 ---------------------
 ---------------------
@@ -71,6 +73,9 @@ Sentences with multiple roots have been corrected.
 2015-11-15 v1.2
 
 Empty morphological features have been removed. Adverbial participles have been annotated as VerbForm=Trans. Format of morphological features with more than one values has been corrected.
+
+2015-05-15 v1.3
+500 new sentences added.
 
 --- Machine readable metadata ---
 
