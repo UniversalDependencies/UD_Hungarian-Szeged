@@ -4396,12 +4396,12 @@
 43	"	"	PUNCT	_	_	42	punct	_	_
 44	.	.	PUNCT	_	_	17	punct	_	_
 
-1	Közülük	közüle	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	nmod	_	_
+1	Közülük	közüle	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nmod	_	_
 2	az	az	DET	_	Definite=Def|PronType=Art	3	det	_	_
-3	egyik	egyik	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Ind	0	nsubj	_	_
+3	egyik	egyik	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Ind	27	nsubj	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
 5	Szent	Szent	PROPN	_	Case=Nom|Number=Sing	6	name	_	_
-6	Koronáról	Korona	PROPN	_	Case=Del|Number=Sing	0	nmod:obl	_	_
+6	Koronáról	Korona	PROPN	_	Case=Del|Number=Sing	12	nmod:obl	_	_
 7	és	és	CONJ	_	_	6	cc	_	_
 8	az	az	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	államalapítás	államalapítás	NOUN	_	Case=Nom|Number=Sing	11	nmod:att	_	_
@@ -4706,7 +4706,7 @@
 24	viszonyait	viszony	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	19	dobj	_	_
 25	,	,	PUNCT	_	_	19	punct	_	_
 26	megszüntetve	megszüntetve	ADV	_	VerbForm=Trans	19	advmod:mode	_	_
-27	többek	több	NUM	_	Case=Nom|NumType=Card|Number=Plur	26	nmod	_	_
+27	többek	több	NUM	_	Case=Nom|Number=Plur|NumType=Card	26	nmod	_	_
 28	között	között	ADP	_	_	27	case	_	_
 29	a	a	DET	_	Definite=Def|PronType=Art	30	det	_	_
 30	főpolgármester	főpolgármester	NOUN	_	Case=Nom|Number=Sing	32	nmod:att	_	_

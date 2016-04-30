@@ -27657,7 +27657,7 @@
 3	idei	idei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod:att	_	_
 4	év	év	NOUN	_	Case=Nom|Number=Sing	6	nmod:att	_	_
 5	első	első	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	6	amod:att	_	_
-6	negyedében	negyed	NUM	_	Case=Ine|Number=Sing|NumType=Frac||Number[psor]=Sing|Person[psor]=3	10	nmod:obl	_	_
+6	negyedében	negyed	NUM	_	Case=Ine|NumType=Frac|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod:obl	_	_
 7	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
 8	gazdasági	gazdasági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
 9	növekedés	növekedés	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
@@ -27777,7 +27777,7 @@
 18	deficit	deficit	NOUN	_	Case=Nom|Number=Sing	21	nmod:att	_	_
 19	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	21	amod:att	_	_
 20	mint	mint	SCONJ	_	_	19	mark	_	_
-21	negyedét	negyed	NUM	_	Case=Acc|Number=Sing|NumType=Frac||Number[psor]=Sing|Person[psor]=3	22	dobj	_	_
+21	negyedét	negyed	NUM	_	Case=Acc|NumType=Frac|Number=Sing||Number[psor]=Sing|Person[psor]=3	22	dobj	_	_
 22	okozza	okoz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	_
 23	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -28193,7 +28193,7 @@
 17	még	még	ADV	_	_	20	advmod:tlocy	_	_
 18	csak	csak	ADV	_	_	20	advmod:mode	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
-20	harmada	harmad	NUM	_	Case=Nom|Number=Sing|NumType=Frac||Number[psor]=Sing|Person[psor]=3	7	advcl	_	_
+20	harmada	harmad	NUM	_	Case=Nom|NumType=Frac|Number=Sing||Number[psor]=Sing|Person[psor]=3	7	advcl	_	_
 21	volt	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
 22	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -30187,7 +30187,7 @@
 8	miniszterelnök	miniszterelnök	NOUN	_	Case=Nom|Number=Sing	3	conj	_	_
 9	derűlátásának	derűlátás	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod:att	_	_
 10	alapja	alap	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nmod:att	_	_
-11	sokak	sok	NUM	_	Case=Nom|NumType=Card|Number=Plur	13	nmod	_	_
+11	sokak	sok	NUM	_	Case=Nom|Number=Plur|NumType=Card	13	nmod	_	_
 12	szerint	szerint	ADP	_	_	11	case	_	_
 13	megkérdőjelezhető	megkérdőjelezhető	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	0	root	_	_
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -30205,7 +30205,7 @@
 26	néhány	néhány	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Ind	27	amod:att	_	_
 27	hét	hét	NOUN	_	Case=Nom|Number=Sing	30	nmod	_	_
 28	alatt	alatt	ADP	_	_	27	case	_	_
-29	tizedére	tized	NUM	_	Case=Sub|Number=Sing|NumType=Frac||Number[psor]=Sing|Person[psor]=3	30	nmod:obl	_	_
+29	tizedére	tized	NUM	_	Case=Sub|Number=Sing|Number[psor]=Sing|NumType=Frac|Person[psor]=3	30	nmod:obl	_	_
 30	csökkent	csökken	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	csubj	_	_
 31	a	a	DET	_	Definite=Def|PronType=Art	33	det	_	_
 32	potenciális	potenciális	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	33	amod:att	_	_
@@ -32966,7 +32966,7 @@
 10	élére	él	NOUN	_	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nmod:obl	_	_
 11	az	az	DET	_	Definite=Def|PronType=Art	12	det	_	_
 12	alapító	alapító	NOUN	_	Case=Nom|Number=Sing	14	nmod:att	_	_
-13	egy-egy	egy-egy	NUM	_	Case=Nom|NumType=Dist|Number=Sing	14	amod:att	_	_
+13	egy-egy	egy-egy	NUM	_	Case=Nom|Number=Sing|NumType=Dist	14	amod:att	_	_
 14	fiúgyermeke	fiúgyermek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nsubj	_	_
 15	kerül	kerül	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 16	.	.	PUNCT	_	_	6	punct	_	_

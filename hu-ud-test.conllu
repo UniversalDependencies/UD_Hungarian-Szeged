@@ -4087,7 +4087,7 @@
 20	eladjon	elad	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp:obl	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	amitől	ami	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Rel	26	nmod:obl	_	_
-23	többek	több	NUM	_	Case=Nom|NumType=Card|Number=Plur	26	nmod	_	_
+23	többek	több	NUM	_	Case=Nom|Number=Plur|NumType=Card	26	nmod	_	_
 24	között	között	ADP	_	_	23	case	_	_
 25	azt	az	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	26	dobj	_	_
 26	reméli	remél	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl	_	_
