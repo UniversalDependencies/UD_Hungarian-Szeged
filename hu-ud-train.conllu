@@ -27657,7 +27657,7 @@
 3	idei	idei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod:att	_	_
 4	év	év	NOUN	_	Case=Nom|Number=Sing	6	nmod:att	_	_
 5	első	első	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	6	amod:att	_	_
-6	negyedében	negyed	NUM	_	Case=Ine|NumType=Frac|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod:obl	_	_
+6	negyedében	negyed	NUM	_	Case=Ine|Number=Sing|Number[psor]=Sing|NumType=Frac|Person[psor]=3	10	nmod:obl	_	_
 7	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
 8	gazdasági	gazdasági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
 9	növekedés	növekedés	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
@@ -27777,7 +27777,7 @@
 18	deficit	deficit	NOUN	_	Case=Nom|Number=Sing	21	nmod:att	_	_
 19	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	21	amod:att	_	_
 20	mint	mint	SCONJ	_	_	19	mark	_	_
-21	negyedét	negyed	NUM	_	Case=Acc|NumType=Frac|Number=Sing||Number[psor]=Sing|Person[psor]=3	22	dobj	_	_
+21	negyedét	negyed	NUM	_	Case=Acc|Number=Sing|Number[psor]=Sing|NumType=Frac|Person[psor]=3	22	dobj	_	_
 22	okozza	okoz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	_
 23	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -28193,7 +28193,7 @@
 17	még	még	ADV	_	_	20	advmod:tlocy	_	_
 18	csak	csak	ADV	_	_	20	advmod:mode	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
-20	harmada	harmad	NUM	_	Case=Nom|NumType=Frac|Number=Sing||Number[psor]=Sing|Person[psor]=3	7	advcl	_	_
+20	harmada	harmad	NUM	_	Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Frac|Person[psor]=3	7	advcl	_	_
 21	volt	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
 22	.	.	PUNCT	_	_	7	punct	_	_
 
