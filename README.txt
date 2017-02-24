@@ -67,15 +67,17 @@ CHANGELOG
 ---------------------
 
 2015-05-15 v1.1
-
 Sentences with multiple roots have been corrected.
 
 2015-11-15 v1.2
-
 Empty morphological features have been removed. Adverbial participles have been annotated as VerbForm=Trans. Format of morphological features with more than one values has been corrected.
 
 2015-05-15 v1.3
 500 new sentences added.
+
+2017-03-01 v2.0
+Data re-split so that there is 10K dev and 10K test for the CoNLL shared task.
+Converted to follow the UD v2 guidelines.
 
 --- Machine readable metadata ---
 
@@ -85,4 +87,4 @@ Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Genre: news
 Contributors: Farkas, Richárd; Simkó, Katalin; Szántó, Zsolt; Varga, Viktor; Vincze, Veronika
-Contact:
+Contact: rfarkas@inf.u-szeged.hu, vinczev@inf.u-szeged.hu
