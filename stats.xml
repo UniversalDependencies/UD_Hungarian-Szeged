@@ -5,161 +5,161 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1612</sentences><tokens>37797</tokens><words>37797</words><fused>0</fused></total>
+    <total><sentences>1351</sentences><tokens>31584</tokens><words>31584</words><fused>0</fused></total>
   </size>
-  <lemmas unique="8098" /><!-- a, ,, ., az, és, hogy, is, —, nem, ", ez, van, :, egy, szerint -->
-  <forms unique="12309" /><!-- a, ,, ., az, és, hogy, is, —, nem, ", :, egy, s, szerint, már -->
+  <lemmas unique="7080" /><!-- a, ,, ., az, és, hogy, is, —, nem, ", ez, van, egy, szerint, : -->
+  <forms unique="10613" /><!-- a, ,, ., az, és, hogy, is, —, nem, ", :, egy, szerint, s, meg -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
-    <tag name="ADJ">5047</tag><!-- nagy, új, első, magyar, orosz, gazdasági, százalékos, parlamenti, jó, jövő -->
-    <tag name="ADP">715</tag><!-- szerint, után, között, által, miatt, óta, alatt, mellett, előtt, közül -->
-    <tag name="ADV">2776</tag><!-- nem, már, még, csak, ki, el, sem, is, fel, például -->
-    <tag name="AUX">32</tag><!-- fog, volna -->
-    <tag name="CONJ">1632</tag><!-- és, is, s, de, pedig, azonban, hiszen, hanem, vagy, illetve -->
-    <tag name="DET">4779</tag><!-- a, az, egy, ez, több, egyik, minden, sok, néhány, más -->
-    <tag name="INTJ">13</tag><!-- persze, igen, lám, na, no, sajnos -->
-    <tag name="NOUN">8741</tag><!-- év, százalék, kormány, elnök, cég, forint, hét, idő, nap, ember -->
-    <tag name="NUM">960</tag><!-- két, milliárd, egy, millió, több, három, ezer, négy, 10, 1997 -->
-    <tag name="PART">100</tag><!-- meg, utol -->
-    <tag name="PRON">1253</tag><!-- az, ez, amely, aki, ami, ő, maga, ők, mi, egyik -->
-    <tag name="PROPN">2394</tag><!-- Magyarország, László, Magyar, Budapest, HVG, Orbán, Rt., János, Viktor, Gazprom -->
-    <tag name="PUNCT">5231</tag><!-- ,, ., —, ", :, (, ), ?, ;, ! -->
-    <tag name="SCONJ">691</tag><!-- hogy, ha, mint, mert, miután, ugyan, bár, jóllehet, mivel, merthogy -->
-    <tag name="VERB">3420</tag><!-- van, lesz, kell, tud, mond, kerül, tesz, tart, ad, vesz -->
+    <tag name="ADJ">4232</tag><!-- nagy, új, magyar, első, parlamenti, orosz, című, jövő, szerb, százalékos -->
+    <tag name="ADP">611</tag><!-- szerint, között, után, által, miatt, óta, alatt, előtt, mellett, közül -->
+    <tag name="ADV">2274</tag><!-- nem, már, még, csak, ki, el, sem, is, úgy, fel -->
+    <tag name="AUX">153</tag><!-- van, lesz, fog, lehet, volna, elszenved, marad -->
+    <tag name="CCONJ">1354</tag><!-- és, is, s, de, pedig, azonban, hanem, hiszen, illetve, vagy -->
+    <tag name="DET">4020</tag><!-- a, az, egy, ez, több, minden, egyik, sok, néhány, más -->
+    <tag name="INTJ">12</tag><!-- persze, igen, lám, na, no -->
+    <tag name="NOUN">7328</tag><!-- év, kormány, százalék, forint, elnök, cég, hét, ember, idő, kérdés -->
+    <tag name="NUM">787</tag><!-- két, milliárd, millió, egy, három, ezer, több, négy, 10, 30 -->
+    <tag name="PART">91</tag><!-- meg, utol -->
+    <tag name="PRON">1087</tag><!-- az, ez, amely, aki, ő, ami, maga, mi, ők, mely -->
+    <tag name="PROPN">1968</tag><!-- Magyarország, László, Budapest, HVG, Orbán, Rt., Magyar, János, Kft., Viktor -->
+    <tag name="PUNCT">4328</tag><!-- ,, ., —, ", :, (, ), ?, ;, ... -->
+    <tag name="SCONJ">592</tag><!-- hogy, ha, mint, mert, miután, ugyan, bár, mivel, jóllehet, merthogy -->
+    <tag name="VERB">2734</tag><!-- kell, van, tud, lesz, mond, tesz, kerül, tart, ad, vesz -->
     <tag name="X">13</tag><!-- ad, Cosi, ars, by, clausus, giusto, hard, ice, limina, newspeak -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="73">
-    <feat name="Aspect" value="Freq" upos="VERB">11</feat><!-- bizonygatta, forgatnak, forgatta, hajtogatják, ijesztgette, iszogatnak, nyalogathatja, nézegette, találgatta, tologatjuk -->
-    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN">96</feat><!-- attól, 1-jétől, Kft.-től, elejétől, ettől, hivataltól, külvilágtól, várostól, 1-től, 1948-tól -->
-    <feat name="Case" value="Abs" upos="ADJ,NOUN,PROPN">50</feat><!-- feladatként, kellőképpen, példaként, tagjaként, Moraleseként, Rendezőként, Teiresziászaként, aktivistaként, bölcsőjeként, dortmundiként -->
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">1738</feat><!-- azt, ezt, őket, amit, százalékát, részt, akit, magát, törvényt, őt -->
-    <feat name="Case" value="Ade" upos="ADJ,NOUN,PRON,PROPN">65</feat><!-- nálunk, ennél, eddiginél, vártnál, Brókernél, matematikánál, 2-nél, Daewoonál, Előszállásnál, Ersténél -->
-    <feat name="Case" value="All" upos="ADJ,DET,NOUN,PRON,PROPN">158</feat><!-- hozzá, ahhoz, ehhez, ellátáshoz, amihez, düsseldorfihoz, elnyeréséhez, fűtőolajhoz, inflációhoz, maradáshoz -->
-    <feat name="Case" value="Cau" upos="NOUN,NUM,PRON,PROPN">51</feat><!-- azért, dollárért, koronáért, Jugoszláviáért, címért, díjamért, elismerésemért, energiahordozókért, euróért, forintért -->
-    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN">289</feat><!-- annak, lapunknak, nekem, HVG-nek, neki, parlamentnek, akiknek, kormánynak, mindenkinek, nekik -->
-    <feat name="Case" value="Del" upos="DET,NOUN,NUM,PRON,PROPN">153</feat><!-- arról, erről, posztjáról, Babiucról, kérdésekről, megszüntetéséről, melyről, posztról, részéről, sorsukról -->
-    <feat name="Case" value="Dis" upos="ADJ,NOUN">7</feat><!-- tonnánként, Szakmailag, félóránként, hordónként, háromhetenként, százméterenként -->
-    <feat name="Case" value="Ela" upos="DET,NOUN,NUM,PRON,PROPN">137</feat><!-- ebből, szempontjából, bevételből, szempontból, abból, alkalomból, amelyből, előkészítéséből, forrásokból, irányból -->
-    <feat name="Case" value="Ess" upos="ADJ,NOUN,NUM,PRON">328</feat><!-- követően, teljesen, várhatóan, ráadásul, hasonlóan, pontosan, folyamatosan, gyorsan, jelentősen, könnyen -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">329</feat><!-- annak, amelynek, ennek, akinek, melynek, rendszerének, árának, elnökének, módosításának, színháznak -->
-    <feat name="Case" value="Ill" upos="DET,NOUN,PRON,PROPN">149</feat><!-- bele, hivatalba, kórházba, tulajdonába, őrizetbe, Hamburgba, Moszkvába, abba, egymásba, eszembe -->
-    <feat name="Case" value="Ine" upos="DET,NOUN,NUM,PRON,PROPN">863</feat><!-- évben, ebben, amelyben, abban, kapcsolatban, napokban, értelmében, esetben, években, decemberben -->
-    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">506</feat><!-- százalékkal, azzal, ezzel, évvel, vele, alkalommal, nappal, tavasszal, címmel, hatással -->
+    <feat name="Aspect" value="Iter" upos="VERB">8</feat><!-- bizonygatta, forgatnak, forgatta, hajtogatják, ijesztgette, iszogatnak, tologatjuk -->
+    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN">84</feat><!-- attól, 1-jétől, Kft.-től, elejétől, ettől, hivataltól, külvilágtól, várostól, 1-től, 1948-tól -->
+    <feat name="Case" value="Abs" upos="ADJ,NOUN,PROPN">43</feat><!-- feladatként, kellőképpen, példaként, tagjaként, Moraleseként, Rendezőként, Teiresziászaként, aktivistaként, bölcsőjeként, díjátadóként -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">1476</feat><!-- azt, ezt, amit, őket, akit, magát, részt, százalékát, törvényt, őt -->
+    <feat name="Case" value="Ade" upos="ADJ,NOUN,PRON,PROPN">46</feat><!-- eddiginél, nálunk, Brókernél, matematikánál, 2-nél, Előszállásnál, Ersténél, LRI-nél, alkotmánybíróságnál, bankautomatáknál -->
+    <feat name="Case" value="All" upos="ADJ,DET,NOUN,PRON,PROPN">138</feat><!-- hozzá, ahhoz, ehhez, ellátáshoz, amihez, düsseldorfihoz, elnyeréséhez, fűtőolajhoz, inflációhoz, maradáshoz -->
+    <feat name="Case" value="Cau" upos="NOUN,NUM,PRON,PROPN">46</feat><!-- azért, dollárért, koronáért, Jugoszláviáért, díjamért, elismerésemért, energiahordozókért, euróért, forintért, helyzetéért -->
+    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN">249</feat><!-- lapunknak, HVG-nek, annak, nekem, neki, parlamentnek, akiknek, kormánynak, nekik, maguknak -->
+    <feat name="Case" value="Del" upos="NOUN,NUM,PRON,PROPN">134</feat><!-- arról, erről, Babiucról, kérdésekről, megszüntetéséről, melyről, posztjáról, posztról, részéről, sorsukról -->
+    <feat name="Case" value="Dis" upos="NOUN">6</feat><!-- tonnánként, félóránként, hordónként, háromhetenként, százméterenként -->
+    <feat name="Case" value="Ela" upos="DET,NOUN,NUM,PRON,PROPN">118</feat><!-- ebből, bevételből, abból, alkalomból, amelyből, forrásokból, irányból, közpénzekből, lemezből, megbízásából -->
+    <feat name="Case" value="Ess" upos="ADJ,NOUN,NUM,PRON">275</feat><!-- követően, várhatóan, teljesen, hasonlóan, pontosan, folyamatosan, ráadásul, gyorsan, alaposan, ideiglenesen -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN">283</feat><!-- annak, amelynek, ennek, akinek, melynek, rendszerének, árának, elnökének, módosításának, színháznak -->
+    <feat name="Case" value="Ill" upos="DET,NOUN,PRON,PROPN">126</feat><!-- kórházba, bele, hivatalba, tulajdonába, őrizetbe, Moszkvába, abba, egymásba, eszembe, hatályba -->
+    <feat name="Case" value="Ine" upos="DET,NOUN,NUM,PRON,PROPN">726</feat><!-- évben, amelyben, ebben, abban, értelmében, esetben, kapcsolatban, felében, életben, benne -->
+    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">416</feat><!-- százalékkal, ezzel, azzal, évvel, alkalommal, vele, nappal, hatással, kézzel, szemmel -->
     <feat name="Case" value="Loc" upos="NOUN">1</feat><!-- helyütt -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">12453</feat><!-- az, két, magyar, ez, milliárd, kormány, első, aki, új, év -->
-    <feat name="Case" value="Sub" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">498</feat><!-- arra, erre, élére, forintra, rá, színpadra, Magyarországra, napirendre, gazdaságra, napra -->
-    <feat name="Case" value="Sup" upos="ADJ,DET,NOUN,PRON,PROPN">538</feat><!-- héten, elején, szerdán, alapján, végén, idején, Magyarországon, ezen, során, úton -->
-    <feat name="Case" value="Tem" upos="NOUN,NUM">13</feat><!-- órakor, Letartóztatásakor, elrontásakor, előterjesztésekor, készítésekor, lapzártánkkor, megkötésekor, tízkor, visszatérésekor, összekötésekor -->
-    <feat name="Case" value="Ter" upos="NOUN,NUM,PRON,PROPN">44</feat><!-- végéig, napig, évig, 1998-ig, 30-áig, ideig, korig, 10-ig, 10-éig, 2007-ig -->
-    <feat name="Case" value="Tra" upos="ADJ,NOUN,PRON">49</feat><!-- lehetővé, boldoggá, közzé, Megközelíthetetlenné, aduvá, autópályává, elnökké, elnökévé, elterjedtebbé, fantommá -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">10402</feat><!-- az, magyar, ez, két, kormány, milliárd, aki, új, első, év -->
+    <feat name="Case" value="Sub" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">410</feat><!-- arra, erre, forintra, színpadra, napirendre, Magyarországra, gazdaságra, napra, növelésére, rá -->
+    <feat name="Case" value="Sup" upos="ADJ,DET,NOUN,PRON,PROPN">442</feat><!-- héten, elején, szerdán, alapján, végén, idején, Magyarországon, ezen, úton, módon -->
+    <feat name="Case" value="Tem" upos="NOUN,NUM">11</feat><!-- órakor, Letartóztatásakor, elrontásakor, előterjesztésekor, készítésekor, megkötésekor, tízkor, visszatérésekor, összekötésekor, összeállításakor -->
+    <feat name="Case" value="Ter" upos="NOUN,NUM,PRON,PROPN">40</feat><!-- napig, végéig, évig, 1998-ig, 30-áig, ideig, korig, 10-ig, 10-éig, 2007-ig -->
+    <feat name="Case" value="Tra" upos="ADJ,NOUN,PRON">40</feat><!-- lehetővé, boldoggá, közzé, Megközelíthetetlenné, autópályává, elnökévé, elterjedtebbé, fantommá, felelőssé, gyorsvasúttá -->
     <feat name="Definite" value="2" upos="VERB">1</feat><!-- nézlek -->
-    <feat name="Definite" value="Def" upos="AUX,DET,VERB">5561</feat><!-- a, az, egyik, mondta, elmondta, jelentette, teszi, tette, tájékoztatta, jelezte -->
-    <feat name="Definite" value="Ind" upos="AUX,DET,VERB">2244</feat><!-- egy, volt, kell, van, lehet, több, minden, lesz, kellene, volna -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">171</feat><!-- utóbbi, újabb, korábban, korábbi, nagyobb, hosszabb, magasabb, erősebb, jobb, kisebb -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">4313</feat><!-- ki, magyar, új, fel, orosz, be, nagy, gazdasági, százalékos, parlamenti -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">87</feat><!-- legnagyobb, legfontosabb, legfőbb, legfelsőbb, legmagasabb, legjobb, legszebb, legkritikusabb, legsúlyosabb, legbékésebbnek -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">137</feat><!-- kellene, volna, lenne, szeretné, szeretnék, emelnék, lennének, szeretne, adná, alakítanák -->
-    <feat name="Mood" value="Cnd,Pot" upos="VERB">10</feat><!-- lehetne, adhatnák, elfoglalhatná, fordulhatna, kérdezhetné, megtehetne, számíthatna, Érthetné, ítélhetnék -->
-    <feat name="Mood" value="Imp" upos="VERB">140</feat><!-- legyen, kerüljön, menjen, gyűjtsenek, hagyják, kerüljenek, legyenek, osszák, segítsenek, tervezze -->
-    <feat name="Mood" value="Imp,Pot" upos="VERB">10</feat><!-- dönthessenek, elindulhasson, emelhesse, lehessen, megkaphassák, megmenthesse, okozhasson, parkolhassanak, állíthassa, énekelhessenek -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">2632</feat><!-- volt, kell, van, mondta, lesz, elmondta, vannak, jelentette, nincs, került -->
-    <feat name="Mood" value="Pot" upos="VERB">208</feat><!-- lehet, kerülhet, növelheti, dolgozik, férhet, helyettesítheti, kerülhetnek, láthattunk, reménykedhet, reménykedhetnek -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2862</feat><!-- évek, vannak, ezek, szakértők, őket, albánok, voltak, cégek, szerbek, akik -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18825</feat><!-- azt, volt, az, két, kell, magyar, ez, milliárd, kormány, van -->
-    <feat name="Number[psed]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">11214</feat><!-- azt, két, ez, magyar, az, aki, ezt, egy, új, első -->
-    <feat name="Number[psed]" value="Sing" upos="ADJ,NOUN,PRON,PROPN">17</feat><!-- magáénak, Andrásé, Daewooéhoz, Gyuláé, Hepta-csoporté, Versenyhivatalét, elnökéét, jelené, kancellárénál, magukévá -->
-    <feat name="Number[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">9705</feat><!-- azt, két, ez, magyar, az, aki, ezt, egy, új, első -->
-    <feat name="Number[psor]" value="Plur" upos="NOUN">157</feat><!-- lapunknak, lapunkat, napjainkban, Termelésük, erejük, gyanújukat, helyzetüket, kérdésünkre, lapunk, sorsukról -->
-    <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN,NUM,PRON,PROPN">2341</feat><!-- vezetője, elején, elnöke, alapján, végén, százaléka, százalékát, idején, éve, során -->
-    <feat name="NumType" value="Card" upos="NUM">860</feat><!-- két, milliárd, egy, millió, több, három, ezer, négy, 10, 30 -->
-    <feat name="NumType" value="Dist" upos="NUM">5</feat><!-- egy-egy, 50-50 -->
-    <feat name="NumType" value="Frac" upos="NUM">95</feat><!-- fél, 8,25, másfél, 3,5, 2,5, 2,6, 4,2, 6,3, 7,2, 0,7 -->
-    <feat name="NumType" value="Ord" upos="ADJ">153</feat><!-- első, második, 2000., 1999., I., 2., 14., 1992., 1997., 1998. -->
-    <feat name="Person" value="1" upos="PRON,VERB">219</feat><!-- én, nekem, mi, nálunk, szeretem, vagyok, csináltam, kaptam, tudtuk, alakítottam -->
+    <feat name="Definite" value="Def" upos="AUX,DET,VERB">4655</feat><!-- a, az, egyik, mondta, elmondta, jelentette, teszi, tette, tájékoztatta, írta -->
+    <feat name="Definite" value="Ind" upos="AUX,DET,VERB">1884</feat><!-- egy, volt, kell, van, több, lehet, minden, lesz, kellene, sok -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">132</feat><!-- utóbbi, újabb, korábbi, nagyobb, hosszabb, magasabb, korábban, erősebb, jobb, kisebb -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">3617</feat><!-- ki, magyar, új, fel, parlamenti, be, nagy, orosz, című, szerb -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">59</feat><!-- legnagyobb, legfontosabb, legfőbb, legkritikusabb, legmagasabb, legszebb, legfelkészültebb, leggyorsabban, legjobb, legjobban -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">110</feat><!-- kellene, lenne, volna, szeretné, emelnék, lennének, adná, alakítanák, aláterveznék, beavatkoznának -->
+    <feat name="Mood" value="Cnd,Pot" upos="VERB">9</feat><!-- lehetne, adhatnák, fordulhatna, kérdezhetné, megtehetne, számíthatna, Érthetné, ítélhetnék -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">129</feat><!-- legyen, kerüljön, menjen, kerüljenek, legyenek, osszák, segítsenek, tervezze, Repülj, Tégy -->
+    <feat name="Mood" value="Imp,Pot" upos="VERB">8</feat><!-- dönthessenek, elindulhasson, lehessen, megkaphassák, megmenthesse, parkolhassanak, állíthassa, énekelhessenek -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">2194</feat><!-- volt, kell, van, lesz, mondta, elmondta, nincs, jelentette, vannak, lehetett -->
+    <feat name="Mood" value="Pot" upos="AUX,VERB">172</feat><!-- lehet, kerülhet, növelheti, dolgozik, férhet, helyettesítheti, kerülhetnek, láthattunk, reménykedhetnek, számíthat -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2366</feat><!-- évek, albánok, vannak, ezek, szerbek, őket, szakértők, emberek, képviselők, voltak -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">15801</feat><!-- azt, volt, az, magyar, ez, kell, két, kormány, van, milliárd -->
+    <feat name="Number[psed]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">9793</feat><!-- azt, ez, az, két, magyar, aki, ezt, című, egy, új -->
+    <feat name="Number[psed]" value="Sing" upos="ADJ,NOUN,PRON,PROPN">15</feat><!-- magáénak, Andrásé, Gyuláé, Hepta-csoporté, Versenyhivatalét, elnökéét, jelené, kancellárénál, magukévá, magáét -->
+    <feat name="Number[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">8455</feat><!-- azt, ez, az, két, magyar, aki, ezt, című, egy, új -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN">139</feat><!-- lapunknak, lapunkat, napjainkban, Termelésük, erejük, gyanújukat, helyzetüket, kérdésünkre, lapunk, sorsukról -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN,NUM,PRON,PROPN">1949</feat><!-- elején, elnöke, vezetője, alapján, végén, éve, idején, igazgatója, száma, százalékát -->
+    <feat name="NumType" value="Card" upos="NUM">718</feat><!-- két, milliárd, millió, egy, három, ezer, több, négy, 30, 10 -->
+    <feat name="NumType" value="Dist" upos="NUM">4</feat><!-- egy-egy, 50-50 -->
+    <feat name="NumType" value="Frac" upos="NUM">65</feat><!-- fél, 8,25, 3,5, másfél, 2,6, 4,2, 0,7, 1,1, 1,12, 1,2 -->
+    <feat name="NumType" value="Ord" upos="ADJ">102</feat><!-- első, 2000., 1999., I., második, 1992., 1998., 1949., 1997., II. -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">177</feat><!-- én, mi, szeretem, nekem, vagyok, csináltam, nálunk, alakítottam, beszámoltunk, dolgoztam -->
     <feat name="Person" value="2" upos="PRON,VERB">10</feat><!-- Repülj, Tégy, felejtsd, keveredsz, lásd, megöltétek, néktek, téged, énekelsz, őrizd -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">4316</feat><!-- azt, volt, az, kell, ez, van, aki, lehet, amely, arra -->
-    <feat name="Person[psor]" value="1" upos="NOUN">93</feat><!-- lapunknak, lapunkat, napjainkban, eszembe, kérdésünkre, lapunk, munkám, életemben, Barátunkat, CD-m -->
-    <feat name="Person[psor]" value="3" upos="ADJ,NOUN,NUM,PRON,PROPN">2405</feat><!-- vezetője, elején, elnöke, alapján, végén, százaléka, százalékát, idején, éve, során -->
-    <feat name="Person[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">9705</feat><!-- azt, két, ez, magyar, az, aki, ezt, egy, új, első -->
-    <feat name="Poss" value="Yes" upos="PRON">9</feat><!-- saját -->
-    <feat name="PronType" value="Art" upos="DET">4460</feat><!-- a, az, egy -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">911</feat><!-- azt, az, ez, úgy, akkor, arra, ezt, annak, így, azért -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">252</feat><!-- egyik, több, néhány, más, másik, sok, többek, egyrészt, kevesebb, mások -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">82</feat><!-- -e, hogyan, miért, milyen, mi, mikor, miként, mit, vajon, Ki -->
-    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">424</feat><!-- nem, sem, name, semmi, soha, se, sehova, semmiképpen, senki, semmibe -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">241</feat><!-- ő, saját, én, őket, hozzá, maga, vele, őt, ők, nekem -->
-    <feat name="PronType" value="Rcp" upos="PRON">14</feat><!-- egymás, egymást, egymással, egymásba, egymásnak -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON">398</feat><!-- aki, amely, ami, amikor, amelynek, ahol, míg, mint, amit, miközben -->
-    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">110</feat><!-- minden, mindig, mindenki, soha, valamennyi, mindenkinek, mindenképpen, mind, mindent, senki -->
-    <feat name="Reflex" value="Yes" upos="PRON">36</feat><!-- magát, magukat, maguknak, magára, magáénak, magam, magának, maga, magukévá, magában -->
-    <feat name="Tense" value="Past" upos="VERB">1421</feat><!-- volt, mondta, elmondta, jelentette, került, lehetett, voltak, kellett, lett, tette -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">1731</feat><!-- kell, van, lehet, lesz, kellene, volna, lenne, vannak, nincs, kerül -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3113</feat><!-- volt, kell, van, lehet, mondta, lesz, elmondta, kellene, lenne, vannak -->
-    <feat name="VerbForm" value="Inf" upos="VERB">316</feat><!-- tudni, tartani, folytatni, látni, számítani, ellátni, hívni, kérni, lemondani, menni -->
-    <feat name="VerbForm" value="PartFut" upos="ADJ">12</feat><!-- adandó, befejezendő, benyújtandó, elfogadandónak, elkövetkezendő, letöltendő, maradandó, megelőzendő, nyújtandó, operálandó -->
-    <feat name="VerbForm" value="PartPast" upos="ADJ">448</feat><!-- elmúlt, jegyzett, készült, tervezett, elfogadott, készített, kiemelt, megbízott, megjelent, megkezdett -->
-    <feat name="VerbForm" value="PartPres" upos="ADJ">568</feat><!-- jövő, követően, való, lévő, álló, következő, vezető, várhatóan, szóló, várható -->
-    <feat name="VerbForm" value="Trans" upos="ADV">74</feat><!-- hivatkozva, mondván, írva, hozzátéve, lévén, megszüntetve, nyilatkozva, számolva, szólva, zárva -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">3393</feat><!-- volt, kell, van, lehet, mondta, lesz, elmondta, kellene, volna, lenne -->
-    <feat name="Voice" value="Cau" upos="VERB">59</feat><!-- tájékoztatta, tájékoztatott, Elhitették, Kiszivárogtatott, altatja, bekérette, bányásztasson, dolgoztassák, elbúcsúztassa, elfogadtatni -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">3665</feat><!-- azt, volt, az, ez, kell, van, aki, amely, annak, ezt -->
+    <feat name="Person[psor]" value="1" upos="NOUN">82</feat><!-- lapunknak, lapunkat, napjainkban, eszembe, kérdésünkre, lapunk, munkám, életemben, Barátunkat, CD-m -->
+    <feat name="Person[psor]" value="3" upos="ADJ,NOUN,NUM,PRON,PROPN">2006</feat><!-- elején, elnöke, vezetője, alapján, végén, éve, idején, igazgatója, száma, százalékát -->
+    <feat name="Person[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">8455</feat><!-- azt, ez, az, két, magyar, aki, ezt, című, egy, új -->
+    <feat name="Poss" value="Yes" upos="PRON">8</feat><!-- saját -->
+    <feat name="PronType" value="Art" upos="DET">3733</feat><!-- a, az, egy -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">782</feat><!-- azt, az, ez, úgy, annak, ezt, akkor, arra, így, azért -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">218</feat><!-- egyik, több, néhány, más, másik, sok, többek, kevesebb, mások, egyrészt -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">71</feat><!-- -e, hogyan, miért, milyen, mi, miként, mit, Ki, hová, meddig -->
+    <feat name="PronType" value="Neg" upos="ADV,DET,PRON">358</feat><!-- nem, sem, name, semmi, sehova, semmiképpen, senki, soha, semmibe, semmiféle -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">204</feat><!-- ő, én, saját, hozzá, őket, maga, őt, vele, benne, mi -->
+    <feat name="PronType" value="Rcp" upos="PRON">12</feat><!-- egymás, egymást, egymásba, egymásnak, egymással -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">342</feat><!-- aki, amely, ami, amelynek, amikor, ahol, amelyben, miközben, amit, akit -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">94</feat><!-- minden, mindig, mindenki, soha, valamennyi, mindenképpen, mind, mindenkinek, senki, mindenhol -->
+    <feat name="Reflex" value="Yes" upos="PRON">34</feat><!-- magát, magukat, maguknak, magáénak, magam, magának, magára, maga, magukévá, magához -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">1152</feat><!-- volt, mondta, elmondta, jelentette, lehetett, kellett, lett, került, tett, tette -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">1483</feat><!-- kell, van, lehet, lesz, kellene, nincs, lenne, vannak, legyen, volna -->
+    <feat name="VerbForm" value="Conv" upos="ADV">68</feat><!-- hivatkozva, mondván, írva, hozzátéve, megszüntetve, nyilatkozva, számolva, szólva, zárva, alapozva -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2604</feat><!-- volt, kell, van, lehet, lesz, mondta, kellene, elmondta, nincs, jelentette -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">266</feat><!-- tudni, folytatni, tartani, számítani, lemondani, látni, tárgyalni, venni, adni, beszélni -->
+    <feat name="VerbForm" value="PartFut" upos="ADJ">11</feat><!-- adandó, befejezendő, benyújtandó, elfogadandónak, elkövetkezendő, letöltendő, maradandó, nyújtandó, operálandó, tartandó -->
+    <feat name="VerbForm" value="PartPast" upos="ADJ">385</feat><!-- elmúlt, jegyzett, tervezett, készült, elfogadott, készített, kiemelt, megbízott, garantált, kialakult -->
+    <feat name="VerbForm" value="PartPres" upos="ADJ">485</feat><!-- jövő, követően, való, lévő, álló, várhatóan, vezető, szóló, lehetővé, következő -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">2837</feat><!-- volt, kell, van, lehet, lesz, mondta, kellene, elmondta, nincs, jelentette -->
+    <feat name="Voice" value="Cau" upos="VERB">50</feat><!-- tájékoztatta, Elhitették, Kiszivárogtatott, altatja, bekérette, bányásztasson, dolgoztassák, elbúcsúztassa, elfogadtatni, eljuttatja -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="54">
-    <dep name="acl">283</dep>
-    <dep name="advcl">365</dep>
-    <dep name="advmod">2</dep>
-    <dep name="advmod:locy">70</dep>
-    <dep name="advmod:mode">1258</dep>
+    <dep name="acl">248</dep>
+    <dep name="advcl">307</dep>
+    <dep name="advmod">336</dep>
+    <dep name="advmod:locy">57</dep>
+    <dep name="advmod:mode">1041</dep>
     <dep name="advmod:obl">4</dep>
-    <dep name="advmod:que">22</dep>
-    <dep name="advmod:tfrom">16</dep>
-    <dep name="advmod:tlocy">645</dep>
-    <dep name="advmod:to">24</dep>
-    <dep name="advmod:tto">33</dep>
-    <dep name="amod:att">4542</dep>
+    <dep name="advmod:que">18</dep>
+    <dep name="advmod:tfrom">12</dep>
+    <dep name="advmod:tlocy">517</dep>
+    <dep name="advmod:to">18</dep>
+    <dep name="advmod:tto">27</dep>
+    <dep name="amod:att">3787</dep>
     <dep name="amod:attlvc">3</dep>
-    <dep name="amod:mode">194</dep>
-    <dep name="amod:obl">53</dep>
-    <dep name="appos">248</dep>
-    <dep name="aux">25</dep>
-    <dep name="case">706</dep>
-    <dep name="cc">1622</dep>
-    <dep name="ccomp">68</dep>
-    <dep name="ccomp:obj">193</dep>
-    <dep name="ccomp:obl">144</dep>
-    <dep name="ccomp:pred">16</dep>
-    <dep name="compound">128</dep>
-    <dep name="compound:preverb">433</dep>
-    <dep name="conj">1572</dep>
-    <dep name="cop">153</dep>
-    <dep name="csubj">142</dep>
+    <dep name="amod:mode">164</dep>
+    <dep name="amod:obl">48</dep>
+    <dep name="appos">192</dep>
+    <dep name="aux">19</dep>
+    <dep name="case">603</dep>
+    <dep name="cc">1346</dep>
+    <dep name="ccomp">62</dep>
+    <dep name="ccomp:obj">176</dep>
+    <dep name="ccomp:obl">122</dep>
+    <dep name="ccomp:pred">15</dep>
+    <dep name="compound">107</dep>
+    <dep name="compound:preverb">369</dep>
+    <dep name="conj">1358</dep>
+    <dep name="cop">128</dep>
+    <dep name="csubj">115</dep>
     <dep name="dep">1</dep>
-    <dep name="det">4750</dep>
+    <dep name="det">3995</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">1</dep>
-    <dep name="dobj">1560</dep>
-    <dep name="dobj:lvc">36</dep>
-    <dep name="goeswith">4</dep>
-    <dep name="iobj">101</dep>
-    <dep name="list">20</dep>
-    <dep name="mark">685</dep>
-    <dep name="name">905</dep>
-    <dep name="neg">394</dep>
-    <dep name="nmod">791</dep>
-    <dep name="nmod:att">2304</dep>
+    <dep name="flat:name">792</dep>
+    <dep name="goeswith">3</dep>
+    <dep name="iobj">94</dep>
+    <dep name="list">14</dep>
+    <dep name="mark">587</dep>
+    <dep name="nmod">55</dep>
+    <dep name="nmod:att">1920</dep>
     <dep name="nmod:attlvc">1</dep>
-    <dep name="nmod:obl">3158</dep>
-    <dep name="nmod:obllvc">12</dep>
-    <dep name="nsubj">2361</dep>
-    <dep name="nsubj:lvc">3</dep>
-    <dep name="nummod">295</dep>
-    <dep name="parataxis">156</dep>
-    <dep name="punct">5225</dep>
-    <dep name="remnant">169</dep>
-    <dep name="root">1612</dep>
+    <dep name="nmod:obl">2630</dep>
+    <dep name="nmod:obllvc">10</dep>
+    <dep name="nsubj">1973</dep>
+    <dep name="nsubj:lvc">2</dep>
+    <dep name="nummod">263</dep>
+    <dep name="obj">1318</dep>
+    <dep name="obj:lvc">30</dep>
+    <dep name="obl">614</dep>
+    <dep name="orphan">64</dep>
+    <dep name="parataxis">106</dep>
+    <dep name="punct">4322</dep>
+    <dep name="root">1351</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">287</dep>
+    <dep name="xcomp">237</dep>
   </deps>
 </treebank>
