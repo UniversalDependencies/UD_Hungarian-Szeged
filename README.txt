@@ -17,28 +17,28 @@ STATISTICAL DATA
 ---------------------
 
 hu-ud-dev.conllu
-Tree count:  129
-Word count:  3049
-Token count: 3049
-Dep. relations: 45 of which 21 language specific
-POS tags: 14
-Category=value feature pairs: 71
+Tree count:  441
+Word count:  11418
+Token count: 11418
+Dep. relations: 48 of which 21 language specific
+POS tags: 16
+Category=value feature pairs: 69
 
 hu-ud-train.conllu
-Tree count:  1032
-Word count:  20764
-Token count: 20764
-Dep. relations: 51 of which 23 language specific
+Tree count:  910
+Word count:  20166
+Token count: 20166
+Dep. relations: 54 of which 23 language specific
 POS tags: 16
-Category=value feature pairs: 79
+Category=value feature pairs: 70
 
 hu-ud-test.conllu
-Tree count:  138
-Word count:  2725
-Token count: 2725
-Dep. relations: 40 of which 17 language specific
-POS tags: 14
-Category=value feature pairs: 71
+Tree count:  449
+Word count:  10448
+Token count: 10448
+Dep. relations: 47 of which 20 language specific
+POS tags: 15
+Category=value feature pairs: 68
 
 ---------------------
 ---------------------
