@@ -7,7 +7,7 @@
   <size>
     <total><sentences>1800</sentences><tokens>42032</tokens><words>42032</words><fused>0</fused></total>
   </size>
-  <lemmas unique="8784" /><!-- a, ,, ., az, és, is, hogy, —, nem, ", ez, van, s, egy, : -->
+  <lemmas unique="8785" /><!-- a, ,, ., az, és, is, hogy, —, nem, ", ez, van, s, egy, : -->
   <forms unique="13469" /><!-- a, ,, ., az, és, is, hogy, —, nem, ", s, :, egy, szerint, már -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -15,7 +15,7 @@
     <tag name="ADJ">5543</tag><!-- nagy, új, első, magyar, orosz, jó, gazdasági, százalékos, parlamenti, hasonló -->
     <tag name="ADP">808</tag><!-- szerint, után, között, által, miatt, alatt, óta, mellett, ellen, előtt -->
     <tag name="ADV">3115</tag><!-- nem, már, még, csak, ki, el, sem, is, fel, úgy -->
-    <tag name="AUX">207</tag><!-- van, lesz, fog, volna, lehet, marad, elszenved, hoz -->
+    <tag name="AUX">206</tag><!-- van, lesz, fog, volna, lehet, marad, elszenved, hoz -->
     <tag name="CCONJ">1832</tag><!-- és, is, s, de, pedig, azonban, hiszen, hanem, vagy, illetve -->
     <tag name="DET">5275</tag><!-- a, az, egy, ez, több, minden, egyik, sok, néhány, más -->
     <tag name="INTJ">13</tag><!-- persze, igen, lám, na, no, sajnos -->
@@ -26,7 +26,7 @@
     <tag name="PROPN">2718</tag><!-- Gazprom, Magyarország, László, Budapest, Magyar, HVG, Orbán, Rt., Ferenc, Starbucks -->
     <tag name="PUNCT">5807</tag><!-- ,, ., —, ", :, (, ), ?, !, ; -->
     <tag name="SCONJ">751</tag><!-- hogy, ha, mint, mert, miután, ugyan, bár, mivel, jóllehet, merthogy -->
-    <tag name="VERB">3658</tag><!-- kell, van, tud, mond, lesz, tesz, kerül, tart, ad, vesz -->
+    <tag name="VERB">3659</tag><!-- kell, van, tud, mond, lesz, tesz, kerül, tart, ad, vesz -->
     <tag name="X">13</tag><!-- ad, Cosi, ars, by, clausus, giusto, hard, ice, limina, newspeak -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -89,7 +89,7 @@
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">274</feat><!-- egyik, több, néhány, más, másik, sok, többek, valaki, egyrészt, kevesebb -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">87</feat><!-- -e, hogyan, miért, milyen, mi, mikor, miként, mit, vajon, Ki -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">459</feat><!-- nem, sem, name, semmi, soha, se, sehova, semmiképpen, senki, semmibe -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">268</feat><!-- ő, saját, én, őket, hozzá, maga, őt, vele, nekem, ők -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">308</feat><!-- ő, saját, én, őket, maga, hozzá, magát, őt, vele, nekem -->
     <feat name="PronType" value="Rcp" upos="PRON">15</feat><!-- egymás, egymást, egymással, egymásba, egymásnak -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">454</feat><!-- aki, amely, ami, amikor, ahol, amelynek, míg, mint, amit, miközben -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">118</feat><!-- minden, mindig, mindenki, soha, valamennyi, mindenképpen, mindenkinek, mind, mindent, senki -->
@@ -108,58 +108,58 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="54">
     <dep name="acl">320</dep>
-    <dep name="advcl">405</dep>
+    <dep name="advcl">406</dep>
     <dep name="advmod">431</dep>
     <dep name="advmod:locy">89</dep>
-    <dep name="advmod:mode">1395</dep>
+    <dep name="advmod:mode">1396</dep>
     <dep name="advmod:obl">4</dep>
     <dep name="advmod:que">22</dep>
     <dep name="advmod:tfrom">18</dep>
-    <dep name="advmod:tlocy">747</dep>
+    <dep name="advmod:tlocy">746</dep>
     <dep name="advmod:to">26</dep>
     <dep name="advmod:tto">37</dep>
-    <dep name="amod:att">5006</dep>
+    <dep name="amod:att">5017</dep>
     <dep name="amod:attlvc">3</dep>
     <dep name="amod:mode">216</dep>
     <dep name="amod:obl">61</dep>
-    <dep name="appos">286</dep>
+    <dep name="appos">287</dep>
     <dep name="aux">31</dep>
-    <dep name="case">799</dep>
-    <dep name="cc">1821</dep>
+    <dep name="case">800</dep>
+    <dep name="cc">1823</dep>
     <dep name="ccomp">75</dep>
     <dep name="ccomp:obj">209</dep>
     <dep name="ccomp:obl">154</dep>
     <dep name="ccomp:pred">16</dep>
     <dep name="compound">147</dep>
     <dep name="compound:preverb">478</dep>
-    <dep name="conj">1853</dep>
+    <dep name="conj">1797</dep>
     <dep name="cop">169</dep>
     <dep name="csubj">152</dep>
     <dep name="dep">1</dep>
-    <dep name="det">5247</dep>
+    <dep name="det">5262</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">1</dep>
-    <dep name="flat:name">1006</dep>
+    <dep name="flat:name">997</dep>
     <dep name="goeswith">5</dep>
-    <dep name="iobj">109</dep>
+    <dep name="iobj">110</dep>
     <dep name="list">20</dep>
     <dep name="mark">745</dep>
     <dep name="nmod">66</dep>
-    <dep name="nmod:att">2510</dep>
+    <dep name="nmod:att">2521</dep>
     <dep name="nmod:attlvc">1</dep>
-    <dep name="nmod:obl">3560</dep>
+    <dep name="nmod:obl">3566</dep>
     <dep name="nmod:obllvc">16</dep>
-    <dep name="nsubj">2611</dep>
+    <dep name="nsubj">2618</dep>
     <dep name="nsubj:lvc">3</dep>
     <dep name="nummod">356</dep>
-    <dep name="obj">1761</dep>
+    <dep name="obj">1763</dep>
     <dep name="obj:lvc">42</dep>
-    <dep name="obl">824</dep>
-    <dep name="orphan">85</dep>
+    <dep name="obl">829</dep>
+    <dep name="orphan">83</dep>
     <dep name="parataxis">179</dep>
-    <dep name="punct">5801</dep>
+    <dep name="punct">5804</dep>
     <dep name="root">1800</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">311</dep>
+    <dep name="xcomp">312</dep>
   </deps>
 </treebank>
