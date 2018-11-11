@@ -1,4 +1,4 @@
-﻿# Summary
+# Summary
 
 The Hungarian UD treebank is derived from the Szeged Dependency Treebank (Vincze et al. 2010).
 
