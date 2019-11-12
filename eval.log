@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hungarian-Szeged:
-commit ee50e6557cc7cf73c61881193d46c01db7342362
-Merge: 0babb77 44bc095
+commit b7b8276c0e168b510a3ac2fac0c41cc7242d648d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:20:28 2019 +0200
 Size: counted 42032 of 42032 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.47686246588637.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 312 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 42032 words.
 Genres: found 1 out of 17 known.
 validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-dev.conllu
-*** PASSED ***
+[Line 14 Sent dev-1 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
+[Line 141 Sent dev-5 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 251 Sent dev-10 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
+[Line 325 Sent dev-13 Node 5]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 382 Sent dev-15 Node 26]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 625 Sent dev-26 Node 10]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 830 Sent dev-34 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [28]
+[Line 1118 Sent dev-47 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
+[Line 1151 Sent dev-48 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+...suppressing further errors regarding Syntax
+Syntax errors: 122
+*** FAILED *** with 122 errors
+Exit code: 1
 validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-test.conllu
-*** PASSED ***
+[Line 162 Sent test-8 Node 14]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 296 Sent test-14 Node 15]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 554 Sent test-25 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 604 Sent test-27 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
+[Line 745 Sent test-33 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'INTJ'
+[Line 827 Sent test-36 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [26]
+[Line 830 Sent test-36 Node 13]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 863 Sent test-37 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [27]
+[Line 959 Sent test-42 Node 4]: [L5 Syntax cop-lemma] 'lehet' is not a copula in language [hu]
+...suppressing further errors regarding Syntax
+Syntax errors: 103
+*** FAILED *** with 103 errors
+Exit code: 1
 validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 50 Sent train-3 Node 10]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 69 Sent train-3 Node 29]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [30]
+[Line 69 Sent train-3 Node 29]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [30]
+[Line 783 Sent train-41 Node 6]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 847 Sent train-44 Node 2]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 934 Sent train-48 Node 10]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 993 Sent train-51 Node 19]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 1034 Sent train-54 Node 6]: [L5 Syntax cop-lemma] 'lesz' is not a copula in language [hu]
+[Line 1774 Sent train-94 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [23]
+...suppressing further errors regarding Syntax
+Syntax errors: 270
+*** FAILED *** with 270 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
 (weight=0.307692307692308) * (score{udapi}=0.925770841263799) = 0.284852566542707
 (weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.744793302057364) * (availability=1) * (validity=1) = 0.744793302057364
-STARS = 3.5
-UD_Hungarian-Szeged	0.744793302057364	3.5
+(TOTAL score=0.744793302057364) * (availability=1) * (validity=0.01) = 0.00744793302057364
+STARS = 0
+UD_Hungarian-Szeged	0.00744793302057364	0
