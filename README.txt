@@ -66,6 +66,9 @@ Converted to follow the UD v2 guidelines.
 2018-04-15 v2.2
 Repository renamed from UD_Hungarian to UD_Hungarian-Szeged.
 
+2021-05-15 v2.8
+Removed superfluous features Number[psor]=None, Number[psed]=None, Person[psor]=None.
+
 
 
 <pre>
