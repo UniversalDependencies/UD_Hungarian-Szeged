@@ -106,21 +106,19 @@
     <feat name="Voice" value="Cau" upos="VERB">63</feat><!-- tájékoztatta, ismertette, tájékoztatott, Elhitették, Kiszivárogtatott, altatja, bekérette, bányásztasson, bújtatta, dolgoztassák -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="54">
+  <deps unique="52">
     <dep name="acl">320</dep>
     <dep name="advcl">406</dep>
     <dep name="advmod">431</dep>
     <dep name="advmod:locy">89</dep>
-    <dep name="advmod:mode">1603</dep>
-    <dep name="advmod:obl">4</dep>
+    <dep name="advmod:mode">1615</dep>
     <dep name="advmod:que">22</dep>
     <dep name="advmod:tfrom">18</dep>
     <dep name="advmod:tlocy">746</dep>
     <dep name="advmod:to">26</dep>
     <dep name="advmod:tto">37</dep>
-    <dep name="amod:att">5017</dep>
+    <dep name="amod:att">5018</dep>
     <dep name="amod:attlvc">3</dep>
-    <dep name="amod:mode">9</dep>
     <dep name="amod:obl">4</dep>
     <dep name="appos">287</dep>
     <dep name="aux">31</dep>
@@ -148,13 +146,13 @@
     <dep name="nmod:att">2521</dep>
     <dep name="nmod:attlvc">1</dep>
     <dep name="nmod:obl">216</dep>
-    <dep name="nmod:obllvc">16</dep>
     <dep name="nsubj">2618</dep>
     <dep name="nsubj:lvc">3</dep>
     <dep name="nummod">356</dep>
     <dep name="obj">1763</dep>
     <dep name="obj:lvc">42</dep>
     <dep name="obl">4236</dep>
+    <dep name="obl:lvc">16</dep>
     <dep name="orphan">83</dep>
     <dep name="parataxis">177</dep>
     <dep name="punct">5807</dep>

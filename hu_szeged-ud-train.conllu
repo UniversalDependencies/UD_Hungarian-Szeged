@@ -5377,7 +5377,7 @@
 29	dalmát	dalmát	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	conj	_	orig_deprel=amod:att
 30	politikai	orphan	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	_
 31	megfontolások	megfontolás	NOUN	_	Case=Nom|Number=Plur	33	nmod:att	_	_
-32	tiszteletben	tisztelet	NOUN	_	Case=Ine|Number=Sing	33	nmod:obllvc	_	_
+32	tiszteletben	tisztelet	NOUN	_	Case=Ine|Number=Sing	33	obl:lvc	_	_
 33	tartása	tartás	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
 34	és	és	CCONJ	_	_	38	cc	_	_
 35	a	a	DET	_	Definite=Def|PronType=Art	37	det	_	_
@@ -11510,7 +11510,7 @@
 12	vagy	vagy	ADV	_	_	13	advmod:mode	_	_
 13	ötvenszer	ötven	ADV	_	_	14	advmod:mode	_	_
 14	kelt	kel	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-15	életre	élet	NOUN	_	Case=Sub|Number=Sing	14	nmod:obllvc	_	_
+15	életre	élet	NOUN	_	Case=Sub|Number=Sing	14	obl:lvc	_	_
 16	a	a	DET	_	Definite=Def|PronType=Art	17	det	_	_
 17	mozivásznon	mozivászon	NOUN	_	Case=Sup|Number=Sing	14	obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	14	punct	_	_
@@ -12029,7 +12029,7 @@
 26	az	az	DET	_	Definite=Def|PronType=Art	27	det	_	_
 27	idővel	idő	NOUN	_	Case=Ins|Number=Sing	30	obl	_	_
 28	is	is	CCONJ	_	_	27	cc	_	ToDo=cc-without-conj
-29	harcban	harc	NOUN	_	Case=Ine|Number=Sing	30	nmod:obllvc	_	_
+29	harcban	harc	NOUN	_	Case=Ine|Number=Sing	30	obl:lvc	_	_
 30	áll	áll	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	hogy	hogy	SCONJ	_	_	33	mark	_	_
@@ -12340,7 +12340,7 @@
 14	így	így	CCONJ	_	_	19	cc	_	_
 15	az	az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	_
 16	azonnal	azonnal	ADV	_	_	19	advmod:tlocy	_	_
-17	érvénybe	érvény	NOUN	_	Case=Ill|Number=Sing	19	nmod:obllvc	_	_
+17	érvénybe	érvény	NOUN	_	Case=Ill|Number=Sing	19	obl:lvc	_	_
 18	is	is	CCONJ	_	_	17	cc	_	ToDo=cc-without-conj
 19	lépett	lép	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	12	punct	_	_
@@ -13780,7 +13780,7 @@
 14	egymás	egymás	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rcp	15	nmod:att	_	_
 15	érdekeinek	érdek	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	18	nmod:att	_	_
 16	kölcsönös	kölcsönös	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	amod:att	_	_
-17	tiszteletben	tisztelet	NOUN	_	Case=Ine|Number=Sing	18	nmod:obllvc	_	_
+17	tiszteletben	tisztelet	NOUN	_	Case=Ine|Number=Sing	18	obl:lvc	_	_
 18	tartásán	tartás	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	conj	_	_
 19	alapuljon	alapul	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_

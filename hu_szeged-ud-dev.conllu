@@ -1064,7 +1064,7 @@
 19	kapcsolhatja	kapcsol	VERB	_	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	s	s	CCONJ	_	_	23	cc	_	_
-22	figyelemmel	figyelem	NOUN	_	Case=Ins|Number=Sing	23	nmod:obllvc	_	_
+22	figyelemmel	figyelem	NOUN	_	Case=Ins|Number=Sing	23	obl:lvc	_	_
 23	kísérheti	kísér	VERB	_	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
 24	minden	minden	DET	_	Definite=Ind|PronType=Tot	25	det	_	_
 25	mozdulatát	mozdulat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	obj	_	SpaceAfter=No
@@ -2727,7 +2727,7 @@
 4	támadták	támad	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	meg	meg	PART	_	_	4	compound:preverb	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
-7	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	8	nmod:obllvc	_	_
+7	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	8	obl:lvc	_	_
 8	vételt	vétel	NOUN	_	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	17	punct	_	_
 10	mert	mert	SCONJ	_	_	17	mark	_	_
@@ -2762,7 +2762,7 @@
 12	három	három	NUM	_	Case=Nom|Number=Sing|NumType=Card	14	nummod	_	_
 13	elnökségi	elnökségi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod:att	_	_
 14	tag	tag	NOUN	_	Case=Nom|Number=Sing	16	nmod:att	_	_
-15	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	16	nmod:obllvc	_	_
+15	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	16	obl:lvc	_	_
 16	vétele	vétel	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	nsubj	_	_
 17	és	és	CCONJ	_	_	23	cc	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
@@ -2929,7 +2929,7 @@
 7	ifjúsági	ifjúsági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 8	szervezetek	szervezet	NOUN	_	Case=Nom|Number=Plur	4	conj	_	_
 9	részvételével	részvétel	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
-10	megrendezésre	megrendezés	NOUN	_	Case=Sub|Number=Sing	11	nmod:obllvc	_	_
+10	megrendezésre	megrendezés	NOUN	_	Case=Sub|Number=Sing	11	obl:lvc	_	_
 11	kerülő	kerülő	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	18	amod:att	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	Kézfogással	kézfogás	NOUN	_	Case=Ins|Number=Sing	16	nmod:obl	_	_
@@ -4839,7 +4839,7 @@
 20	oktatási	oktatási	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	21	amod:att	_	_
 21	célokra	cél	NOUN	_	Case=Sub|Number=Plur	24	obl	_	_
 22	kívánják	kíván	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
-23	bérbe	bér	NOUN	_	Case=Ill|Number=Sing	24	nmod:obllvc	_	_
+23	bérbe	bér	NOUN	_	Case=Ill|Number=Sing	24	obl:lvc	_	_
 24	adni	ad	VERB	_	VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 

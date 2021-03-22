@@ -1853,7 +1853,7 @@
 23	Aronyian	Aronyian	PROPN	_	Case=Nom|Number=Sing	17	conj	_	_
 24	négyessel	négyes	NOUN	_	Case=Ins|Number=Sing	25	obl	_	_
 25	szállnak	száll	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
-26	harcba	harc	NOUN	_	Case=Ill|Number=Sing	25	nmod:obllvc	_	_
+26	harcba	harc	NOUN	_	Case=Ill|Number=Sing	25	obl:lvc	_	_
 27	éremért	érem	NOUN	_	Case=Cau|Number=Sing	25	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -2740,7 +2740,7 @@
 25	dortmundiként	dortmundi	ADJ	_	Case=Abs|Degree=Pos|Number=Sing	24	orphan	_	orig_deprel=nmod:obl
 26	korábban	korán	ADV	_	_	29	advmod:tlocy	_	_
 27	már	már	ADV	_	_	29	advmod:tlocy	_	_
-28	harcba	harc	NOUN	_	Case=Ill|Number=Sing	29	nmod:obllvc	_	_
+28	harcba	harc	NOUN	_	Case=Ill|Number=Sing	29	obl:lvc	_	_
 29	szállt	száll	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 30	a	a	DET	_	Definite=Def|PronType=Art	32	det	_	_
 31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
@@ -5920,7 +5920,7 @@
 16	jutottak	jut	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
 17	arra	az	DET	_	Case=Sub|Number=Sing|Person=3|PronType=Dem	19	det	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
-19	megállapításra	megállapítás	NOUN	_	Case=Sub|Number=Sing	16	nmod:obllvc	_	SpaceAfter=No
+19	megállapításra	megállapítás	NOUN	_	Case=Sub|Number=Sing	16	obl:lvc	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	37	punct	_	_
 21	hogy	hogy	SCONJ	_	_	37	mark	_	_
 22	dr.	dr.	NOUN	_	Case=Nom|Number=Sing	37	nsubj	_	_
@@ -6507,7 +6507,7 @@
 6	huszonéves	huszonéves	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
 7	fiatalt	fiatal	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
 8	vett	vesz	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	őrizetbe	őrizet	NOUN	_	Case=Ill|Number=Sing	8	nmod:obllvc	_	_
+9	őrizetbe	őrizet	NOUN	_	Case=Ill|Number=Sing	8	obl:lvc	_	_
 10	kedden	kedd	NOUN	_	Case=Sup|Number=Sing	8	obl	_	_
 11	éjjel	éjjel	ADV	_	_	8	advmod:tlocy	_	_
 12	a	a	DET	_	Definite=Def|PronType=Art	13	det	_	_
@@ -6523,7 +6523,7 @@
 # sent_id = test-286
 # text = Az őrizetbe vett árusoktól vásárolt a múlt héten az a két fiatal, akik közül az egyik — feltehetőleg a kábítószer miatt — életét vesztette, a másikat pedig súlyos állapotban szállították kórházba.
 1	Az	az	DET	_	Definite=Def|PronType=Art	4	det	_	_
-2	őrizetbe	őrizet	NOUN	_	Case=Ill|Number=Sing	3	nmod:obllvc	_	_
+2	őrizetbe	őrizet	NOUN	_	Case=Ill|Number=Sing	3	obl:lvc	_	_
 3	vett	vett	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	4	amod:att	_	_
 4	árusoktól	árus	NOUN	_	Case=Abl|Number=Plur	5	obl	_	_
 5	vásárolt	vásárol	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6601,7 +6601,7 @@
 
 # sent_id = test-289
 # text = Lángba borult tegnap délelőtt a márianosztrai fegyház kápolnája.
-1	Lángba	láng	NOUN	_	Case=Ill|Number=Sing	2	nmod:obllvc	_	_
+1	Lángba	láng	NOUN	_	Case=Ill|Number=Sing	2	obl:lvc	_	_
 2	borult	borul	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	tegnap	tegnap	ADV	_	_	4	advmod:tlocy	_	_
 4	délelőtt	délelőtt	ADV	_	_	2	advmod:tlocy	_	_

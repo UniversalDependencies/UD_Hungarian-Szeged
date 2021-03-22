@@ -69,6 +69,7 @@ Repository renamed from UD_Hungarian to UD_Hungarian-Szeged.
 2021-05-15 v2.8
 Removed superfluous features Number[psor]=None, Number[psed]=None, Person[psor]=None.
 The relations nmod:obl and amod:obl changed to just obl under a VERB, ADJ or ADV.
+The relation nmod:obllvc changed to obl:lvc.
 The relation amod:mode changed to advmod:mode under a VERB, ADJ or ADV (but the UPOS tag of the dependent is still ADJ).
 Fixed non-projective punctuation with udapy -s ud.FixPunct.
 
