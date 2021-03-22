@@ -67,7 +67,7 @@
 8	az	az	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	olajárrobbanás	olajárrobbanás	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
 10	a	a	DET	_	Definite=Def|PronType=Art	11	det	_	_
-11	tervezettnél	tervezett	ADJ	_	Case=Ade|Number=Sing|VerbForm=PartPast	15	amod:obl	_	_
+11	tervezettnél	tervezett	ADJ	_	Case=Ade|Number=Sing|VerbForm=PartPast	15	obl	_	_
 12	lényegesen	lényeges	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	13	amod:mode	_	_
 13	magasabb	magas	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing	14	amod:att	_	_
 14	inflációhoz	infláció	NOUN	_	Case=All|Number=Sing	15	obl	_	_
@@ -274,7 +274,7 @@
 39	átvette	át+vesz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	ccomp:pred	_	_
 40	a	a	DET	_	Definite=Def|PronType=Art	42	det	_	_
 41	kanadai	kanadai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	42	amod:att	_	_
-42	beruházótól	beruházó	ADJ	_	Case=Abl|Number=Sing|VerbForm=PartPres	39	amod:obl	_	_
+42	beruházótól	beruházó	ADJ	_	Case=Abl|Number=Sing|VerbForm=PartPres	39	obl	_	_
 43	a	a	DET	_	Definite=Def|PronType=Art	44	det	_	_
 44	Ferihegyi	Ferihegyi	PROPN	_	Case=Nom|Number=Sing	47	nmod:att	_	_
 45	repülőtér	repülőtér	PROPN	_	Case=Nom|Number=Sing	44	flat:name	_	_
@@ -1992,7 +1992,7 @@
 31	életstílust	életstílus	NOUN	_	Case=Acc|Number=Sing	35	obj	_	SpaceAfter=No
 32	"	"	PUNCT	_	_	31	punct	_	_
 33	is	is	CCONJ	_	_	31	cc	_	ToDo=cc-without-conj
-34	felelőssé	felelős	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	35	amod:obl	_	_
+34	felelőssé	felelős	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	35	obl	_	_
 35	teszi	tesz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	35	punct	_	_
 37	amely	amely	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rel	42	nsubj	_	_
@@ -2481,7 +2481,7 @@
 28	,	,	PUNCT	_	_	8	punct	_	_
 29	hogy	hogy	SCONJ	_	_	42	mark	_	_
 30	egy	egy	DET	_	Definite=Ind|PronType=Art	33	det	_	_
-31	düsseldorfihoz	düsseldorfi	ADJ	_	Case=All|Degree=Pos|Number=Sing	32	amod:obl	_	_
+31	düsseldorfihoz	düsseldorfi	ADJ	_	Case=All|Degree=Pos|Number=Sing	32	obl	_	_
 32	hasonló	hasonló	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	33	amod:att	_	_
 33	tűz	tűz	NOUN	_	Case=Nom|Number=Sing	34	nmod:att	_	_
 34	esetén	eset	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	42	obl	_	_
@@ -2575,7 +2575,7 @@
 5	sajátosságai	sajátosság	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
 6	miatt	miatt	ADP	_	_	5	case	_	_
 7	a	a	DET	_	Definite=Def|PronType=Art	10	det	_	_
-8	düsseldorfihoz	düsseldorfi	ADJ	_	Case=All|Degree=Pos|Number=Sing	9	amod:obl	_	_
+8	düsseldorfihoz	düsseldorfi	ADJ	_	Case=All|Degree=Pos|Number=Sing	9	obl	_	_
 9	hasonló	hasonló	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	amod:att	_	_
 10	tűz	tűz	NOUN	_	Case=Nom|Number=Sing	14	nsubj	_	_
 11	ráadásul	ráadás	NOUN	_	Case=Ess|Number=Sing	14	obl	_	_
@@ -2975,7 +2975,7 @@
 14	figyelmeztetnek	figyelmeztet	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
 15	az	az	DET	_	Definite=Def|PronType=Art	22	det	_	_
 16	egyre	egyre	ADV	_	_	17	advmod:mode	_	_
-17	elterjedtebbé	elterjedt	ADJ	_	Case=Tra|Degree=Cmp|Number=Sing	18	amod:obl	_	_
+17	elterjedtebbé	elterjedt	ADJ	_	Case=Tra|Degree=Cmp|Number=Sing	18	obl	_	_
 18	vált	vált	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	22	amod:att	_	_
 19	antiszemita	antiszemita	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
@@ -3184,7 +3184,7 @@
 6	kapott	kapott	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	7	amod:att	_	_
 7	forrásai	forrás	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	nsubj	_	_
 8	jövőre	jövőre	ADV	_	_	11	advmod:tlocy	_	_
-9	kétharmaddal	kétharmad	NUM	_	Case=Ins|Number=Sing|NumType=Frac	11	amod:obl	_	_
+9	kétharmaddal	kétharmad	NUM	_	Case=Ins|Number=Sing|NumType=Frac	11	obl	_	_
 10	lesznek	lesz	AUX	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 11	kisebbek	kis	ADJ	_	Case=Nom|Degree=Cmp|Number=Plur	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -3598,7 +3598,7 @@
 19	—	—	PUNCT	_	_	20	punct	_	_
 20	reagált	reagál	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 21	az	az	DET	_	Definite=Def|PronType=Art	22	det	_	_
-22	elmondottakra	elmondott	ADJ	_	Case=Sub|Number=Plur|VerbForm=PartPast	20	amod:obl	_	_
+22	elmondottakra	elmondott	ADJ	_	Case=Sub|Number=Plur|VerbForm=PartPast	20	obl	_	_
 23	Sió	Sió	PROPN	_	Case=Nom|Number=Sing	20	nsubj	_	_
 24	László	László	PROPN	_	Case=Nom|Number=Sing	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
@@ -3683,7 +3683,7 @@
 # sent_id = dev-140
 # text = Ezzel lehetővé vált az alapbérek reálértéken történő érzékelhető mértékű emelése és a következő évi 8,25 százalékos keresetemelkedés szintén 2-3 százalékos reálérték-növekedést eredményez.
 1	Ezzel	ez	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
-2	lehetővé	lehető	ADJ	_	Case=Tra|Number=Sing|VerbForm=PartPres	3	amod:obl	_	_
+2	lehetővé	lehető	ADJ	_	Case=Tra|Number=Sing|VerbForm=PartPres	3	obl	_	_
 3	vált	válik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	az	az	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	alapbérek	alapbér	NOUN	_	Case=Nom|Number=Plur	10	nmod:att	_	_
@@ -4613,7 +4613,7 @@
 7	utcai	utcai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	6	flat:name	_	_
 8	iskolát	iskola	NOUN	_	Case=Acc|Number=Sing	12	obj	_	_
 9	a	a	DET	_	Definite=Def|PronType=Art	10	det	_	_
-10	Fenyves	Fenyves	PROPN	_	Case=Nom|Number=Sing	12	amod:obl	_	_
+10	Fenyves	Fenyves	PROPN	_	Case=Nom|Number=Sing	12	obl	_	_
 11	utcaival	utcaival	ADJ	_	Case=Ins|Degree=Pos|Number=Sing	10	flat:name	_	_
 12	vonnák	von	VERB	_	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 13	össze	össze	ADV	_	Degree=Pos	12	compound:preverb	_	SpaceAfter=No
@@ -4634,7 +4634,7 @@
 11	csatolnák	csatol	VERB	_	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	_
 12	-e	-e	ADV	_	PronType=Int	11	advmod:que	_	_
 13	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
-14	Fillér	Fillér	PROPN	_	Case=Nom|Number=Sing	11	amod:obl	_	_
+14	Fillér	Fillér	PROPN	_	Case=Nom|Number=Sing	11	obl	_	_
 15	utcaihoz	utcai	ADJ	_	Case=All|Degree=Pos|Number=Sing	14	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	24	punct	_	_
 17	vagy	vagy	CCONJ	_	_	24	cc	_	_
@@ -6988,7 +6988,7 @@
 # sent_id = dev-270
 # text = Az átlagosnál elégedettebbek a szak- és szerelőipari, elégedetlenebbek voltak viszont a magasépítéssel és épületfenntartással foglalkozó vállalkozások.
 1	Az	az	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	átlagosnál	átlagos	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	3	amod:obl	_	_
+2	átlagosnál	átlagos	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	3	obl	_	_
 3	elégedettebbek	elégedett	ADJ	_	Case=Nom|Degree=Cmp|Number=Plur	0	root	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	szak-	szak-	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
@@ -7126,7 +7126,7 @@
 # text = A világpiacon mértékadónak tekintett északi-tengeri Brent típusú olaj hordónkénti ára az év elején jegyzett tíz dollár körüli árról mostanra 25 dollár fölé emelkedett, és egyes számítások szerint a jövő év első hónapjaira akár hordónkénti 30 dollárra is felmehet az ára.
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	világpiacon	világpiac	NOUN	_	Case=Sup|Number=Sing	4	obl	_	_
-3	mértékadónak	mértékadó	ADJ	_	Case=Dat|Number=Sing|VerbForm=PartPres	4	amod:obl	_	_
+3	mértékadónak	mértékadó	ADJ	_	Case=Dat|Number=Sing|VerbForm=PartPres	4	obl	_	_
 4	tekintett	tekintett	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	8	amod:att	_	_
 5	északi-tengeri	északi-tengeri	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 6	Brent	Brent	PROPN	_	Case=Nom|Number=Sing	7	nmod:att	_	_

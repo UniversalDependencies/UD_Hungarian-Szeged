@@ -121,7 +121,7 @@
     <dep name="amod:att">5017</dep>
     <dep name="amod:attlvc">3</dep>
     <dep name="amod:mode">216</dep>
-    <dep name="amod:obl">61</dep>
+    <dep name="amod:obl">4</dep>
     <dep name="appos">287</dep>
     <dep name="aux">31</dep>
     <dep name="case">800</dep>
@@ -154,7 +154,7 @@
     <dep name="nummod">356</dep>
     <dep name="obj">1763</dep>
     <dep name="obj:lvc">42</dep>
-    <dep name="obl">4179</dep>
+    <dep name="obl">4236</dep>
     <dep name="orphan">83</dep>
     <dep name="parataxis">179</dep>
     <dep name="punct">5804</dep>

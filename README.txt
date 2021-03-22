@@ -68,7 +68,7 @@ Repository renamed from UD_Hungarian to UD_Hungarian-Szeged.
 
 2021-05-15 v2.8
 Removed superfluous features Number[psor]=None, Number[psed]=None, Person[psor]=None.
-The relation nmod:obl changed to just obl under a VERB, ADJ or ADV.
+The relations nmod:obl and amod:obl changed to just obl under a VERB, ADJ or ADV.
 
 
 
