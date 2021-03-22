@@ -33,7 +33,7 @@
     <tag name="X">13</tag><!-- ad, Cosi, ars, by, clausus, giusto, hard, ice, limina, newspeak -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="73">
+  <feats unique="70">
     <feat name="Aspect" value="Iter" upos="VERB">12</feat><!-- bizonygatta, forgatnak, forgatta, hajtogatják, ijesztgette, iszogatnak, nyalogathatja, nézegette, találgatta, telefonálgattak -->
     <feat name="Case" value="Abl" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">110</feat><!-- attól, 1-jétől, ettől, Kft.-től, elejétől, hivataltól, külvilágtól, tőle, várostól, 1-től -->
     <feat name="Case" value="Abs" upos="ADJ,NOUN,PROPN">57</feat><!-- példaként, tagjaként, feladatként, kellőképpen, Moraleseként, Rendezőként, Teiresziászaként, ajándékként, aktivistaként, bölcsőjeként -->
@@ -71,9 +71,7 @@
     <feat name="Mood" value="Pot" upos="AUX,VERB">216</feat><!-- lehet, kerülhet, növelheti, dolgozik, férhet, helyettesítheti, kerülhetnek, láthattunk, reménykedhet, reménykedhetnek -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3110</feat><!-- évek, vannak, ezek, őket, szakértők, voltak, akik, albánok, cégek, szerbek -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">21024</feat><!-- volt, azt, két, az, magyar, ez, kell, első, milliárd, aki -->
-    <feat name="Number[psed]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">12487</feat><!-- azt, két, magyar, ez, az, aki, ezt, egy, első, új -->
     <feat name="Number[psed]" value="Sing" upos="ADJ,NOUN,PRON,PROPN">24</feat><!-- magáénak, Andrásé, Daewooéhoz, Gyuláé, Hepta-csoporté, McDonald'séhoz, Versenyhivatalét, cégé, egyikőjük, elnökéét -->
-    <feat name="Number[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">10807</feat><!-- azt, két, magyar, ez, az, aki, ezt, egy, első, új -->
     <feat name="Number[psor]" value="Plur" upos="NOUN,NUM,PRON">176</feat><!-- lapunknak, lapunkat, napjainkban, válogatottunk, Termelésük, együttesünk, erejük, gyanújukat, helyzetüket, kérdésünkre -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN,NUM,PRON,PROPN">2614</feat><!-- elején, elnöke, vezetője, végén, alapján, százaléka, éve, százalékát, idején, során -->
     <feat name="NumType" value="Card" upos="NUM">1003</feat><!-- két, milliárd, millió, egy, három, több, ezer, négy, 30, 10 -->
@@ -85,7 +83,6 @@
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">4803</feat><!-- azt, volt, az, ez, kell, aki, van, amely, lehet, arra -->
     <feat name="Person[psor]" value="1" upos="NOUN">107</feat><!-- lapunknak, lapunkat, napjainkban, válogatottunk, együttesünk, eszembe, kérdésünkre, lapunk, munkám, életemben -->
     <feat name="Person[psor]" value="3" upos="ADJ,NOUN,NUM,PRON,PROPN">2682</feat><!-- elején, elnöke, vezetője, végén, alapján, százaléka, éve, százalékát, idején, során -->
-    <feat name="Person[psor]" value="None" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">10808</feat><!-- azt, két, magyar, ez, az, aki, ezt, egy, első, új -->
     <feat name="Poss" value="Yes" upos="PRON">11</feat><!-- saját -->
     <feat name="PronType" value="Art" upos="DET">4936</feat><!-- a, az, egy -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1007</feat><!-- azt, az, ez, úgy, akkor, arra, ezt, annak, így, azért -->
@@ -150,14 +147,14 @@
     <dep name="nmod">66</dep>
     <dep name="nmod:att">2521</dep>
     <dep name="nmod:attlvc">1</dep>
-    <dep name="nmod:obl">3566</dep>
+    <dep name="nmod:obl">998</dep>
     <dep name="nmod:obllvc">16</dep>
     <dep name="nsubj">2618</dep>
     <dep name="nsubj:lvc">3</dep>
     <dep name="nummod">356</dep>
     <dep name="obj">1763</dep>
     <dep name="obj:lvc">42</dep>
-    <dep name="obl">829</dep>
+    <dep name="obl">3397</dep>
     <dep name="orphan">83</dep>
     <dep name="parataxis">179</dep>
     <dep name="punct">5804</dep>
