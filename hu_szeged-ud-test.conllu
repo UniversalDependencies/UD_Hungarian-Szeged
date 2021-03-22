@@ -5687,7 +5687,7 @@
 4	és	és	CCONJ	_	_	6	cc	_	_
 5	váltságdíjat	váltságdíj	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 6	kérnek	kér	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
-7	szabadon	szabad	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	8	amod:obl	_	_
+7	szabadon	szabad	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	8	amod:att	_	_
 8	bocsátásáért	bocsátás	NOUN	_	Case=Cau|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10881,7 +10881,7 @@
 # text = Schultz a számítottnál 5 millióval többre, 29 millió dollárra tett szert, záráskor pedig az általa 4 millióért megvett céget a piac 273 millió dollárra értékelte.
 1	Schultz	Schultz	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 2	a	a	DET	_	Definite=Def|PronType=Art	3	det	_	_
-3	számítottnál	számított	ADJ	_	Case=Ade|Degree=Pos|Number=Sing|VerbForm=PartPast	6	amod:obl	_	_
+3	számítottnál	számított	ADJ	_	Case=Ade|Degree=Pos|Number=Sing|VerbForm=PartPast	6	advmod:mode	_	_
 4	5	5	NUM	_	Case=Nom|Number=Sing|NumType=Card	5	compound	_	_
 5	millióval	millió	NUM	_	Case=Ins|Number=Sing|NumType=Card	6	nmod:obl	_	_
 6	többre	több	NUM	_	Case=Sub|Number=Sing|NumType=Card	11	obl	_	SpaceAfter=No

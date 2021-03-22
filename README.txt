@@ -71,6 +71,7 @@ Removed superfluous features Number[psor]=None, Number[psed]=None, Person[psor]=
 The relations nmod:obl and amod:obl changed to just obl under a VERB, ADJ or ADV.
 The relation nmod:obllvc changed to obl:lvc.
 The relation amod:mode changed to advmod:mode under a VERB, ADJ or ADV (but the UPOS tag of the dependent is still ADJ).
+The undocumented relation amod:obl changed to amod:att (4 occurrences).
 Fixed non-projective punctuation with udapy -s ud.FixPunct.
 
 

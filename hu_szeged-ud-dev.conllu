@@ -4169,7 +4169,7 @@
 40	rakpart	rakpart	NOUN	_	Case=Nom|Number=Sing	44	nmod:att	_	_
 41	kétszer	két	ADV	_	_	42	nmod:obl	_	_
 42	két	két	NUM	_	Case=Nom|Number=Sing|NumType=Card	43	nummod	_	_
-43	sávossá	sávos	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	44	amod:obl	_	_
+43	sávossá	sávos	ADJ	_	Case=Tra|Degree=Pos|Number=Sing	44	amod:att	_	_
 44	bővítésében	bővítés	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	conj	_	_
 45	látják	lát	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	45	punct	_	_
