@@ -125,7 +125,7 @@
     <dep name="appos">287</dep>
     <dep name="aux">31</dep>
     <dep name="case">800</dep>
-    <dep name="cc">1823</dep>
+    <dep name="cc">1822</dep>
     <dep name="ccomp">75</dep>
     <dep name="ccomp:obj">209</dep>
     <dep name="ccomp:obl">154</dep>
@@ -156,8 +156,8 @@
     <dep name="obj:lvc">42</dep>
     <dep name="obl">4236</dep>
     <dep name="orphan">83</dep>
-    <dep name="parataxis">179</dep>
-    <dep name="punct">5804</dep>
+    <dep name="parataxis">177</dep>
+    <dep name="punct">5807</dep>
     <dep name="root">1800</dep>
     <dep name="vocative">1</dep>
     <dep name="xcomp">312</dep>
