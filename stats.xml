@@ -147,14 +147,14 @@
     <dep name="nmod">66</dep>
     <dep name="nmod:att">2521</dep>
     <dep name="nmod:attlvc">1</dep>
-    <dep name="nmod:obl">998</dep>
+    <dep name="nmod:obl">216</dep>
     <dep name="nmod:obllvc">16</dep>
     <dep name="nsubj">2618</dep>
     <dep name="nsubj:lvc">3</dep>
     <dep name="nummod">356</dep>
     <dep name="obj">1763</dep>
     <dep name="obj:lvc">42</dep>
-    <dep name="obl">3397</dep>
+    <dep name="obl">4179</dep>
     <dep name="orphan">83</dep>
     <dep name="parataxis">179</dep>
     <dep name="punct">5804</dep>
