@@ -1617,7 +1617,7 @@
 13	nem	nem	ADV	_	PronType=Neg	14	advmod	_	_
 14	volt	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 15	lehetőségük	lehetőség	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	nsubj	_	_
-16	túlságosan	túlságos	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	17	amod:mode	_	_
+16	túlságosan	túlságos	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	17	advmod:mode	_	_
 17	sok	sok	DET	_	Definite=Ind|PronType=Ind	18	det	_	_
 18	kávészünetre	kávészünet	NOUN	_	Case=Sub|Number=Sing	14	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
@@ -6351,7 +6351,7 @@
 19	zárlat	zárlat	NOUN	_	Case=Nom|Number=Sing	20	nmod:att	_	_
 20	feloldását	feloldás	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	advcl	_	_
 21	nem	nem	ADV	_	PronType=Neg	20	advmod	_	_
-22	is	is	ADV	_	_	20	amod:mode	_	SpaceAfter=No
+22	is	is	ADV	_	_	20	advmod:mode	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	20	punct	_	_
 24	azt	az	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	26	obj	_	_
 25	legalább	legalább	ADV	_	_	26	advmod:mode	_	_
@@ -6805,7 +6805,7 @@
 21	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
 22	főváros	főváros	NOUN	_	Case=Nom|Number=Sing	20	nsubj	_	_
 23	—	—	PUNCT	_	_	26	punct	_	_
-24	természetesen	természetes	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	26	amod:mode	_	_
+24	természetesen	természetes	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	26	advmod:mode	_	_
 25	pénz	pénz	NOUN	_	Case=Nom|Number=Sing	26	nmod:att	_	_
 26	hiányában	hiány	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	parataxis	_	_
 27	—	—	PUNCT	_	_	26	punct	_	_
@@ -12930,7 +12930,7 @@
 8	egy	egy	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	_
 9	éve	év	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	közvetlenül	közvetlen	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	14	amod:mode	_	_
+11	közvetlenül	közvetlen	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	14	advmod:mode	_	_
 12	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
 13	szlovákiai	szlovákiai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod:att	_	_
 14	kormányváltás	kormányváltás	NOUN	_	Case=Nom|Number=Sing	18	obl	_	_
@@ -16101,7 +16101,7 @@
 # sent_id = train-712
 # text = Ettől függetlenül az AIDS "epicentruma" továbbra is Afrika, s elsősorban annak Szaharától délre eső része, ahol a vírussal fertőzöttek 55 százaléka nő.
 1	Ettől	ez	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Dem	2	obl	_	_
-2	függetlenül	független	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	10	amod:mode	_	_
+2	függetlenül	független	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	10	advmod:mode	_	_
 3	az	az	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	AIDS	AIDS	NOUN	_	Case=Nom|Number=Sing	6	nmod:att	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No

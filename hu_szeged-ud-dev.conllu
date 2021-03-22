@@ -1346,7 +1346,7 @@
 5	menni	megy	VERB	_	VerbForm=Inf|Voice=Act	3	xcomp	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	Fidesz-MPP	Fidesz-MPP	PROPN	_	Case=Nom|Number=Sing	9	nmod:att	_	_
-8	országos	országos	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:mode	_	_
+8	országos	országos	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
 9	választmánya	választmány	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod:att	_	_
 10	döntésének	döntés	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
