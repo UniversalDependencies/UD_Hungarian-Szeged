@@ -1394,7 +1394,7 @@
 53	lép	lép	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	conj	_	_
 54	-e	-e	ADV	_	PronType=Int	53	advmod:que	_	_
 55	ki	ki	ADV	_	Degree=Pos	53	compound:preverb	_	_
-56	önként	önként	ADV	_	_	53	advmod:obl	_	SpaceAfter=No
+56	önként	önként	ADV	_	_	53	advmod:mode	_	SpaceAfter=No
 57	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = dev-56
@@ -1841,7 +1841,7 @@
 15	Gézától	Géza	PROPN	_	Case=Abl|Number=Sing	14	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	hogy	hogy	SCONJ	_	_	19	mark	_	_
-18	önként	önként	ADV	_	_	19	advmod:obl	_	_
+18	önként	önként	ADV	_	_	19	advmod:mode	_	_
 19	távozzon	távozik	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp:obj	_	_
 20	posztjáról	poszt	NOUN	_	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_

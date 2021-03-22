@@ -823,7 +823,7 @@
 2	belső	belső	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod:att	_	_
 3	fogyasztás	fogyasztás	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	mérséklődött	mérséklődik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	tavalyhoz	tavalyhoz	ADV	_	_	4	advmod:obl	_	_
+5	tavalyhoz	tavalyhoz	ADV	_	_	4	advmod:mode	_	_
 6	képest	képest	ADP	_	_	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	bővülése	bővülés	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	_
@@ -14969,7 +14969,7 @@
 18	építtetett	épít	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	12	acl	_	_
 19	október	október	NOUN	_	Case=Nom|Number=Sing	20	nmod:att	_	_
 20	elején	eleje	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	obl	_	_
-21	azért	azért	ADV	_	PronType=Dem	18	advmod:obl	_	SpaceAfter=No
+21	azért	azért	ADV	_	PronType=Dem	18	advmod:mode	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	hogy	hogy	SCONJ	_	_	24	mark	_	_
 24	elválassza	el+választ	VERB	_	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
