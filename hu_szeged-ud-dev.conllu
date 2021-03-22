@@ -6263,7 +6263,7 @@
 # text = A kiskereskedelemben teljesen más okra vezethető vissza a mamutvállalkozások létrejötte, mint az élelmiszeriparban.
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	kiskereskedelemben	kiskereskedelem	NOUN	_	Case=Ine|Number=Sing	6	obl	_	_
-3	teljesen	teljes	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	4	amod:mode	_	_
+3	teljesen	teljes	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	4	advmod:mode	_	_
 4	más	más	DET	_	Definite=Ind|PronType=Ind	5	det	_	_
 5	okra	ok	NOUN	_	Case=Sub|Number=Sing	6	obl	_	_
 6	vezethető	vezethető	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	0	root	_	_
