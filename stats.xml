@@ -52,7 +52,7 @@
     <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">571</feat><!-- százalékkal, azzal, ezzel, évvel, vele, alkalommal, nappal, tavasszal, címmel, hatással -->
     <feat name="Case" value="Loc" upos="NOUN">1</feat><!-- helyütt -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">13754</feat><!-- két, az, magyar, ez, első, milliárd, aki, kormány, új, millió -->
-    <feat name="Case" value="Sub" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">567</feat><!-- arra, erre, élére, dollárra, rá, forintra, színpadra, Magyarországra, napirendre, végére -->
+    <feat name="Case" value="Sbl" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">567</feat><!-- arra, erre, élére, dollárra, rá, forintra, színpadra, Magyarországra, napirendre, végére -->
     <feat name="Case" value="Sup" upos="ADJ,DET,NOUN,PRON,PROPN">609</feat><!-- héten, szerdán, elején, végén, alapján, idején, ezen, során, Magyarországon, úton -->
     <feat name="Case" value="Tem" upos="NOUN,NUM">14</feat><!-- órakor, Letartóztatásakor, elrontásakor, előterjesztésekor, készítésekor, lapzártánkkor, megkötésekor, tízkor, visszatérésekor, záráskor -->
     <feat name="Case" value="Ter" upos="NOUN,NUM,PRON,PROPN">52</feat><!-- végéig, napig, évig, 1998-ig, 30-áig, ideig, korig, 10-ig, 10-éig, 1996-ig -->
