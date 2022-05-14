@@ -74,6 +74,9 @@ The relation amod:mode changed to advmod:mode under a VERB, ADJ or ADV (but the 
 The undocumented relation amod:obl changed to amod:att (4 occurrences).
 Fixed non-projective punctuation with udapy -s ud.FixPunct.
 
+2022-05-15 v2.10
+Case=Sub now means subessive in UD; sublative relabeled to Case=Sbl.
+
 
 
 <pre>
