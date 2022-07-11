@@ -10352,7 +10352,7 @@
 4	vitte	visz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	mint	mint	SCONJ	_	_	7	mark	_	_
-7	hozta	hoz	AUX	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+7	hozta	hoz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	pénzt	pénz	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
 10	a	a	DET	_	Definite=Def|PronType=Art	11	det	_	_
