@@ -7566,7 +7566,7 @@
 # sent_id = train-368
 # text = — Ez alatt a fél évszázad alatt szinte az egész baritonrepertoárt elénekelte, egyedül Wagner darabjaiban nem lépett színpadra.
 1	—	—	PUNCT	_	_	12	punct	_	_
-2	Ez	ez	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+2	Ez	ez	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	6	det	_	_
 3	alatt	alatt	ADP	_	_	6	case	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
 5	fél	fél	NUM	_	Case=Nom|Number=Sing|NumType=Frac	6	nummod	_	_
@@ -21980,7 +21980,7 @@
 34	hollandokat	holland	NOUN	_	Case=Acc|Number=Plur	37	obj	_	_
 35	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	acl	_	_
 36	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	_
-37	felváltaniuk	felvált	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	36	xcomp	_	SpaceAfter=No
+37	felváltaniuk	felvált	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	35	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = train-886
