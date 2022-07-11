@@ -10,7 +10,7 @@
     <dev><sentences>441</sentences><tokens>11418</tokens><words>11418</words><fused>0</fused></dev>
     <test><sentences>449</sentences><tokens>10448</tokens><words>10448</words><fused>0</fused></test>
   </size>
-  <lemmas unique="8785" /><!-- a, ,, ., az, és, is, hogy, —, nem, ", ez, van, s, egy, : -->
+  <lemmas unique="8784" /><!-- a, ,, ., az, és, is, hogy, —, nem, ", ez, van, s, egy, : -->
   <forms unique="13469" /><!-- a, ,, ., az, és, is, hogy, —, nem, ", s, :, egy, szerint, már -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">5543</tag><!-- nagy, új, első, magyar, orosz, jó, gazdasági, százalékos, parlamenti, hasonló -->
     <tag name="ADP">808</tag><!-- szerint, után, között, által, miatt, alatt, óta, mellett, ellen, előtt -->
     <tag name="ADV">3115</tag><!-- nem, már, még, csak, ki, el, sem, is, fel, úgy -->
-    <tag name="AUX">206</tag><!-- van, lesz, fog, volna, lehet, marad, elszenved, hoz -->
+    <tag name="AUX">207</tag><!-- van, lesz, fog, lehet, marad, elszenved, hoz -->
     <tag name="CCONJ">1832</tag><!-- és, is, s, de, pedig, azonban, hiszen, hanem, vagy, illetve -->
     <tag name="DET">5275</tag><!-- a, az, egy, ez, több, minden, egyik, sok, néhány, más -->
     <tag name="INTJ">13</tag><!-- persze, igen, lám, na, no, sajnos -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">2718</tag><!-- Gazprom, Magyarország, László, Budapest, Magyar, HVG, Orbán, Rt., Ferenc, Starbucks -->
     <tag name="PUNCT">5807</tag><!-- ,, ., —, ", :, (, ), ?, !, ; -->
     <tag name="SCONJ">751</tag><!-- hogy, ha, mint, mert, miután, ugyan, bár, mivel, jóllehet, merthogy -->
-    <tag name="VERB">3659</tag><!-- kell, van, tud, mond, lesz, tesz, kerül, tart, ad, vesz -->
+    <tag name="VERB">3658</tag><!-- kell, van, tud, mond, lesz, tesz, kerül, tart, ad, vesz -->
     <tag name="X">13</tag><!-- ad, Cosi, ars, by, clausus, giusto, hard, ice, limina, newspeak -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -97,7 +97,7 @@
     <feat name="Tense" value="Past" upos="AUX,VERB">1685</feat><!-- volt, mondta, elmondta, jelentette, került, voltak, kellett, lehetett, lett, tett -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">1855</feat><!-- kell, van, lehet, lesz, volna, kellene, lenne, vannak, nincs, kerül -->
     <feat name="VerbForm" value="Conv" upos="ADV">81</feat><!-- hivatkozva, mondván, írva, hozzátéve, lévén, megszüntetve, nyilatkozva, számolva, szólva, zárva -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3494</feat><!-- volt, kell, van, lehet, mondta, lesz, elmondta, kellene, lenne, vannak -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3510</feat><!-- volt, kell, van, lehet, mondta, lesz, volna, elmondta, kellene, lenne -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">342</feat><!-- tudni, tartani, folytatni, látni, számítani, ellátni, hívni, kérni, lemondani, menni -->
     <feat name="VerbForm" value="PartFut" upos="ADJ">12</feat><!-- adandó, befejezendő, benyújtandó, elfogadandónak, elkövetkezendő, letöltendő, maradandó, megelőzendő, nyújtandó, operálandó -->
     <feat name="VerbForm" value="PartPast" upos="ADJ">509</feat><!-- elmúlt, jegyzett, készült, tervezett, elfogadott, elkövetett, készített, kialakult, kiemelt, megbízott -->
@@ -120,7 +120,7 @@
     <dep name="amod:att">5021</dep>
     <dep name="amod:attlvc">3</dep>
     <dep name="appos">287</dep>
-    <dep name="aux">31</dep>
+    <dep name="aux">32</dep>
     <dep name="case">800</dep>
     <dep name="cc">1822</dep>
     <dep name="ccomp">75</dep>
@@ -130,7 +130,7 @@
     <dep name="compound">147</dep>
     <dep name="compound:preverb">478</dep>
     <dep name="conj">1797</dep>
-    <dep name="cop">169</dep>
+    <dep name="cop">168</dep>
     <dep name="csubj">152</dep>
     <dep name="dep">1</dep>
     <dep name="det">5262</dep>
@@ -148,9 +148,9 @@
     <dep name="nsubj">2618</dep>
     <dep name="nsubj:lvc">3</dep>
     <dep name="nummod">356</dep>
-    <dep name="obj">1763</dep>
+    <dep name="obj">1762</dep>
     <dep name="obj:lvc">42</dep>
-    <dep name="obl">4236</dep>
+    <dep name="obl">4237</dep>
     <dep name="obl:lvc">16</dep>
     <dep name="orphan">83</dep>
     <dep name="parataxis">177</dep>

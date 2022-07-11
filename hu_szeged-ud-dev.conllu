@@ -2714,7 +2714,7 @@
 32	és	és	CCONJ	_	_	34	cc	_	_
 33	nem	nem	ADV	_	PronType=Neg	34	advmod	_	_
 34	lett	lesz	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	_	_
-35	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	34	aux	_	_
+35	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	aux	_	_
 36	joga	jog	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	34	nsubj	_	_
 37	fellebbezni	fel+lebbez	VERB	_	VerbForm=Inf|Voice=Act	34	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	8	punct	_	_

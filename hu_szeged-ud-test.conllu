@@ -948,7 +948,7 @@
 1	Bár	bár	SCONJ	_	_	3	mark	_	_
 2	name	ne	ADV	_	PronType=Neg	3	advmod	_	_
 3	tettem	tesz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	SpaceAfter=No
+4	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-42
@@ -2334,7 +2334,7 @@
 3	MLSZ	MLSZ	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 4	ezt	ez	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	7	obj	_	_
 5	szerette	szeret	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-6	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	_
+6	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 7	elkerülni	el+kerül	VERB	_	VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
 9	amikor	amikor	ADV	_	PronType=Rel	15	advmod:tlocy	_	_
@@ -2473,7 +2473,7 @@
 5	Kupa	Kupa	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	fináléjával	finálé	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 7	ért	ér	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-8	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	_
+8	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 9	véget	vég	NOUN	_	Case=Acc|Number=Sing	7	obj:lvc	_	_
 10	az	az	DET	_	Definite=Def|PronType=Art	11	det	_	_
 11	idény	idény	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
@@ -2822,10 +2822,10 @@
 13	megszerzett	megszerzett	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	14	amod:att	_	_
 14	labdával	labda	NOUN	_	Case=Ins|Number=Sing	15	obl	_	_
 15	megindult	meg+indul	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	advcl	_	_
-16	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	_
+16	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
 17	vagy	vagy	CCONJ	_	_	18	cc	_	_
 18	indította	indít	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
-19	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	_
+19	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
 20	társait	társ	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	15	punct	_	_
 22	teljesen	teljes	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	23	advmod:mode	_	_
@@ -3457,7 +3457,7 @@
 17	és	és	CCONJ	_	_	19	cc	_	_
 18	nemhogy	nemhogy	CCONJ	_	_	19	cc	_	_
 19	oszlott	oszlik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
-20	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	SpaceAfter=No
+20	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
 22	még	még	ADV	_	_	25	advmod:tlocy	_	_
 23	lejjebb	le	ADV	_	_	25	advmod:to	_	_
@@ -3759,7 +3759,7 @@
 15	pedig	pedig	CCONJ	_	_	21	cc	_	_
 16	mintha	mintha	SCONJ	_	_	17	mark	_	_
 17	kicseréltek	ki+cserél	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	_
-18	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	SpaceAfter=No
+18	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	17	punct	_	_
 20	úgy	úgy	ADV	_	PronType=Dem	21	advmod:mode	_	_
 21	felfrissültem	fel+frissül	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
@@ -4096,7 +4096,7 @@
 2	nem	nem	ADV	_	PronType=Neg	4	advmod	_	_
 3	is	is	ADV	_	_	4	advmod:mode	_	_
 4	zárulhatott	zárul	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	_
+5	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 6	az	az	DET	_	Definite=Def|PronType=Art	8	det	_	_
 7	athéni	athéni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 8	súlyemelő-világbajnokság	súlyemelő-világbajnokság	NOUN	_	Case=Nom|Number=Sing	10	nmod:att	_	_
@@ -4195,7 +4195,7 @@
 1	Hogyan	hogyan	ADV	_	PronType=Int	3	advmod:mode	_	_
 2	is	is	ADV	_	_	3	advmod:mode	_	_
 3	gondolhatott	gondol	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	SpaceAfter=No
+4	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	amikor	amikor	ADV	_	PronType=Rel	10	advmod:tlocy	_	_
 7	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
@@ -6250,7 +6250,7 @@
 33	törvénysértés	törvénysértés	NOUN	_	Case=Nom|Number=Sing	31	conj	_	_
 34	miatt	miatt	ADP	_	_	31	case	_	_
 35	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	csubj	_	_
-36	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	aux	_	_
+36	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	_
 37	kimondani	ki+mond	VERB	_	VerbForm=Inf|Voice=Act	35	xcomp	_	_
 38	az	az	DET	_	Definite=Def|PronType=Art	40	det	_	_
 39	adott	adott	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	40	amod:att	_	_
@@ -6451,7 +6451,7 @@
 13	nemzetközi	nemzetközi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod:att	_	_
 14	csempészútja	csempészút	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	ccomp:obj	_	_
 15	lett	lesz	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
-16	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	SpaceAfter=No
+16	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	ám	ám	CCONJ	_	_	21	cc	_	_
 19	jó	jó	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	amod:att	_	_

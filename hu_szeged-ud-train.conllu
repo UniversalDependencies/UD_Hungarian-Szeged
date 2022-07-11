@@ -3573,7 +3573,7 @@
 6	mindenkori	mindenkori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
 7	hatalom	hatalom	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 8	dédelgette	dédelget	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	_
+9	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 10	a	a	DET	_	Definite=Def|PronType=Art	11	det	_	_
 11	szavakat	szó	NOUN	_	Case=Acc|Number=Plur	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
@@ -5191,7 +5191,7 @@
 7	szép	szép	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 8	libasorban	libasor	NOUN	_	Case=Ine|Number=Sing	9	obl	_	_
 9	elhagyták	el+hagy	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
-10	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	SpaceAfter=No
+10	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	megjelentek	meg+jelenik	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 13	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
@@ -5930,7 +5930,7 @@
 18	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing	4	ccomp:obj	_	_
 19	is	is	ADV	_	_	18	advmod:mode	_	_
 20	lehetett	lehet	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
-21	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	SpaceAfter=No
+21	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = train-295
@@ -14783,7 +14783,7 @@
 11	után	után	ADP	_	_	10	case	_	_
 12	részt	rész	NOUN	_	Case=Acc|Number=Sing	13	obj:lvc	_	_
 13	vett	vesz	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp:obj	_	_
-14	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	_
+14	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 15	egyes	egyes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
 16	állambiztonsági	állambiztonsági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
 17	ügynöknévsorok	ügynöknévsor	NOUN	_	Case=Nom|Number=Plur	18	nmod:att	_	_
@@ -17143,7 +17143,7 @@
 14	Simicska	Simicska	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
 15	végleg	végleg	ADV	_	_	16	advmod:mode	_	_
 16	eltűnt	eltűnik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
-17	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+17	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
 19	közéletből	közélet	NOUN	_	Case=Ela|Number=Sing	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
@@ -21563,7 +21563,7 @@
 32	akár	akár	ADV	_	_	33	advmod:mode	_	_
 33	tehetett	tehet	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	advcl	_	_
 34	is	is	ADV	_	_	33	advmod:mode	_	_
-35	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	aux	_	SpaceAfter=No
+35	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	aux	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = train-876
@@ -21979,7 +21979,7 @@
 33	szolgáló	szolgáló	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	34	amod:att	_	_
 34	hollandokat	holland	NOUN	_	Case=Acc|Number=Plur	37	obj	_	_
 35	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	acl	_	_
-36	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	_
+36	volna	van	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	_
 37	felváltaniuk	felvált	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	36	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	_
 
