@@ -5044,7 +5044,7 @@
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	időről	idő	NOUN	_	Case=Del|Number=Sing	27	obl	_	_
 25	időre	idő	NOUN	_	Case=Sbl|Number=Sing	27	obl	_	_
-26	kötelességük	kötelesség	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	cc	_	ToDo=cc-without-conj
+26	kötelességük	kötelesség	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	6	conj	_	_
 27	emlékezni	emlékezik	VERB	_	VerbForm=Inf|Voice=Act	26	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
