@@ -52,6 +52,7 @@ The UD version of the treebank has been prepared by Richárd Farkas (rfarkas@inf
 
 * 2022-11-15 v2.11
   * The lemma of _volna_ is _van_.
+  * Fixed: spurious copulas.
 * 2022-05-15 v2.10
   * Case=Sub now means subessive in UD; sublative relabeled to Case=Sbl.
 * 2021-05-15 v2.8
