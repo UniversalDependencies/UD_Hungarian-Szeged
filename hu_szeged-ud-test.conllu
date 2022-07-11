@@ -9916,16 +9916,16 @@
 5	válság	válság	NOUN	_	Case=Nom|Number=Sing	6	nmod:att	_	_
 6	következményeit	következmény	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	súlyosbította	súlyosbít	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	13	punct	_	_
-9	hogy	hogy	SCONJ	_	_	13	mark	_	_
-10	1998-ban	1998	NUM	_	Case=Ine|Number=Sing|NumType=Card	13	obl	_	_
+8	,	,	PUNCT	_	_	14	punct	_	_
+9	hogy	hogy	SCONJ	_	_	14	mark	_	_
+10	1998-ban	1998	NUM	_	Case=Ine|Number=Sing|NumType=Card	14	obl	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
-12	világpiacon	világpiac	NOUN	_	Case=Sup|Number=Sing	13	obl	_	_
-13	nyomott	nyomott	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	csubj	_	_
-14	maradt	marad	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+12	világpiacon	világpiac	NOUN	_	Case=Sup|Number=Sing	14	obl	_	_
+13	nyomott	nyomott	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	xcomp	_	_
+14	maradt	marad	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	csubj	_	_
 15	a	a	DET	_	Definite=Def|PronType=Art	16	det	_	_
 16	szénhidrogének	szénhidrogén	NOUN	_	Case=Nom|Number=Plur	17	nmod:att	_	_
-17	ára	ár	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	SpaceAfter=No
+17	ára	ár	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = test-393
@@ -10911,15 +10911,15 @@
 # sent_id = test-423
 # text = A Starbucks ezt követően is a tőzsde egyik kedvence maradt, s a befektetők az árfolyam-emelkedéssel a lendületes terjeszkedést honorálták.
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	Starbucks	Starbucks	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	Starbucks	Starbucks	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 3	ezt	ez	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
 4	követően	követő	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|VerbForm=PartPres	9	nmod	_	ToDo=nmod
 5	is	is	CCONJ	_	_	4	cc	_	ToDo=cc-without-conj
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	tőzsde	tőzsde	NOUN	_	Case=Nom|Number=Sing	9	nmod:att	_	_
 8	egyik	egyik	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Ind	9	amod:att	_	_
-9	kedvence	kedvenc	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
-10	maradt	marad	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	SpaceAfter=No
+9	kedvence	kedvenc	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	xcomp	_	_
+10	maradt	marad	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	20	punct	_	_
 12	s	s	CCONJ	_	_	20	cc	_	_
 13	a	a	DET	_	Definite=Def|PronType=Art	14	det	_	_
@@ -10930,7 +10930,7 @@
 18	lendületes	lendületes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	19	amod:att	_	_
 19	terjeszkedést	terjeszkedés	NOUN	_	Case=Acc|Number=Sing	20	obj	_	_
 20	honorálták	honorál	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	9	punct	_	_
+21	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = test-424
 # text = A "kávébabrészvénynek" elkeresztelt papír felértékelődésével jól jártak az alkalmazottak is, akik nemcsak a vezetőkével megegyező kondíciójú egészségbiztosítást kapnak, de mindannyian bőkezűen mért részvényopcióhoz is jutottak.

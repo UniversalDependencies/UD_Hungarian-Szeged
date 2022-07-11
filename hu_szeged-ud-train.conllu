@@ -18451,12 +18451,12 @@
 14	átalakul	átalakul	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 15	zártkörű	zártkörű	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	16	amod:att	_	_
 16	társasággá	társaság	NOUN	_	Case=Tra|Number=Sing	14	obl	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	22	punct	_	_
+17	,	,	PUNCT	_	_	21	punct	_	_
 18	amelynek	amely	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Rel	20	nmod:att	_	_
-19	viszont	viszont	CCONJ	_	_	22	cc	_	_
-20	tagjai	tag	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	22	nsubj	_	_
-21	maradnak	marad	AUX	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	_	_
-22	azok	az	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Dem	16	acl	_	SpaceAfter=No
+19	viszont	viszont	CCONJ	_	_	21	cc	_	_
+20	tagjai	tag	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	21	nsubj	_	_
+21	maradnak	marad	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	_
+22	azok	az	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Dem	21	xcomp	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	akik	aki	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Rel	26	nsubj	_	_
 25	nem	nem	ADV	_	PronType=Neg	26	advmod	_	_

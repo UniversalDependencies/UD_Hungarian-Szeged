@@ -18,7 +18,7 @@
     <tag name="ADJ">5543</tag><!-- nagy, új, első, magyar, orosz, jó, gazdasági, százalékos, parlamenti, hasonló -->
     <tag name="ADP">808</tag><!-- szerint, után, között, által, miatt, alatt, óta, mellett, ellen, előtt -->
     <tag name="ADV">3115</tag><!-- nem, már, még, csak, ki, el, sem, is, fel, úgy -->
-    <tag name="AUX">207</tag><!-- van, lesz, fog, lehet, marad, elszenved, hoz -->
+    <tag name="AUX">202</tag><!-- van, lesz, fog, lehet -->
     <tag name="CCONJ">1832</tag><!-- és, is, s, de, pedig, azonban, hiszen, hanem, vagy, illetve -->
     <tag name="DET">5275</tag><!-- a, az, egy, ez, több, minden, egyik, sok, néhány, más -->
     <tag name="INTJ">13</tag><!-- persze, igen, lám, na, no, sajnos -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">2718</tag><!-- Gazprom, Magyarország, László, Budapest, Magyar, HVG, Orbán, Rt., Ferenc, Starbucks -->
     <tag name="PUNCT">5807</tag><!-- ,, ., —, ", :, (, ), ?, !, ; -->
     <tag name="SCONJ">751</tag><!-- hogy, ha, mint, mert, miután, ugyan, bár, mivel, jóllehet, merthogy -->
-    <tag name="VERB">3658</tag><!-- kell, van, tud, mond, lesz, tesz, kerül, tart, ad, vesz -->
+    <tag name="VERB">3663</tag><!-- kell, van, tud, mond, lesz, tesz, kerül, tart, ad, vesz -->
     <tag name="X">13</tag><!-- ad, Cosi, ars, by, clausus, giusto, hard, ice, limina, newspeak -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -108,7 +108,7 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="51">
     <dep name="acl">320</dep>
-    <dep name="advcl">406</dep>
+    <dep name="advcl">407</dep>
     <dep name="advmod">431</dep>
     <dep name="advmod:locy">89</dep>
     <dep name="advmod:mode">1616</dep>
@@ -130,7 +130,7 @@
     <dep name="compound">147</dep>
     <dep name="compound:preverb">478</dep>
     <dep name="conj">1797</dep>
-    <dep name="cop">168</dep>
+    <dep name="cop">163</dep>
     <dep name="csubj">152</dep>
     <dep name="dep">1</dep>
     <dep name="det">5262</dep>
@@ -157,6 +157,6 @@
     <dep name="punct">5807</dep>
     <dep name="root">1800</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">312</dep>
+    <dep name="xcomp">316</dep>
   </deps>
 </treebank>
