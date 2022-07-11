@@ -9765,13 +9765,13 @@
 14	vidékfejlesztés	vidékfejlesztés	NOUN	_	Case=Nom|Number=Sing	10	conj	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	beleértve	beleértve	ADV	_	VerbForm=Conv	14	parataxis	_	_
-17	az	az	DET	_	Definite=Def|PronType=Art	16	det	_	_
+17	az	az	DET	_	Definite=Def|PronType=Art	18	det	_	_
 18	infrastruktúra	infrastruktúra	NOUN	_	Case=Nom|Number=Sing	23	nmod:att	_	_
-19	és	és	CCONJ	_	_	18	cc	_	ToDo=cc-without-conj
+19	és	és	CCONJ	_	_	22	cc	_	_
 20	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
 21	gyorsforgalmi	gyorsforgalmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	_
 22	úthálózat	úthálózat	NOUN	_	Case=Nom|Number=Sing	18	conj	_	_
-23	fejlesztését	fejlesztés	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obj	_	SpaceAfter=No
+23	fejlesztését	fejlesztés	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	honvédelem	honvédelem	NOUN	_	Case=Nom|Number=Sing	10	conj	_	SpaceAfter=No
