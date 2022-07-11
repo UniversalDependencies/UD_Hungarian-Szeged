@@ -5929,8 +5929,8 @@
 17	még	még	ADV	_	_	18	advmod:tlocy	_	_
 18	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing	4	ccomp:obj	_	_
 19	is	is	ADV	_	_	18	advmod:mode	_	_
-20	lehetett	lehet	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	_
-21	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	SpaceAfter=No
+20	lehetett	lehet	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
+21	volna	volna	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = train-295
