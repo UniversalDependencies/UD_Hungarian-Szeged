@@ -5364,19 +5364,19 @@
 16	—	—	PUNCT	_	_	14	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	továbbá	továbbá	ADV	_	_	2	advmod:mode	_	_
-19	a	a	DET	_	Definite=Def|PronType=Art	31	det	_	_
-20	szerb	szerb	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	SpaceAfter=No
+19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
+20	szerb	szerb	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	nmod:att	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
-22	a	a	DET	_	Definite=Def|PronType=Art	23	orphan	_	_
-23	horvát	horvát	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	orphan	_	SpaceAfter=No
+22	a	a	DET	_	Definite=Def|PronType=Art	23	det	_	_
+23	horvát	horvát	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	conj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	a	a	DET	_	Definite=Def|PronType=Art	26	orphan	_	_
-26	montenegrói	montenegrói	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	orphan	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	20	punct	_	_
-28	a	a	DET	_	Definite=Def|PronType=Art	31	orphan	_	_
-29	dalmát	dalmát	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	conj	_	_
+25	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
+26	montenegrói	montenegrói	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	31	punct	_	_
+28	a	a	DET	_	Definite=Def|PronType=Art	31	det	_	_
+29	dalmát	dalmát	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	_
 30	politikai	orphan	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	_
-31	megfontolások	megfontolás	NOUN	_	Case=Nom|Number=Plur	33	nmod:att	_	_
+31	megfontolások	megfontolás	NOUN	_	Case=Nom|Number=Plur	20	conj	_	_
 32	tiszteletben	tisztelet	NOUN	_	Case=Ine|Number=Sing	33	obl:lvc	_	_
 33	tartása	tartás	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
 34	és	és	CCONJ	_	_	38	cc	_	_
@@ -5397,11 +5397,11 @@
 4	,	,	PUNCT	_	_	13	punct	_	_
 5	ha	ha	SCONJ	_	_	13	mark	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
-7	politikai	politikai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	11	orphan	_	_
-8	és	és	CCONJ	_	_	7	cc	_	_
+7	politikai	politikai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	nsubj	_	_
+8	és	és	CCONJ	_	_	11	cc	_	_
 9	a	a	DET	_	Definite=Def|PronType=Art	11	det	_	_
 10	katonai	katonai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	11	amod:att	_	_
-11	vezetők	vezető	NOUN	_	Case=Nom|Number=Plur	13	nsubj	_	_
+11	vezetők	vezető	NOUN	_	Case=Nom|Number=Plur	7	conj	_	_
 12	együtt	együtt	ADV	_	_	13	advmod:mode	_	_
 13	élnek	él	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 14	a	a	DET	_	Definite=Def|PronType=Art	15	det	_	_
@@ -5495,11 +5495,11 @@
 12	tökéletesen	tökéletes	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	13	advmod:mode	_	_
 13	megfelelt	meg+felel	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl	_	_
 14	az	az	DET	_	Definite=Def|PronType=Art	15	det	_	_
-15	akkori	akkori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	orphan	_	_
+15	akkori	akkori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	obl	_	_
 16	és	és	CCONJ	_	_	19	cc	_	_
 17	az	az	DET	_	Definite=Def|PronType=Art	19	det	_	_
 18	ottani	ottani	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	19	amod:att	_	_
-19	közhangulatnak	közhangulat	NOUN	_	Case=Dat|Number=Sing	13	obl	_	SpaceAfter=No
+19	közhangulatnak	közhangulat	NOUN	_	Case=Dat|Number=Sing	15	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = train-275
@@ -6031,12 +6031,12 @@
 9	miáltal	miáltal	ADV	_	PronType=Rel	18	advmod:mode	_	_
 10	nem	nem	ADV	_	PronType=Neg	17	advmod	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
-12	magyar	magyar	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	16	orphan	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+12	magyar	magyar	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
 14	hanem	hanem	CCONJ	_	_	17	cc	_	_
 15	a	a	DET	_	Definite=Def|PronType=Art	17	det	_	_
 16	jugoszláv	jugoszláv	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
-17	fogadócsoportban	fogadócsoport	NOUN	_	Case=Ine|Number=Sing	18	obl	_	_
+17	fogadócsoportban	fogadócsoport	NOUN	_	Case=Ine|Number=Sing	12	conj	_	_
 18	állt	áll	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -10322,11 +10322,11 @@
 1	—	—	PUNCT	_	_	2	punct	_	_
 2	Van	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	egy	egy	DET	_	Definite=Ind|PronType=Art	4	det	_	_
-4	egyszerű	egyszerű	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	orphan	_	_
+4	egyszerű	egyszerű	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	2	nsubj	_	_
 5	és	és	CCONJ	_	_	8	cc	_	_
 6	egy	egy	DET	_	Definite=Ind|PronType=Art	8	det	_	_
 7	bonyolult	bonyolult	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
-8	válaszom	válasz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	SpaceAfter=No
+8	válaszom	válasz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = train-482
@@ -11415,13 +11415,13 @@
 9	jelentet	jelenik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	_
 10	meg	meg	PART	_	_	9	compound:preverb	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
-12	szobrász	szobrász	NOUN	_	Case=Nom|Number=Sing	13	orphan	_	_
+12	szobrász	szobrász	NOUN	_	Case=Nom|Number=Sing	13	nmod:att	_	_
 13	születésének	születés	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	nmod:att	_	_
-14	120.	120.	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	18	orphan	_	_
+14	120.	120.	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	19	nmod:att	_	_
 15	és	és	CCONJ	_	_	18	cc	_	_
 16	halálának	halál	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	nmod:att	_	_
 17	40.	40.	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	18	amod:att	_	_
-18	évfordulója	évforduló	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	nmod:att	_	_
+18	évfordulója	évforduló	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	conj	_	_
 19	alkalmából	alkalom	NOUN	_	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -11675,16 +11675,16 @@
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	Jane	Jane	PROPN	_	Case=Nom|Number=Sing	33	nmod:att	_	_
 33	figurája	figura	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	30	appos	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	53	punct	_	_
+34	,	,	PUNCT	_	_	40	punct	_	_
 35	akinek	aki	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Rel	37	nmod:att	_	_
 36	a	a	DET	_	Definite=Def|PronType=Art	37	det	_	_
-37	megjelenésével	megjelenés	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	53	obl	_	_
-38	Tarzannak	Tarzan	PROPN	_	Case=Dat|Number=Sing	40	iobj	_	_
+37	megjelenésével	megjelenés	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	40	orphan	_	_
+38	Tarzannak	Tarzan	PROPN	_	Case=Dat|Number=Sing	40	orphan	_	_
 39	a	a	DET	_	Definite=Def|PronType=Art	40	det	_	_
-40	szerelem	szerelem	NOUN	_	Case=Nom|Number=Sing	48	orphan	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	40	punct	_	_
+40	szerelem	szerelem	NOUN	_	Case=Nom|Number=Sing	30	acl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	53	punct	_	_
 42	a	a	DET	_	Definite=Def|PronType=Art	43	det	_	_
-43	nézőnek	néző	NOUN	_	Case=Dat|Number=Sing	48	iobj	_	_
+43	nézőnek	néző	NOUN	_	Case=Dat|Number=Sing	53	iobj	_	_
 44	pedig	pedig	CCONJ	_	_	53	cc	_	_
 45	a	a	DET	_	Definite=Def|PronType=Art	46	det	_	_
 46	rajzfilmek	rajzfilm	NOUN	_	Case=Nom|Number=Plur	48	nmod:att	_	_
@@ -11694,7 +11694,7 @@
 50	a	a	DET	_	Definite=Def|PronType=Art	52	det	_	_
 51	kifogyhatatlan	kifogyhatatlan	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	52	amod:att	_	_
 52	humor	humor	NOUN	_	Case=Nom|Number=Sing	48	appos	_	_
-53	lép	lép	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl	_	_
+53	lép	lép	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	conj	_	_
 54	a	a	DET	_	Definite=Def|PronType=Art	55	det	_	_
 55	történetbe	történet	NOUN	_	Case=Ill|Number=Sing	53	obl	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	1	punct	_	_
@@ -12777,14 +12777,14 @@
 
 # sent_id = train-585
 # text = Milos Zeman cseh és Mikulás Dzurinda szlovák kormányfő szerdán Pozsonyban aláírta az egykori Csehszlovákia két utódállama: a Cseh Köztársaság és a Szlovák Köztársaság közötti — eddig befejezetlen és évek óta sok vitát kiváltó — vagyonmegosztás közös végrehajtási módozatait rögzítő szerződést.
-1	Milos	Milos	PROPN	_	Case=Nom|Number=Sing	8	orphan	_	_
+1	Milos	Milos	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 2	Zeman	Zeman	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	cseh	cseh	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	1	amod:att	_	_
-4	és	és	CCONJ	_	_	8	cc	_	_
-5	Mikulás	Mikulás	PROPN	_	Case=Nom|Number=Sing	8	appos	_	_
+3	cseh	cseh	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	1	appos	_	_
+4	és	és	CCONJ	_	_	5	cc	_	_
+5	Mikulás	Mikulás	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
 6	Dzurinda	Dzurinda	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
 7	szlovák	szlovák	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
-8	kormányfő	kormányfő	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+8	kormányfő	kormányfő	NOUN	_	Case=Nom|Number=Sing	5	appos	_	_
 9	szerdán	szerda	NOUN	_	Case=Sup|Number=Sing	11	obl	_	_
 10	Pozsonyban	Pozsony	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
 11	aláírta	alá+ír	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -12901,12 +12901,12 @@
 # text = A volt cseh és a volt szlovák miniszterelnök éveken át nem tudott megállapodni a vagyonrendezés nyitott kérdésében.
 1	A	a	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	volt	volt	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod:att	_	_
-3	cseh	cseh	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	orphan	_	_
+3	cseh	cseh	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	nsubj	_	_
 4	és	és	CCONJ	_	_	8	cc	_	_
 5	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
-6	volt	volt	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
+6	volt	volt	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 7	szlovák	szlovák	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
-8	miniszterelnök	miniszterelnök	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
+8	miniszterelnök	miniszterelnök	NOUN	_	Case=Nom|Number=Sing	3	conj	_	_
 9	éveken	év	NOUN	_	Case=Sup|Number=Plur	13	obl	_	_
 10	át	át	ADP	_	_	9	case	_	_
 11	nem	nem	ADV	_	PronType=Neg	12	advmod	_	_
@@ -13339,12 +13339,12 @@
 # sent_id = train-607
 # text = A magyar és az orosz külügyi tárca vezetője utoljára tavaly februárban Budapesten folytatott eszmecserét.
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	magyar	magyar	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	orphan	_	_
+2	magyar	magyar	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	nmod:att	_	_
 3	és	és	CCONJ	_	_	7	cc	_	_
-4	az	az	DET	_	Definite=Def|PronType=Art	5	det	_	_
+4	az	az	DET	_	Definite=Def|PronType=Art	7	det	_	_
 5	orosz	orosz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
 6	külügyi	külügyi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
-7	tárca	tárca	NOUN	_	Case=Nom|Number=Sing	8	nmod:att	_	_
+7	tárca	tárca	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
 8	vezetője	vezető	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
 9	utoljára	utoljára	ADV	_	_	13	advmod:mode	_	_
 10	tavaly	tavaly	ADV	_	_	11	advmod:tlocy	_	_
@@ -18864,11 +18864,11 @@
 10	adóval	adó	NOUN	_	Case=Ins|Number=Sing	11	obl	_	_
 11	terhelnék	terhel	VERB	_	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	a	a	DET	_	Definite=Def|PronType=Art	13	det	_	_
-13	személyi	személyi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	orphan	_	_
-14	és	és	CCONJ	_	_	17	cc	_	ToDo=cc-in-coord
+13	személyi	személyi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	11	obj	_	_
+14	és	és	CCONJ	_	_	17	cc	_	_
 15	a	a	DET	_	Definite=Def|PronType=Art	17	det	_	_
 16	vállalati	vállalati	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
-17	jövedelmeket	jövedelem	NOUN	_	Case=Acc|Number=Plur	11	obj	_	SpaceAfter=No
+17	jövedelmeket	jövedelem	NOUN	_	Case=Acc|Number=Plur	13	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	de	de	CCONJ	_	_	21	cc	_	_
 20	szó	szó	NOUN	_	Case=Nom|Number=Sing	21	nsubj	_	_
@@ -18890,10 +18890,10 @@
 # sent_id = train-794
 # text = Az IMF 330 millió, a Világbank 220 millió dolláros kedvezményes kölcsönt helyezett kilátásba, az Európai Unió 40 millió eurós építési segélyt ígért.
 1	Az	az	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	IMF	IMF	PROPN	_	Case=Nom|Number=Sing	13	orphan	_	_
+2	IMF	IMF	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
 3	330	330	NUM	_	Case=Nom|Number=Sing|NumType=Card	4	compound	_	_
 4	millió	millió	NUM	_	Case=Nom|Number=Sing|NumType=Card	2	orphan	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	2	punct	_	ToDo=punct-in-coord
+5	,	,	PUNCT	_	_	13	punct	_	ToDo=punct-in-coord
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	Világbank	Világbank	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 8	220	220	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	compound	_	_
@@ -18901,7 +18901,7 @@
 10	dolláros	dolláros	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	amod:att	_	_
 11	kedvezményes	kedvezményes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	amod:att	_	_
 12	kölcsönt	kölcsön	NOUN	_	Case=Acc|Number=Sing	13	obj	_	_
-13	helyezett	helyez	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	helyezett	helyez	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 14	kilátásba	kilátás	NOUN	_	Case=Ill|Number=Sing	13	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	24	punct	_	_
 16	az	az	DET	_	Definite=Def|PronType=Art	17	det	_	_
@@ -20409,14 +20409,14 @@
 14	négy	négy	NUM	_	Case=Nom|Number=Sing|NumType=Card	15	amod:att	_	_
 15	főszereplője	főszereplő	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	41	obl	_	_
 16	—	—	PUNCT	_	_	24	punct	_	_
-17	Helmut	Helmut	PROPN	_	Case=Nom|Number=Sing	24	orphan	_	_
+17	Helmut	Helmut	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
 18	Kohl	Kohl	PROPN	_	Case=Nom|Number=Sing	17	flat:name	_	_
-19	nyugatnémet	nyugatnémet	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	24	amod:att	_	_
+19	nyugatnémet	nyugatnémet	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	appos	_	_
 20	és	és	CCONJ	_	_	21	cc	_	_
-21	Németh	Németh	PROPN	_	Case=Nom|Number=Sing	24	appos	_	_
+21	Németh	Németh	PROPN	_	Case=Nom|Number=Sing	17	conj	_	_
 22	Miklós	Miklós	PROPN	_	Case=Nom|Number=Sing	21	flat:name	_	_
 23	magyar	magyar	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	24	amod:att	_	_
-24	kormányfő	kormányfő	NOUN	_	Case=Nom|Number=Sing	15	appos	_	SpaceAfter=No
+24	kormányfő	kormányfő	NOUN	_	Case=Nom|Number=Sing	21	appos	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	illetve	illetve	CCONJ	_	_	29	cc	_	_
 27	a	a	DET	_	Definite=Def|PronType=Art	29	det	_	_
@@ -21296,25 +21296,25 @@
 # text = A pesti kiruccanás előtt, még ezen a héten hétfőn Essenben, kedden Kölnben, szerdán Cottbusban, csütörtökön Saarbrückenben kellett kampányolnia pártja jelöltjei érdekében — a szokásos berlini hivatali teendői mellett.
 1	A	a	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	pesti	pesti	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod:att	_	_
-3	kiruccanás	kiruccanás	NOUN	_	Case=Nom|Number=Sing	21	obl	_	_
+3	kiruccanás	kiruccanás	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
 4	előtt	előtt	ADP	_	_	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	még	még	ADV	_	_	9	advmod:mode	_	_
 7	ezen	ez	PRON	_	Case=Sup|Number=Sing|Person=3|PronType=Dem	9	nmod:obl	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
-9	héten	hét	NOUN	_	Case=Sup|Number=Sing	21	obl	_	_
-10	hétfőn	hétfő	NOUN	_	Case=Sup|Number=Sing	22	orphan	_	_
-11	Essenben	Essen	PROPN	_	Case=Ine|Number=Sing	10	nmod:obl	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	kedden	kedd	NOUN	_	Case=Sup|Number=Sing	10	orphan	_	_
-14	Kölnben	Köln	PROPN	_	Case=Ine|Number=Sing	13	nmod:obl	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	13	punct	_	_
-16	szerdán	szerda	NOUN	_	Case=Sup|Number=Sing	10	orphan	_	_
-17	Cottbusban	Cottbus	PROPN	_	Case=Ine|Number=Sing	16	nmod:obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	csütörtökön	csütörtök	NOUN	_	Case=Sup|Number=Sing	10	orphan	_	_
-20	Saarbrückenben	Saarbrücken	PROPN	_	Case=Ine|Number=Sing	22	obl	_	_
-21	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	héten	hét	NOUN	_	Case=Sup|Number=Sing	0	root	_	_
+10	hétfőn	hétfő	NOUN	_	Case=Sup|Number=Sing	9	orphan	_	_
+11	Essenben	Essen	PROPN	_	Case=Ine|Number=Sing	9	orphan	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	kedden	kedd	NOUN	_	Case=Sup|Number=Sing	9	conj	_	_
+14	Kölnben	Köln	PROPN	_	Case=Ine|Number=Sing	13	orphan	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	szerdán	szerda	NOUN	_	Case=Sup|Number=Sing	9	conj	_	_
+17	Cottbusban	Cottbus	PROPN	_	Case=Ine|Number=Sing	16	orphan	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	csütörtökön	csütörtök	NOUN	_	Case=Sup|Number=Sing	21	conj	_	_
+20	Saarbrückenben	Saarbrücken	PROPN	_	Case=Ine|Number=Sing	21	obl	_	_
+21	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 22	kampányolnia	kampányolnia	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	21	xcomp	_	_
 23	pártja	párt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	24	nmod:att	_	_
 24	jelöltjei	jelölt	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	25	nmod:att	_	_
@@ -21326,7 +21326,7 @@
 30	hivatali	hivatali	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	_
 31	teendői	teendő	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
 32	mellett	mellett	ADP	_	_	31	case	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	21	punct	_	_
+33	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = train-871
 # text = Szeptember 1-je óta új ember ül Németország legnagyobb köztiszteletnek örvendő hivatali székében: az 57 éves Ernst Welteke lett az NSZK jegybankja, a Bundesbank új elnöke, miután elődje, Hans Tietmeyer 68 évesen nyugdíjba vonul a szövetségi kancellárénál is jobban fizetett állásából.
@@ -22783,16 +22783,16 @@
 14	jelentős	jelentős	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	15	amod:att	_	_
 15	szerepet	szerep	NOUN	_	Case=Acc|Number=Sing	16	obj	_	_
 16	játszott	játszik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	_
-17	mind	mind	CCONJ	_	_	16	cc	_	ToDo=cc-without-conj
+17	mind	mind	CCONJ	_	_	19	cc	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
-19	boszniai	boszniai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	26	orphan	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	_
-21	mind	mind	CCONJ	_	_	16	cc	_	ToDo=cc-without-conj
+19	boszniai	boszniai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	26	punct	_	_
+21	mind	mind	CCONJ	_	_	26	cc	_	ToDo=cc-without-conj
 22	pedig	pedig	CCONJ	_	_	26	cc	_	ToDo=cc-after-conj
 23	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
 24	koszovói	koszovói	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	26	amod:att	_	_
 25	rendezési	rendezési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	26	amod:att	_	_
-26	erőfeszítésekben	erőfeszítés	NOUN	_	Case=Ine|Number=Plur	16	obl	_	SpaceAfter=No
+26	erőfeszítésekben	erőfeszítés	NOUN	_	Case=Ine|Number=Plur	19	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	16	punct	_	_
 28	mindenesetre	mindenesetre	ADV	_	_	29	advmod:mode	_	_
 29	elvetette	elvet	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
