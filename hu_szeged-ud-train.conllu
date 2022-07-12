@@ -5365,7 +5365,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	továbbá	továbbá	ADV	_	_	2	advmod:mode	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
-20	szerb	szerb	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	nmod:att	_	SpaceAfter=No
+20	szerb	szerb	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	33	nmod:att	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	a	a	DET	_	Definite=Def|PronType=Art	23	det	_	_
 23	horvát	horvát	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	conj	_	SpaceAfter=No
