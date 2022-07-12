@@ -9268,7 +9268,7 @@
 19	,	,	PUNCT	_	_	13	punct	_	_
 20	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
 21	néhány	néhány	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Ind	22	amod:att	_	_
-22	héten	hét	NOUN	_	Case=Sup|Number=Sing	25	advmod:tlocy	_	_
+22	héten	hét	NOUN	_	Case=Sup|Number=Sing	25	obl	_	orig_deprel=advmod:tlocy
 23	belül	belül	ADP	_	_	22	case	_	_
 24	másodszor	másod	ADV	_	_	25	obl	_	_
 25	újjáválasztott	újjáválasztott	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	26	amod:att	_	_
