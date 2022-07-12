@@ -55,6 +55,8 @@ The UD version of the treebank has been prepared by Richárd Farkas (rfarkas@inf
   * Fixed: spurious copulas.
   * Fixed: case/mark/cc/aux dependents should be leaves.
   * Fixed: only the first element of a goeswith sequence should have morphological annotation.
+  * Fixed: clause has at most one subject.
+  * Fixed: structure of orphans in gapping.
 * 2022-05-15 v2.10
   * Case=Sub now means subessive in UD; sublative relabeled to Case=Sbl.
 * 2021-05-15 v2.8
