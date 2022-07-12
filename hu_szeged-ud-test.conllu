@@ -1368,7 +1368,7 @@
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	házhoz	ház	NOUN	_	Case=All|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	nem	nemcsak	CCONJ	_	PronType=Neg|Typo=Yes	11	cc	_	_
+9	nem	nemcsak	CCONJ	_	Typo=Yes	11	cc	_	_
 10	csak	_	X	_	_	9	goeswith	_	_
 11	nekem	én	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
