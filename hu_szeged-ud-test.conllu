@@ -743,7 +743,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	ToDo=punct-in-coord
 18	de	de	CCONJ	_	_	16	cc	_	ToDo=cc-in-coord
 19	sajnos	sajnos	INTJ	_	_	16	advmod:mode	_	_
-20	balszerencsével	balszerencse	NOUN	_	Case=Ins|Number=Sing	16	conj	_	orig_deprel=nmod:obl
+20	balszerencsével	balszerencse	NOUN	_	Case=Ins|Number=Sing	16	conj	_	_
 21	is	is	CCONJ	_	_	16	cc	_	SpaceAfter=No|ToDo=cc-in-coord
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	hiszen	hiszen	CCONJ	_	_	26	cc	_	_
@@ -1951,17 +1951,17 @@
 5	éltáblás	éltáblás	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
-8	cseheknél	cseh	NOUN	_	Case=Ade|Number=Plur	9	orphan	_	orig_deprel=nmod:obl
-9	Movszeszian	Movszeszian	PROPN	_	Case=Nom|Number=Sing	5	conj	_	orig_deprel=nsubj|SpaceAfter=No
+8	cseheknél	cseh	NOUN	_	Case=Ade|Number=Plur	9	orphan	_	_
+9	Movszeszian	Movszeszian	PROPN	_	Case=Nom|Number=Sing	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
-12	lengyeleknél	lengyel	NOUN	_	Case=Ade|Number=Plur	13	orphan	_	orig_deprel=nmod:obl
-13	Kraszenkov	Kraszenkov	PROPN	_	Case=Nom|Number=Sing	5	conj	_	orig_deprel=nsubj|SpaceAfter=No
+12	lengyeleknél	lengyel	NOUN	_	Case=Ade|Number=Plur	13	orphan	_	_
+13	Kraszenkov	Kraszenkov	PROPN	_	Case=Nom|Number=Sing	5	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	Svájc	Svájc	PROPN	_	Case=Nom|Number=Sing	16	nmod:att	_	_
-16	válogatottjában	válogatott	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	orphan	_	orig_deprel=nmod:obl
+16	válogatottjában	válogatott	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	orphan	_	_
 17	pedig	pedig	CCONJ	_	_	18	cc	_	_
-18	Korcsnoj	Korcsnoj	PROPN	_	Case=Nom|Number=Sing	5	conj	_	orig_deprel=nsubj|SpaceAfter=No
+18	Korcsnoj	Korcsnoj	PROPN	_	Case=Nom|Number=Sing	5	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = test-91
@@ -1994,8 +1994,8 @@
 26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	B	B	NOUN	_	Case=Nom|Number=Sing	29	nmod:att	_	SpaceAfter=No
 28	"	"	PUNCT	_	_	27	punct	_	_
-29	együttesben	együttes	NOUN	_	Case=Ine|Number=Sing	30	orphan	_	orig_deprel=nmod:obl
-30	Joszeliani	Joszeliani	PROPN	_	Case=Nom|Number=Sing	22	conj	_	orig_deprel=nsubj
+29	együttesben	együttes	NOUN	_	Case=Ine|Number=Sing	30	orphan	_	_
+30	Joszeliani	Joszeliani	PROPN	_	Case=Nom|Number=Sing	22	conj	_	_
 31	és	és	CCONJ	_	_	32	cc	_	_
 32	Gurieli	Gurieli	PROPN	_	Case=Nom|Number=Sing	30	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	_
@@ -2736,8 +2736,8 @@
 21	színeiben	szín	NOUN	_	Case=Ine|Number=Plur|Number[psor]=Sing|Person[psor]=3	14	nmod:obl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	14	punct	_	_
 23	míg	míg	ADV	_	PronType=Rel	29	cc	_	_
-24	Heinrich	Heinrich	PROPN	_	Case=Nom|Number=Sing	29	nsubj	_	orig_deprel=nsubj
-25	dortmundiként	dortmundi	ADJ	_	Case=Abs|Degree=Pos|Number=Sing	24	orphan	_	orig_deprel=nmod:obl
+24	Heinrich	Heinrich	PROPN	_	Case=Nom|Number=Sing	29	nsubj	_	_
+25	dortmundiként	dortmundi	ADJ	_	Case=Abs|Degree=Pos|Number=Sing	24	orphan	_	_
 26	korábban	korán	ADV	_	_	29	advmod:tlocy	_	_
 27	már	már	ADV	_	_	29	advmod:tlocy	_	_
 28	harcba	harc	NOUN	_	Case=Ill|Number=Sing	29	obl:lvc	_	_
@@ -4581,11 +4581,11 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
 19	másik	másik	DET	_	Definite=Ind|PronType=Ind	20	det	_	_
-20	bedobó	bedobó	NOUN	_	Case=Nom|Number=Sing	16	conj	_	orig_deprel=nsubj|SpaceAfter=No
+20	bedobó	bedobó	NOUN	_	Case=Nom|Number=Sing	16	conj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	Csák	Csák	PROPN	_	Case=Nom|Number=Sing	20	appos	_	_
 23	Magdi	Magdi	PROPN	_	Case=Nom|Number=Sing	22	flat:name	_	_
-24	12-t	12	NUM	_	Case=Acc|Number=Sing|NumType=Card	20	orphan	_	orig_deprel=obj|SpaceAfter=No
+24	12-t	12	NUM	_	Case=Acc|Number=Sing|NumType=Card	20	orphan	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = test-201
@@ -4743,10 +4743,10 @@
 13	saját	saját	DET	_	Definite=Def|PronType=Prs	14	det	_	_
 14	térfelén	térfél	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	lepattanót	lepattanó	ADJ	_	Case=Acc|Number=Sing|VerbForm=PartPres	10	conj	_	orig_deprel=obj
+16	lepattanót	lepattanó	ADJ	_	Case=Acc|Number=Sing|VerbForm=PartPres	10	conj	_	_
 17	a	a	DET	_	Definite=Def|PronType=Art	18	det	_	_
 18	mieink	mieink	NOUN	_	Case=Nom|Number=Plur	19	nmod:att	_	_
-19	palánkja	palánk	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	orphan	_	orig_deprel=nmod:obl
+19	palánkja	palánk	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	orphan	_	_
 20	alatt	alatt	ADP	_	_	19	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	10	punct	_	_
 22	még	még	ADV	_	_	25	advmod:tlocy	_	_
@@ -5090,7 +5090,7 @@
 9	—	—	PUNCT	_	_	8	punct	_	_
 10	meg	meg	CCONJ	_	_	7	cc	_	ToDo=cc-without-conj
 11	tegnap	tegnap	ADV	_	_	12	advmod:tlocy	_	_
-12	este	este	ADV	_	_	8	conj	_	orig_deprel=nmod:obl|SpaceAfter=No
+12	este	este	ADV	_	_	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = test-221
@@ -5108,7 +5108,7 @@
 11	szervagémjét	szervagém	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	majd	majd	CCONJ	_	_	14	cc	_	_
-14	2-4-nél	2-4	NOUN	_	Case=Ade|Number=Sing	10	conj	_	orig_deprel=nmod:obl
+14	2-4-nél	2-4	NOUN	_	Case=Ade|Number=Sing	10	conj	_	_
 15	még	még	ADV	_	_	16	advmod:mode	_	_
 16	egyszer	egy	ADV	_	_	10	advmod:mode	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
@@ -6053,9 +6053,9 @@
 9	megint	megint	ADV	_	_	6	advmod:mode	_	_
 10	alkalmatlannak	alkalmatlan	ADJ	_	Case=Dat|Degree=Pos|Number=Sing	6	nmod:obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
-12	felmentését	felmentés	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obj	_	orig_deprel=obj
+12	felmentését	felmentés	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obj	_	_
 13	viszont	viszont	CCONJ	_	_	15	cc	_	ToDo=cc-after-conj
-14	jogszerűnek	jogszerű	ADJ	_	Case=Dat|Degree=Pos|Number=Sing	12	orphan	_	orig_deprel=nmod:obl
+14	jogszerűnek	jogszerű	ADJ	_	Case=Dat|Degree=Pos|Number=Sing	12	orphan	_	_
 15	találták	talál	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -6335,7 +6335,7 @@
 17	hanem	hanem	CCONJ	_	_	20	cc	_	_
 18	három	három	NUM	_	Case=Nom|Number=Sing|NumType=Card	19	nummod	_	_
 19	köbméter	köbméter	NOUN	_	Case=Nom|Number=Sing	20	nmod:att	_	_
-20	homokot	homok	NOUN	_	Case=Acc|Number=Sing	15	conj	_	orig_deprel=obj
+20	homokot	homok	NOUN	_	Case=Acc|Number=Sing	15	conj	_	_
 21	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 22	értéke	érték	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	25	nsubj	_	_
 23	körülbelül	körülbelül	ADV	_	_	24	advmod:mode	_	_
@@ -7306,15 +7306,15 @@
 10	orosz	orosz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	33	33	NUM	_	Case=Nom|Number=Sing|NumType=Card	13	amod:att	_	_
-13	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	conj	_	orig_deprel=nsubj
-14	karacsáj	karacsáj	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	orphan	_	orig_deprel=root|SpaceAfter=No
+13	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	conj	_	_
+14	karacsáj	karacsáj	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	orphan	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	és	és	CCONJ	_	_	20	cc	_	_
 17	csak	csak	ADV	_	_	20	advmod:mode	_	_
 18	alig	alig	ADV	_	_	20	advmod:mode	_	_
 19	10	10	NUM	_	Case=Nom|Number=Sing|NumType=Card	20	amod:att	_	_
-20	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	conj	_	orig_deprel=nsubj
-21	cserkesz	cserkesz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	orphan	_	orig_deprel=root|SpaceAfter=No
+20	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	conj	_	_
+21	cserkesz	cserkesz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	20	orphan	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	igaz	igaz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	conj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	31	punct	_	_
@@ -7518,9 +7518,9 @@
 7	Köztársaságban	Köztársaság	PROPN	_	Case=Ine|Number=Sing	6	flat:name	_	_
 8	például	például	ADV	_	_	19	advmod:mode	_	_
 9	a	a	DET	_	Definite=Def|PronType=Art	10	det	_	_
-10	kabardok	kabard	NOUN	_	Case=Nom|Number=Plur	53	orphan	_	orig_deprel=nsubj
+10	kabardok	kabard	NOUN	_	Case=Nom|Number=Plur	53	orphan	_	_
 11	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
-12	cserkeszek	cserkesz	NOUN	_	Case=Nom|Number=Plur	53	orphan	_	orig_deprel=obl|SpaceAfter=No
+12	cserkeszek	cserkesz	NOUN	_	Case=Nom|Number=Plur	53	orphan	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	a	a	DET	_	Definite=Def|PronType=Art	15	det	_	_
 15	balkárok	balkár	NOUN	_	Case=Nom|Number=Plur	19	nsubj	_	_
@@ -7561,13 +7561,13 @@
 50	avarok	avar	NOUN	_	Case=Nom|Number=Plur	47	conj	_	_
 51	közül	közül	ADP	_	_	44	case	_	_
 52	az	az	DET	_	Definite=Def|PronType=Art	53	det	_	_
-53	előbbiek	előbbi	NOUN	_	Case=Nom|Number=Plur	19	conj	_	orig_deprel=nsubj
+53	előbbiek	előbbi	NOUN	_	Case=Nom|Number=Plur	19	conj	_	_
 54	—	—	PUNCT	_	_	56	punct	_	_
 55	türkök	türk	NOUN	_	Case=Nom|Number=Plur	56	nsubj	_	_
 56	lévén	lévén	ADV	_	VerbForm=Conv	53	parataxis	_	_
 57	—	—	PUNCT	_	_	56	punct	_	_
 58	a	a	DET	_	Definite=Def|PronType=Art	59	det	_	_
-59	karacsájoknak	karacsáj	NOUN	_	Case=Dat|Number=Plur	53	orphan	_	orig_deprel=nmod:obl|SpaceAfter=No
+59	karacsájoknak	karacsáj	NOUN	_	Case=Dat|Number=Plur	53	orphan	_	SpaceAfter=No
 60	,	,	PUNCT	_	_	65	punct	_	_
 61	az	az	DET	_	Definite=Def|PronType=Art	62	det	_	_
 62	utóbbiak	utóbbi	NOUN	_	Case=Nom|Number=Plur	65	nsubj	_	_
@@ -7942,7 +7942,7 @@
 6	nőtt	nő	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	16	punct	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
-9	nagy-	nagy-	NOUN	_	Case=Nom|Number=Sing	12	amod:att	_	orig_deprel=amod:att
+9	nagy-	nagy-	NOUN	_	Case=Nom|Number=Sing	12	amod:att	_	_
 10	és	és	CCONJ	_	_	9	cc	_	_
 11	kiskereskedelmi	kiskereskedelmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	conj	_	_
 12	eladások	eladás	NOUN	_	Case=Nom|Number=Plur	13	nmod:att	_	_
@@ -8098,8 +8098,8 @@
 # text = A dél-koreai GDP 5, az export 10 százalékát adó Daewoo például az utóbbi években közel 50 milliárd dolláros adóssághegyet halmozott fel, s az év elejére kiderült, hogy képtelen a törlesztésre.
 1	A	a	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	dél-koreai	dél-koreai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod:att	_	_
-3	GDP	GDP	NOUN	_	Case=Nom|Number=Sing	4	nmod:att	_	orig_deprel=nmod:att
-4	5	5	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	orphan	_	orig_deprel=amod:att|SpaceAfter=No
+3	GDP	GDP	NOUN	_	Case=Nom|Number=Sing	4	nmod:att	_	_
+4	5	5	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	orphan	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	az	az	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	export	export	NOUN	_	Case=Nom|Number=Sing	9	nmod:att	_	_
@@ -8740,7 +8740,7 @@
 22	s	s	CCONJ	_	_	31	cc	_	_
 23	ezért	ezért	ADV	_	PronType=Dem	31	advmod:mode	_	_
 24	eredetileg	eredetileg	ADV	_	_	31	advmod:mode	_	_
-25	négy-	négy-	NOUN	_	Case=Nom|Number=Sing	29	amod:att	_	orig_deprel=conj|SpaceAfter=No
+25	négy-	négy-	NOUN	_	Case=Nom|Number=Sing	29	amod:att	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	illetve	illetve	CCONJ	_	_	25	cc	_	_
 28	hároméves	hároméves	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	conj	_	_
@@ -8832,14 +8832,14 @@
 
 # sent_id = test-361
 # text = A szingapúri, a maláj, a thai és a Fülöp-szigeteki börzék együttes kapitalizációja tavaly szeptember és az idén május között 214 milliárd dollárral nőtt.
-1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	orig_deprel=det
-2	szingapúri	szingapúri	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	orphan	_	orig_deprel=amod:att|SpaceAfter=No
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	szingapúri	szingapúri	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	orphan	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	orig_deprel=det
-5	maláj	maláj	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	orphan	_	orig_deprel=amod:att|SpaceAfter=No
+4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	maláj	maláj	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	orphan	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	orig_deprel=det
-8	thai	thai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	orphan	_	orig_deprel=amod:att
+7	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	thai	thai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	orphan	_	_
 9	és	és	CCONJ	_	_	12	cc	_	ToDo=cc-after-conj
 10	a	a	DET	_	Definite=Def|PronType=Art	12	det	_	_
 11	Fülöp-szigeteki	fülöp-szigeteki	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	amod:att	_	_
@@ -8868,7 +8868,7 @@
 5	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	részvények	részvény	NOUN	_	Case=Nom|Number=Plur	18	nsubj	_	_
 7	nemcsak	nemcsak	CCONJ	_	_	9	cc	_	_
-8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	orig_deprel=det
+8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	hazai	hazai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	orphan	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	hanem	hanem	CCONJ	_	_	14	cc	_	ToDo=cc-after-conj
@@ -9743,8 +9743,8 @@
 32	részvény	részvény	NOUN	_	Case=Nom|Number=Sing	35	nmod:att	_	_
 33	körülbelül	körülbelül	ADV	_	_	34	advmod:mode	_	_
 34	30	30	NUM	_	Case=Nom|Number=Sing|NumType=Card	35	amod:att	_	_
-35	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	44	orphan	_	orig_deprel=nsubj
-36	természetes	természetes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	35	amod:att	_	orig_deprel=amod:att|SpaceAfter=No
+35	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	44	orphan	_	_
+36	természetes	természetes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	35	amod:att	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	35	punct	_	_
 38	27	27	NUM	_	Case=Nom|Number=Sing|NumType=Card	39	amod:att	_	_
 39	százaléka	százalék	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	44	nsubj	_	_
@@ -9980,7 +9980,7 @@
 1	Az	az	DET	_	Definite=Def|PronType=Art	4	det	_	_
 2	orosz	orosz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod:att	_	_
 3	belföldi	belföldi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod:att	_	_
-4	fogyasztók	fogyasztó	NOUN	_	Case=Nom|Number=Plur	19	orphan	_	orig_deprel=nsubj
+4	fogyasztók	fogyasztó	NOUN	_	Case=Nom|Number=Plur	19	orphan	_	_
 5	1998-ban	1998	NUM	_	Case=Ine|Number=Sing|NumType=Card	4	nmod:obl	_	_
 6	átlagosan	átlagos	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	4	obl	_	_
 7	csupán	csupán	ADV	_	_	11	advmod:mode	_	_
@@ -9988,7 +9988,7 @@
 9	leszállított	leszállított	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	10	amod:att	_	_
 10	gáz	gáz	NOUN	_	Case=Nom|Number=Sing	12	nmod:att	_	_
 11	11,7	11,7	NUM	_	Case=Nom|Number=Sing|NumType=Frac	12	amod:att	_	_
-12	százalékát	százalék	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	orig_deprel=obj|SpaceAfter=No
+12	százalékát	százalék	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	ToDo=punct-in-coord
 14	a	a	DET	_	Definite=Def|PronType=Art	15	det	_	_
 15	FÁK-tagállamok	FÁK-tagállam	NOUN	_	Case=Nom|Number=Plur	16	nmod:att	_	_
@@ -10031,7 +10031,7 @@
 # sent_id = test-396
 # text = A FÁK-országok — mindenekelőtt Ukrajna és Belarusz — 1998 végére 32,4, az oroszországi vásárlók összesen 102,9 milliárd rubeles tartozást halmoztak fel a Gazprommal szemben.
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	FÁK-országok	FÁK-ország	NOUN	_	Case=Nom|Number=Plur	21	orphan	_	orig_deprel=nsubj
+2	FÁK-országok	FÁK-ország	NOUN	_	Case=Nom|Number=Plur	21	orphan	_	_
 3	—	—	PUNCT	_	_	5	punct	_	_
 4	mindenekelőtt	mindenekelőtt	ADV	_	_	5	advmod:mode	_	_
 5	Ukrajna	Ukrajna	PROPN	_	Case=Nom|Number=Sing	2	appos	_	_
@@ -10040,7 +10040,7 @@
 8	—	—	PUNCT	_	_	5	punct	_	_
 9	1998	1998	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	amod:att	_	_
 10	végére	vég	NOUN	_	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod:obl	_	_
-11	32,4	32,4	NUM	_	Case=Nom|Number=Sing|NumType=Frac	2	amod:att	_	orig_deprel=compound|SpaceAfter=No
+11	32,4	32,4	NUM	_	Case=Nom|Number=Sing|NumType=Frac	2	amod:att	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	az	az	DET	_	Definite=Def|PronType=Art	15	det	_	_
 14	oroszországi	oroszországi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	15	amod:att	_	_
@@ -10404,7 +10404,7 @@
 2	támadták	támad	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	Gazprom	Gazprom	PROPN	_	Case=Nom|Number=Sing	7	nmod:att	_	_
-5	szálloda-	szálloda-	NOUN	_	Case=Nom|Number=Sing	16	nmod:att	_	orig_deprel=nmod:att
+5	szálloda-	szálloda-	NOUN	_	Case=Nom|Number=Sing	16	nmod:att	_	_
 6	és	és	CCONJ	_	_	5	cc	_	_
 7	gyógyüdülőinek	gyógyüdülő	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	conj	_	_
 8	s	s	CCONJ	_	_	14	cc	_	_
@@ -10811,12 +10811,12 @@
 6	hétszázat	hétszáz	NUM	_	Case=Acc|Number=Sing|NumType=Card	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
-9	forgalom	forgalom	NOUN	_	Case=Nom|Number=Sing	4	conj	_	orig_deprel=nsubj
+9	forgalom	forgalom	NOUN	_	Case=Nom|Number=Sing	4	conj	_	_
 10	pedig	pedig	CCONJ	_	_	4	cc	_	ToDo=cc-in-coord
 11	az	az	DET	_	Definite=Def|PronType=Art	14	det	_	_
 12	57	57	NUM	_	Case=Nom|Number=Sing|NumType=Card	13	compound	_	_
 13	millió	millió	NUM	_	Case=Nom|Number=Sing|NumType=Card	14	amod:att	_	_
-14	dollárt	dollár	NOUN	_	Case=Acc|Number=Sing	9	orphan	_	orig_deprel=obj|SpaceAfter=No
+14	dollárt	dollár	NOUN	_	Case=Acc|Number=Sing	9	orphan	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	és	és	CCONJ	_	_	19	cc	_	_
 17	Schultz	Schultz	PROPN	_	Case=Nom|Number=Sing	19	nsubj	_	_
@@ -11022,7 +11022,7 @@
 2	egyenszabású	egyenszabású	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod:att	_	_
 3	kávébárjaiban	kávébár	NOUN	_	Case=Ine|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 4	széles	széles	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
-5	minőség-	minőség-	NOUN	_	Case=Nom|Number=Sing	8	obj	_	orig_deprel=conj
+5	minőség-	minőség-	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 6	és	és	CCONJ	_	_	5	cc	_	_
 7	ízválasztékot	ízválaszték	NOUN	_	Case=Acc|Number=Sing	5	conj	_	_
 8	kínáló	kínáló	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	14	amod:att	_	SpaceAfter=No
