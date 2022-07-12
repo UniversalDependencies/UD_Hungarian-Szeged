@@ -112,7 +112,7 @@
     <dep name="advcl">409</dep>
     <dep name="advmod">432</dep>
     <dep name="advmod:locy">87</dep>
-    <dep name="advmod:mode">1583</dep>
+    <dep name="advmod:mode">1572</dep>
     <dep name="advmod:que">22</dep>
     <dep name="advmod:tfrom">15</dep>
     <dep name="advmod:tlocy">746</dep>
@@ -135,7 +135,7 @@
     <dep name="csubj">110</dep>
     <dep name="dep">1</dep>
     <dep name="det">5266</dep>
-    <dep name="discourse">1</dep>
+    <dep name="discourse">12</dep>
     <dep name="dislocated">1</dep>
     <dep name="fixed">1</dep>
     <dep name="flat:name">997</dep>

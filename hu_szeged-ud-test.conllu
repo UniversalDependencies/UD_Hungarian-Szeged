@@ -742,7 +742,7 @@
 16	járt	jár	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	ToDo=punct-in-coord
 18	de	de	CCONJ	_	_	16	cc	_	ToDo=cc-in-coord
-19	sajnos	sajnos	INTJ	_	_	16	advmod:mode	_	_
+19	sajnos	sajnos	INTJ	_	_	16	discourse	_	orig_deprel=advmod:mode
 20	balszerencsével	balszerencse	NOUN	_	Case=Ins|Number=Sing	16	conj	_	_
 21	is	is	CCONJ	_	_	16	cc	_	SpaceAfter=No|ToDo=cc-in-coord
 22	,	,	PUNCT	_	_	26	punct	_	_

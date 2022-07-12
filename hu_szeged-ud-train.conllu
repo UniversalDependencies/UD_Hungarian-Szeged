@@ -5740,7 +5740,7 @@
 9	minden	minden	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Tot	10	nsubj	_	_
 10	megesik	meg+esik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	_
-12	lám	lám	INTJ	_	_	17	advmod:mode	_	SpaceAfter=No
+12	lám	lám	INTJ	_	_	17	discourse	_	orig_deprel=advmod:mode|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	őt	ő	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 15	is	is	CCONJ	_	_	14	cc	_	ToDo=cc-without-conj
@@ -5963,7 +5963,7 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	ellenben	ellenben	CCONJ	_	_	12	cc	_	_
 12	díszvendég	díszvendég	NOUN	_	Case=Nom|Number=Sing	7	conj	_	_
-13	igen	igen	INTJ	_	_	12	advmod:mode	_	SpaceAfter=No
+13	igen	igen	INTJ	_	_	12	discourse	_	orig_deprel=advmod:mode|SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = train-297
@@ -6410,7 +6410,7 @@
 6	látja	lát	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	benne	ő	PRON	_	Case=Ine|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	ToDo=punct-in-coord
-9	no	no	INTJ	_	_	6	advmod:mode	_	_
+9	no	no	INTJ	_	_	6	discourse	_	orig_deprel=advmod:mode
 10	meg	meg	CCONJ	_	_	11	cc	_	_
 11	azt	az	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	conj	_	SpaceAfter=No
 12	:	:	PUNCT	_	_	14	punct	_	_
@@ -6427,7 +6427,7 @@
 5	kisugárzású	kisugárzású	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	6	amod:att	_	_
 6	pesszimista	pesszimista	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 7	meg	meg	CCONJ	_	_	9	cc	_	_
-8	persze	persze	INTJ	_	_	9	advmod:mode	_	_
+8	persze	persze	INTJ	_	_	9	discourse	_	orig_deprel=advmod:mode
 9	kérdezhetné	kérdez	VERB	_	Definite=Def|Mood=Cnd,Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	miért	miért	ADV	_	PronType=Int	13	advmod:mode	_	_
@@ -10552,7 +10552,7 @@
 
 # sent_id = train-491
 # text = Persze mindenki maga dönti el, hogyan él, milyen áron marad életben.
-1	Persze	persze	INTJ	_	_	4	advmod:mode	_	_
+1	Persze	persze	INTJ	_	_	4	discourse	_	orig_deprel=advmod:mode
 2	mindenki	mindenki	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Tot	4	nsubj	_	_
 3	maga	maga	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	conj	_	_
 4	dönti	dönt	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11773,9 +11773,9 @@
 42	kíméletlen	kíméletlen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	43	amod:att	_	_
 43	hidegvére	hidegvér	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	40	conj	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	ToDo=punct-in-coord
-45	na	na	INTJ	_	_	40	advmod:mode	_	_
+45	na	na	INTJ	_	_	40	discourse	_	orig_deprel=advmod:mode
 46	és	és	CCONJ	_	_	40	cc	_	ToDo=cc-in-coord
-47	persze	persze	INTJ	_	_	40	advmod:mode	_	_
+47	persze	persze	INTJ	_	_	40	discourse	_	orig_deprel=advmod:mode
 48	az	az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	40	conj	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	51	punct	_	_
 50	hogy	hogy	SCONJ	_	_	51	mark	_	_
@@ -11922,7 +11922,7 @@
 4	nemzetközi	nemzetközi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	de	de	CCONJ	_	_	10	cc	_	_
-7	persze	persze	INTJ	_	_	10	advmod:mode	_	_
+7	persze	persze	INTJ	_	_	10	discourse	_	orig_deprel=advmod:mode
 8	már	már	ADV	_	_	10	advmod:tlocy	_	_
 9	egyáltalán	egyáltalán	ADV	_	_	10	advmod:mode	_	_
 10	nincs	nincs	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -20972,7 +20972,7 @@
 # sent_id = train-860
 # text = Ami persze értelmezhető egyszerű szavazatszerző kampányfogásként — de jól mutatja a szociáldemokraták hosszabb távú dilemmáit és megosztottságát is.
 1	Ami	ami	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rel	3	nsubj	_	_
-2	persze	persze	INTJ	_	_	3	advmod:mode	_	_
+2	persze	persze	INTJ	_	_	3	discourse	_	orig_deprel=advmod:mode
 3	értelmezhető	értelmezhető	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	0	root	_	_
 4	egyszerű	egyszerű	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	6	amod:att	_	_
 5	szavazatszerző	szavazatszerző	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	6	amod:att	_	_
