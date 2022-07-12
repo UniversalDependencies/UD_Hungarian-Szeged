@@ -937,7 +937,7 @@
 9	személyes	személyes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	amod:att	_	_
 10	adatok	adat	NOUN	_	Case=Nom|Number=Plur	12	nsubj	_	_
 11	hová	hová	ADV	_	PronType=Int	12	advmod:to	_	_
-12	kerülnek	kerül	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	SpaceAfter=No
+12	kerülnek	kerül	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	készítőik	készítő	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	16	nsubj	_	_
 15	meddig	meddig	ADV	_	PronType=Int	16	advmod:tto	_	_
@@ -2054,7 +2054,7 @@
 18	törekvése	törekvés	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	hogy	hogy	SCONJ	_	_	21	mark	_	_
-21	eltussolja	el+tussol	VERB	_	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	csubj	_	_
+21	eltussolja	el+tussol	VERB	_	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	_
 22	a	a	DET	_	Definite=Def|PronType=Art	23	det	_	_
 23	tényeket	tény	NOUN	_	Case=Acc|Number=Plur	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	15	punct	_	_
@@ -4231,7 +4231,7 @@
 14	sok	sok	DET	_	Definite=Ind|PronType=Ind	15	det	_	_
 15	helyen	hely	NOUN	_	Case=Sup|Number=Sing	17	obl	_	_
 16	szükség	szükség	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	_
-17	van	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	csubj	_	_
+17	van	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_
 18	kamerákra	kamera	NOUN	_	Case=Sbl|Number=Plur	17	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	17	punct	_	_
 20	azonban	azonban	CCONJ	_	_	24	cc	_	_
@@ -4932,7 +4932,7 @@
 19	egy-egy	egy-egy	NUM	_	Case=Nom|Number=Sing|NumType=Dist	21	nummod	_	_
 20	területi	területi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	21	amod:att	_	_
 21	ellátáshoz	ellátás	NOUN	_	Case=All|Number=Sing	17	conj	_	_
-22	kötődjön	kötődik	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj	_	SpaceAfter=No
+22	kötődjön	kötődik	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-191
@@ -5801,7 +5801,7 @@
 8	azonos	azonos	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
 9	kategóriájú	kategóriájú	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	amod:att	_	_
 10	műsor	műsor	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
-11	vetélkedik	vetélkedik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	_
+11	vetélkedik	vetélkedik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 12	egymással	egymás	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Rcp	11	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	és	és	CCONJ	_	_	15	cc	_	_
@@ -6529,7 +6529,7 @@
 15	tőkeerős	tőkeerős	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	amod:att	_	_
 16	multinacionális	multinacionális	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	amod:att	_	_
 17	kereskedelmi	kereskedelmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	amod:att	_	_
-18	láncok	lánc	NOUN	_	Case=Nom|Number=Plur	5	csubj	_	_
+18	láncok	lánc	NOUN	_	Case=Nom|Number=Plur	7	acl	_	_
 19	60	60	NUM	_	Case=Nom|Number=Sing|NumType=Card	20	nummod	_	_
 20	százalékot	százalék	NOUN	_	Case=Acc|Number=Sing	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	_
@@ -6575,7 +6575,7 @@
 9	hazai	hazai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	amod:att	_	_
 10	élelmiszer-fogyasztás	élelmiszer-fogyasztás	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 11	alaposan	alapos	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	12	advmod:mode	_	_
-12	lecsökkent	le+csökken	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	csubj	_	SpaceAfter=No
+12	lecsökkent	le+csökken	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-256
@@ -6966,7 +6966,7 @@
 12	cégek	cég	NOUN	_	Case=Nom|Number=Plur	15	nsubj	_	_
 13	októberben	október	NOUN	_	Case=Ine|Number=Sing	15	obl	_	_
 14	kedvezőbben	kedvező	ADJ	_	Case=Ess|Degree=Cmp|Number=Sing	15	advmod:mode	_	_
-15	értékelték	értékel	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	csubj	_	_
+15	értékelték	értékel	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	_	_
 16	helyzetüket	helyzet	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	ToDo=punct-in-coord
 18	mint	mint	SCONJ	_	_	19	mark	_	_
@@ -7191,7 +7191,7 @@
 20	Szervezete	Szervezete	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	_
 21	—	—	PUNCT	_	_	20	punct	_	_
 22	tagjai	tag	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	23	nsubj	_	_
-23	bejelentették	be+jelent	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	csubj	_	SpaceAfter=No
+23	bejelentették	be+jelent	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl	_	SpaceAfter=No
 24	:	:	PUNCT	_	_	28	punct	_	_
 25	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
 26	jövőben	jövő	NOUN	_	Case=Ine|Number=Sing	28	obl	_	_
@@ -8211,7 +8211,7 @@
 16	jóval	jóval	ADV	_	_	17	advmod:mode	_	_
 17	kevesebb	kevesebb	NUM	_	Case=Nom|Number=Sing|NumType=Card	18	amod:att	_	_
 18	alkalommal	alkalom	NOUN	_	Case=Ins|Number=Sing	22	obl	_	_
-19	tudta	tud	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	csubj	_	_
+19	tudta	tud	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	_
 20	konkrét	konkrét	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	21	amod:att	_	_
 21	ügyekben	ügy	NOUN	_	Case=Ine|Number=Plur	22	obl	_	_
 22	elszámoltatni	elszámoltat	VERB	_	VerbForm=Inf|Voice=Cau	19	xcomp	_	_
@@ -8591,7 +8591,7 @@
 7	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
 8	képviselők	képviselő	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
 9	végre	végre	ADV	_	_	10	advmod:mode	_	_
-10	megtárgyaltak	megtárgyal	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	csubj	_	_
+10	megtárgyaltak	megtárgyal	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	_
 11	egy	egy	DET	_	Definite=Ind|PronType=Art	12	det	_	_
 12	sor	sor	NOUN	_	Case=Nom|Number=Sing	18	nmod:att	_	_
 13	olyan	olyan	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	18	nmod:att	_	SpaceAfter=No
@@ -8649,7 +8649,7 @@
 14	parlamenti	parlamenti	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	15	amod:att	_	_
 15	többség	többség	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	_
 16	nem	nem	ADV	_	PronType=Neg	17	advmod	_	_
-17	keveredett	keveredik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	csubj	_	_
+17	keveredett	keveredik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl	_	_
 18	hosszú	hosszú	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	21	amod:att	_	_
 19	és	és	CCONJ	_	_	20	cc	_	_
 20	kíméletlen	kíméletlen	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	conj	_	_
@@ -11617,7 +11617,7 @@
 48	milliárd	milliárd	NUM	_	Case=Nom|Number=Sing|NumType=Card	31	conj	_	_
 49	forint	forint	NOUN	_	Case=Nom|Number=Sing	50	nmod:att	_	_
 50	többletforrást	többletforrás	NOUN	_	Case=Acc|Number=Sing	51	obj	_	_
-51	szán	szán	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	csubj	_	_
+51	szán	szán	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	_
 52	a	a	DET	_	Definite=Def|PronType=Art	53	det	_	_
 53	kormány	kormány	NOUN	_	Case=Nom|Number=Sing	51	nsubj	_	SpaceAfter=No
 54	.	.	PUNCT	_	_	3	punct	_	_
