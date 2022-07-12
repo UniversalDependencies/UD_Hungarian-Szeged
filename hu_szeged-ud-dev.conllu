@@ -322,10 +322,10 @@
 2	úgy	úgy	ADV	_	PronType=Dem	3	advmod:mode	_	_
 3	tudja	tud	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
-5	Katona	Katona	PROPN	_	Case=Nom|Number=Sing	8	appos	_	_
+5	Katona	Katona	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 6	Kálmán	Kálmán	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
-7	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
-8	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+7	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	5	amod:att	_	_
+8	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing	5	appos	_	_
 9	tegnap	tegnap	ADV	_	_	10	advmod:mode	_	_
 10	este	este	ADV	_	_	11	advmod:tlocy	_	_
 11	bekérette	be+kér	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	3	ccomp:obl	_	_
@@ -1363,17 +1363,17 @@
 22	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	3	punct	_	_
 24	mondta	mond	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-25	Helmeczy	Helmeczy	PROPN	_	Case=Nom|Number=Sing	29	appos	_	_
+25	Helmeczy	Helmeczy	PROPN	_	Case=Nom|Number=Sing	24	nsubj	_	_
 26	László	László	PROPN	_	Case=Nom|Number=Sing	25	flat:name	_	_
-27	fideszes	fideszes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	29	amod:att	_	_
-28	országgyűlési	országgyűlési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	29	amod:att	_	_
-29	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	fideszes	fideszes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	amod:att	_	_
+28	országgyűlési	országgyűlési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	amod:att	_	_
+29	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing	25	appos	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	35	punct	_	_
 31	a	a	DET	_	Definite=Def|PronType=Art	34	det	_	_
 32	Szabolcs-Szatmár-Bereg	Szabolcs-Szatmár-Bereg	PROPN	_	Case=Nom|Number=Sing	34	amod:att	_	_
 33	megyei	megyei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	32	flat:name	_	_
 34	közgyűlés	közgyűlés	NOUN	_	Case=Nom|Number=Sing	35	nmod:att	_	_
-35	elnöke	elnök	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	29	appos	_	_
+35	elnöke	elnök	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	25	appos	_	_
 36	lapunknak	lapu	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	39	nmod:att	_	_
 37	arra	az	DET	_	Case=Sbl|Number=Sing|Person=3|PronType=Dem	39	det	_	_
 38	a	a	DET	_	Definite=Def|PronType=Art	39	det	_	_
@@ -1553,12 +1553,12 @@
 28	a	a	DET	_	Definite=Def|PronType=Art	31	det	_	_
 29	nemrég	nemrég	ADV	_	_	30	advmod:tlocy	_	_
 30	elhunyt	elhunyt	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	31	amod:att	_	_
-31	Zilahi	Zilahi	PROPN	_	Case=Nom|Number=Sing	36	appos	_	_
+31	Zilahi	Zilahi	PROPN	_	Case=Nom|Number=Sing	38	nmod:att	_	_
 32	József	József	PROPN	_	Case=Nom|Number=Sing	31	flat:name	_	_
-33	MDF-es	MDF-es	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	36	amod:att	_	_
+33	MDF-es	MDF-es	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	_
 34	megyei	megyei	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	35	amod:att	_	_
-35	közgyűlési	közgyűlési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	36	amod:att	_	_
-36	elnök	elnök	NOUN	_	Case=Nom|Number=Sing	38	nmod:att	_	_
+35	közgyűlési	közgyűlési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	31	amod:att	_	_
+36	elnök	elnök	NOUN	_	Case=Nom|Number=Sing	31	appos	_	_
 37	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	emlékét	emlék	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	40	obj	_	_
 39	is	is	CCONJ	_	_	38	cc	_	ToDo=cc-without-conj
@@ -1770,17 +1770,17 @@
 17	hogy	hogy	SCONJ	_	_	24	mark	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
 19	testületnek	testület	NOUN	_	Case=Dat|Number=Sing	20	iobj	_	_
-20	beszámoló	beszámoló	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	23	amod:att	_	_
-21	Martonyi	Martonyi	PROPN	_	Case=Nom|Number=Sing	23	appos	_	_
+20	beszámoló	beszámoló	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	21	amod:att	_	_
+21	Martonyi	Martonyi	PROPN	_	Case=Nom|Number=Sing	24	nsubj	_	_
 22	János	János	PROPN	_	Case=Nom|Number=Sing	21	flat:name	_	_
-23	külügyminiszter	külügyminiszter	NOUN	_	Case=Nom|Number=Sing	24	nsubj	_	_
+23	külügyminiszter	külügyminiszter	NOUN	_	Case=Nom|Number=Sing	21	appos	_	_
 24	mondja	mond	VERB	_	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp:obj	_	_
 25	el	el	ADV	_	_	24	compound:preverb	_	_
 26	véleményét	vélemény	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	24	obj	_	_
-27	Jeszenszky	Jeszenszky	PROPN	_	Case=Nom|Number=Sing	30	appos	_	_
+27	Jeszenszky	Jeszenszky	PROPN	_	Case=Nom|Number=Sing	38	nmod:att	_	_
 28	Géza	Géza	PROPN	_	Case=Nom|Number=Sing	27	flat:name	_	_
-29	washingtoni	washingtoni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	30	amod:att	_	_
-30	nagykövet	nagykövet	NOUN	_	Case=Nom|Number=Sing	38	nmod:att	_	_
+29	washingtoni	washingtoni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	27	amod:att	_	_
+30	nagykövet	nagykövet	NOUN	_	Case=Nom|Number=Sing	27	appos	_	_
 31	Fábry	Fábry	PROPN	_	Case=Nom|Number=Sing	37	obl	_	_
 32	Pálhoz	Pál	PROPN	_	Case=All|Number=Sing	31	flat:name	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	36	punct	_	_
@@ -2281,9 +2281,9 @@
 23	sorolja	sorol	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_
 24	fel	fel	ADV	_	Degree=Pos	23	compound:preverb	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	5	punct	_	_
-26	Somogyi-Tóth	Somogyi-Tóth	PROPN	_	Case=Nom|Number=Sing	28	appos	_	_
-27	megbízott	megbízott	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	28	amod:att	_	_
-28	igazgató	igazgató	NOUN	_	Case=Nom|Number=Sing	30	nmod:att	_	_
+26	Somogyi-Tóth	Somogyi-Tóth	PROPN	_	Case=Nom|Number=Sing	30	nmod:att	_	_
+27	megbízott	megbízott	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	26	amod:att	_	_
+28	igazgató	igazgató	NOUN	_	Case=Nom|Number=Sing	26	appos	_	_
 29	működési	működési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	30	amod:att	_	_
 30	idején	idő	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	31	obl	_	_
 31	átminősítették	át+minősít	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2396,10 +2396,10 @@
 
 # sent_id = dev-90
 # text = Katona Kálmán közlekedési miniszter a Nap-kelte című műsorban, úgy fogalmazott, hogy az átvételt szentesítő szerződést az ő engedélyével írta alá az LRI megbízott igazgatója.
-1	Katona	Katona	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
+1	Katona	Katona	PROPN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 2	Kálmán	Kálmán	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod:att	_	_
-4	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+3	közlekedési	közlekedési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	1	amod:att	_	_
+4	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
 5	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
 6	Nap-kelte	Nap-kelte	PROPN	_	Case=Nom|Number=Sing	7	nmod:att	_	_
 7	című	című	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
@@ -2497,17 +2497,17 @@
 
 # sent_id = dev-93
 # text = Tatár Attila tűzoltó ezredes, a BM TOP repülőtéri tűzoltó-parancsnokság parancsnoka lapunknak elmondta, a jelentésben leírt megállapítás túlzó.
-1	Tatár	Tatár	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
+1	Tatár	Tatár	PROPN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 2	Attila	Attila	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	tűzoltó	tűzoltó	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	4	amod:att	_	_
-4	ezredes	ezredes	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	tűzoltó	tűzoltó	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	1	amod:att	_	_
+4	ezredes	ezredes	NOUN	_	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	BM	BM	PROPN	_	Case=Nom|Number=Sing	10	nmod:att	_	_
 8	TOP	TOP	PROPN	_	Case=Nom|Number=Sing	10	nmod:att	_	_
 9	repülőtéri	repülőtéri	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	amod:att	_	_
 10	tűzoltó-parancsnokság	tűzoltó-parancsnokság	NOUN	_	Case=Nom|Number=Sing	11	nmod:att	_	_
-11	parancsnoka	parancsnok	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	appos	_	_
+11	parancsnoka	parancsnok	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	appos	_	_
 12	lapunknak	lap	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Plur|Person[psor]=1	13	iobj	_	_
 13	elmondta	el+mond	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
@@ -2949,13 +2949,13 @@
 # text = A rendezvény szónoka Tamás Gáspár Miklós filozófus lesz.
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	rendezvény	rendezvény	NOUN	_	Case=Nom|Number=Sing	3	nmod:att	_	_
-3	szónoka	szónok	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
-4	Tamás	Tamás	PROPN	_	Case=Nom|Number=Sing	7	appos	_	_
+3	szónoka	szónok	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+4	Tamás	Tamás	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
 5	Gáspár	Gáspár	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
 6	Miklós	Miklós	PROPN	_	Case=Nom|Number=Sing	4	flat:name	_	_
-7	filozófus	filozófus	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
-8	lesz	lesz	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	_
+7	filozófus	filozófus	NOUN	_	Case=Nom|Number=Sing	4	appos	_	_
+8	lesz	lesz	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-112
 # text = A szervezők petíciót nyújtanak át Áder Jánosnak, az Országgyűlés elnökének, amelyben figyelmeztetnek az egyre elterjedtebbé vált antiszemita, rasszista megnyilvánulások veszélyére.
@@ -3025,10 +3025,10 @@
 9	,	,	PUNCT	_	_	34	punct	_	_
 10	többek	több	DET	_	Definite=Ind|PronType=Ind	34	obl	_	_
 11	között	között	ADP	_	_	10	case	_	_
-12	Bárdossy	Bárdossy	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
+12	Bárdossy	Bárdossy	PROPN	_	Case=Nom|Number=Sing	20	nmod:att	_	_
 13	László	László	PROPN	_	Case=Nom|Number=Sing	12	flat:name	_	_
-14	egykori	egykori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	15	amod:att	_	_
-15	miniszterelnöknek	miniszterelnök	NOUN	_	Case=Gen|Number=Sing	20	nmod:att	_	_
+14	egykori	egykori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	12	amod:att	_	_
+15	miniszterelnöknek	miniszterelnök	NOUN	_	Case=Gen|Number=Sing	12	appos	_	_
 16	a	a	DET	_	Definite=Def|PronType=Art	17	det	_	_
 17	MIÉP	MIÉP	PROPN	_	Case=Nom|Number=Sing	19	obl	_	_
 18	által	által	ADP	_	_	17	case	_	_
@@ -4802,9 +4802,9 @@
 
 # sent_id = dev-185
 # text = Benkő Gábor képviselő csupán tegnap tájékoztatta az érintett intézményeket további sorsukról.
-1	Benkő	Benkő	PROPN	_	Case=Nom|Number=Sing	3	appos	_	_
+1	Benkő	Benkő	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	Gábor	Gábor	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+3	képviselő	képviselő	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
 4	csupán	csupán	ADV	_	_	6	advmod:mode	_	_
 5	tegnap	tegnap	ADV	_	_	6	advmod:tlocy	_	_
 6	tájékoztatta	tájékozódik	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	_
@@ -6834,11 +6834,11 @@
 2	előadók	előadó	NOUN	_	Case=Nom|Number=Plur	4	obl	_	_
 3	között	között	ADP	_	_	2	case	_	_
 4	volt	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	Kapolyi	Kapolyi	PROPN	_	Case=Nom|Number=Sing	9	appos	_	_
+5	Kapolyi	Kapolyi	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 6	László	László	PROPN	_	Case=Nom|Number=Sing	5	flat:name	_	_
-7	egykori	egykori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
-8	ipari	ipari	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
-9	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	egykori	egykori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	5	amod:att	_	_
+8	ipari	ipari	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	5	amod:att	_	_
+9	miniszter	miniszter	NOUN	_	Case=Nom|Number=Sing	5	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	22	punct	_	_
 11	ma	ma	ADV	_	_	22	advmod:tlocy	_	_
 12	az	az	DET	_	Definite=Def|PronType=Art	16	det	_	_
@@ -6851,7 +6851,7 @@
 19	System	System	PROPN	_	Case=Nom|Number=Sing	22	nmod:att	_	_
 20	Consulting	Consulting	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	_
 21	Rt.	Rt.	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	_
-22	elnök-vezérigazgatója	elnök-vezérigazgató	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	conj	_	SpaceAfter=No
+22	elnök-vezérigazgatója	elnök-vezérigazgató	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	conj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-266
@@ -7297,9 +7297,9 @@
 
 # sent_id = dev-283
 # text = Járai Zsigmond pénzügyminiszter egyik nyilatkozatában nem zárta ki annak a lehetőségét, hogy az infláció a jövő évben nyolc százalékra emelkedik, ha az olaj hordónkénti ára tartósan 22 dollár fölött marad.
-1	Járai	Járai	PROPN	_	Case=Nom|Number=Sing	3	appos	_	_
+1	Járai	Járai	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 2	Zsigmond	Zsigmond	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	pénzügyminiszter	pénzügyminiszter	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+3	pénzügyminiszter	pénzügyminiszter	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
 4	egyik	egyik	DET	_	Definite=Def|PronType=Ind	5	det	_	_
 5	nyilatkozatában	nyilatkozat	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 6	nem	nem	ADV	_	PronType=Neg	7	advmod	_	_

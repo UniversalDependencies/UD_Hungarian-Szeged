@@ -293,9 +293,9 @@
 12	bejelentést	bejelentés	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
 13	—	—	PUNCT	_	_	5	punct	_	_
 14	mondta	mond	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-15	Dobson	Dobson	PROPN	_	Case=Nom|Number=Sing	17	appos	_	_
+15	Dobson	Dobson	PROPN	_	Case=Nom|Number=Sing	14	nsubj	_	_
 16	Tibor	Tibor	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	_
-17	szóvivő	szóvivő	NOUN	_	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	szóvivő	szóvivő	NOUN	_	Case=Nom|Number=Sing	15	appos	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = test-15
@@ -551,13 +551,13 @@
 # sent_id = test-25
 # text = Mint Dobson Tibor alezredes, a tűzoltóság szóvivője lapunkat tájékoztatta, új veszélyforrássá "lépett elő" az adventi koszorú.
 1	Mint	mint	ADV	_	PronType=Rel	10	advmod:mode	_	_
-2	Dobson	Dobson	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
+2	Dobson	Dobson	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 3	Tibor	Tibor	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
-4	alezredes	alezredes	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	alezredes	alezredes	NOUN	_	Case=Nom|Number=Sing	2	appos	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	tűzoltóság	tűzoltóság	NOUN	_	Case=Nom|Number=Sing	8	nmod:att	_	_
-8	szóvivője	szóvivő	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	appos	_	_
+8	szóvivője	szóvivő	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	appos	_	_
 9	lapunkat	lap	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	10	obj	_	_
 10	tájékoztatta	tájékozódik	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	15	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -826,12 +826,12 @@
 9	fényképeket	fénykép	NOUN	_	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	26	punct	_	_
 11	amelyek	amely	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Rel	26	nsubj	_	_
-12	a	a	DET	_	Definite=Def|PronType=Art	17	det	_	_
-13	SZTÁR	SZTÁR	PROPN	_	Case=Nom|Number=Sing	17	appos	_	_
+12	a	a	DET	_	Definite=Def|PronType=Art	13	det	_	_
+13	SZTÁR	SZTÁR	PROPN	_	Case=Nom|Number=Sing	19	nmod:att	_	_
 14	Sport	Sport	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	_
-15	színes	színes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
-16	képes	képes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
-17	sporthetilap	sporthetilap	NOUN	_	Case=Nom|Number=Sing	19	nmod:att	_	_
+15	színes	színes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	amod:att	_	_
+16	képes	képes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	amod:att	_	_
+17	sporthetilap	sporthetilap	NOUN	_	Case=Nom|Number=Sing	13	appos	_	_
 18	következő	következő	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	19	amod:att	_	_
 19	számában	szám	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl	_	_
 20	megjelenő	megjelenő	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	24	amod:att	_	SpaceAfter=No
@@ -2348,10 +2348,10 @@
 
 # sent_id = test-105
 # text = Bozóky Imre MLSZ-elnök szerint a januári átigazolási időszak miatt fontos lenne az őszi idény meccseit idén megrendezni.
-1	Bozóky	Bozóky	PROPN	_	Case=Nom|Number=Sing	3	appos	_	_
+1	Bozóky	Bozóky	PROPN	_	Case=Nom|Number=Sing	10	obl	_	_
 2	Imre	Imre	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	MLSZ-elnök	MLSZ-elnök	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
-4	szerint	szerint	ADP	_	_	3	case	_	_
+3	MLSZ-elnök	MLSZ-elnök	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
+4	szerint	szerint	ADP	_	_	1	case	_	_
 5	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
 6	januári	januári	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 7	átigazolási	átigazolási	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
@@ -3624,8 +3624,8 @@
 # text = Persze azért Röber edző gratulált a csapatnak, és jó eredménynek tartotta az egy pontot.
 1	Persze	persze	ADV	_	_	5	advmod:mode	_	_
 2	azért	azért	CCONJ	_	_	5	cc	_	_
-3	Röber	Röber	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
-4	edző	edző	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	Röber	Röber	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	edző	edző	NOUN	_	Case=Nom|Number=Sing	3	appos	_	_
 5	gratulált	gratulál	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	csapatnak	csapat	NOUN	_	Case=Dat|Number=Sing	5	obl	_	SpaceAfter=No
@@ -3882,10 +3882,10 @@
 # sent_id = test-171
 # text = Ám "Öcsi bácsit" jobban érdekelte a játék.
 1	Ám	ám	CCONJ	_	_	7	cc	_	_
-2	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-3	Öcsi	Öcsi	PROPN	_	Case=Nom|Number=Sing	4	appos	_	_
-4	bácsit	bácsi	NOUN	_	Case=Acc|Number=Sing	7	obj	_	SpaceAfter=No
-5	"	"	PUNCT	_	_	4	punct	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Öcsi	Öcsi	PROPN	_	Case=Nom|Number=Sing	7	obj	_	_
+4	bácsit	bácsi	NOUN	_	Case=Acc|Number=Sing	3	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	3	punct	_	_
 6	jobban	jól	ADV	_	_	7	advmod:mode	_	_
 7	érdekelte	érdekel	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
@@ -3976,9 +3976,9 @@
 33	,	,	PUNCT	_	_	39	punct	_	_
 34	hogy	hogy	SCONJ	_	_	39	mark	_	_
 35	ma	ma	ADV	_	_	39	advmod:tlocy	_	_
-36	Orbán	Orbán	PROPN	_	Case=Nom|Number=Sing	38	appos	_	_
+36	Orbán	Orbán	PROPN	_	Case=Nom|Number=Sing	39	obl	_	_
 37	Viktor	Viktor	PROPN	_	Case=Nom|Number=Sing	36	flat:name	_	_
-38	miniszterelnöknél	miniszterelnök	NOUN	_	Case=Ade|Number=Sing	39	obl	_	_
+38	miniszterelnöknél	miniszterelnök	NOUN	_	Case=Ade|Number=Sing	36	appos	_	_
 39	vizitáljon	vizitál	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -5878,10 +5878,10 @@
 33	OIT	OIT	PROPN	_	Case=Nom|Number=Sing	29	appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	_
 35	és	és	CCONJ	_	_	24	cc	_	_
-36	Göncz	Göncz	PROPN	_	Case=Nom|Number=Sing	39	appos	_	_
+36	Göncz	Göncz	PROPN	_	Case=Nom|Number=Sing	26	conj	_	_
 37	Árpád	Árpád	PROPN	_	Case=Nom|Number=Sing	36	flat:name	_	_
-38	köztársasági	köztársasági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	39	amod:att	_	_
-39	elnök	elnök	NOUN	_	Case=Nom|Number=Sing	26	conj	_	_
+38	köztársasági	köztársasági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	36	amod:att	_	_
+39	elnök	elnök	NOUN	_	Case=Nom|Number=Sing	36	appos	_	_
 40	volt	van	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	cop	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -6436,9 +6436,9 @@
 
 # sent_id = test-282
 # text = Jorge Faliba atya a rendőrségen bevallotta, hogy ez már az ötödik nemzetközi csempészútja lett volna, ám jó ügyet szolgál.
-1	Jorge	Jorge	PROPN	_	Case=Nom|Number=Sing	3	appos	_	_
+1	Jorge	Jorge	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	Faliba	Faliba	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	atya	atya	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+3	atya	atya	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	rendőrségen	rendőrség	NOUN	_	Case=Sup|Number=Sing	6	obl	_	_
 6	bevallotta	be+vall	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No

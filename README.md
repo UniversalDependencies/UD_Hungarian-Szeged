@@ -58,6 +58,7 @@ The UD version of the treebank has been prepared by Richárd Farkas (rfarkas@inf
   * Fixed: clause has at most one subject.
   * Fixed: structure of orphans in gapping.
   * Fixed: pronouns cannot be advmod.
+  * Fixed: appos must go left to right.
 * 2022-05-15 v2.10
   * Case=Sub now means subessive in UD; sublative relabeled to Case=Sbl.
 * 2021-05-15 v2.8
