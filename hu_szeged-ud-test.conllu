@@ -1927,7 +1927,7 @@
 5	keressük	keres	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	Timmant	Timman	PROPN	_	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	20	punct	_	_
-8	nélküle	nélkül	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	advmod:mode	_	_
+8	nélküle	nélkül	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	obl	_	orig_deprel=advmod:mode
 9	a	a	DET	_	Definite=Def|PronType=Art	15	det	_	_
 10	Piket	Piket	PROPN	_	Case=Nom|Number=Sing	14	nmod:att	_	_
 11	és	és	CCONJ	_	_	12	cc	_	_
@@ -2230,7 +2230,7 @@
 6	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	tenni	tesz	VERB	_	VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	szerintem	szerint	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	advmod:mode	_	_
+9	szerintem	szerint	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	obl	_	orig_deprel=advmod:mode
 10	ezek	ez	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Dem	12	obl	_	_
 11	közül	közül	ADP	_	_	10	case	_	_
 12	kerülhet	kerül	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
@@ -4305,7 +4305,7 @@
 17	50	50	NUM	_	Case=Nom|Number=Sing|NumType=Card	18	nummod	_	_
 18	dkg-mal	dkg	NOUN	_	Case=Ins|Number=Sing	19	obl	_	_
 19	maradt	marad	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	_
-20	alatta	alatt	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	advmod:locy	_	_
+20	alatta	alatt	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	obl	_	orig_deprel=advmod:locy
 21	országos	országos	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	_
 22	rekordjának	rekord	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	obl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
@@ -4321,7 +4321,7 @@
 7	6.	6.	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	8	amod:att	_	_
 8	helyét	hely	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 9	jelentette	jelent	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-10	számára	számára	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	advmod:mode	_	SpaceAfter=No
+10	számára	számára	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	obl	_	orig_deprel=advmod:mode|SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = test-189
@@ -4347,7 +4347,7 @@
 19	bronzot	bronz	NOUN	_	Case=Acc|Number=Sing	21	obj	_	_
 20	is	is	CCONJ	_	_	19	cc	_	ToDo=cc-without-conj
 21	ért	ér	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
-22	számára	számára	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	advmod:mode	_	SpaceAfter=No
+22	számára	számára	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	obl	_	orig_deprel=advmod:mode|SpaceAfter=No
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = test-190
@@ -8472,7 +8472,7 @@
 3	cégek	cég	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
 4	mindenesetre	mindenesetre	ADV	_	_	5	advmod:mode	_	_
 5	igyekeznek	igyekezik	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	advmod:to	_	_
+6	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	obl	_	orig_deprel=advmod:to
 7	menni	megy	VERB	_	VerbForm=Inf|Voice=Act	5	xcomp	_	_
 8	az	az	DET	_	Definite=Def|PronType=Art	9	det	_	_
 9	elnök	elnök	NOUN	_	Case=Nom|Number=Sing	10	nmod:att	_	_
@@ -9610,7 +9610,7 @@
 5	Gazprom	Gazprom	PROPN	_	Case=Nom|Number=Sing	7	nmod:att	_	_
 6	többi	többi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
 7	tulajdonosa	tulajdonos	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
-8	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	advmod:to	_	_
+8	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	obl	_	orig_deprel=advmod:to
 9	ment	megy	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	_
 10	a	a	DET	_	Definite=Def|PronType=Art	11	det	_	_
 11	kormány	kormány	NOUN	_	Case=Nom|Number=Sing	12	nmod:att	_	_

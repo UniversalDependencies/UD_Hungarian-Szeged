@@ -379,7 +379,7 @@
 23	ismerik	ismer	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp:obj	_	_
 24	-e	-e	ADV	_	PronType=Int	23	advmod:que	_	_
 25	az	az	DET	_	Definite=Def|PronType=Art	28	det	_	_
-26	általunk	által	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	advmod:mode	_	_
+26	általunk	által	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	obl	_	orig_deprel=advmod:mode
 27	közölt	közölt	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	28	amod:att	_	_
 28	jelentésben	jelentés	NOUN	_	Case=Ine|Number=Sing	29	nmod:obl	_	_
 29	foglaltakat	foglalt	NOUN	_	Case=Acc|Number=Plur	23	obj	_	SpaceAfter=No
@@ -1342,7 +1342,7 @@
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Nem	nem	ADV	_	PronType=Neg	3	advmod	_	_
 3	akarok	akar	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
-4	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	advmod:to	_	_
+4	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	obl	_	orig_deprel=advmod:to
 5	menni	megy	VERB	_	VerbForm=Inf|Voice=Act	3	xcomp	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	Fidesz-MPP	Fidesz-MPP	PROPN	_	Case=Nom|Number=Sing	9	nmod:att	_	_
@@ -1384,7 +1384,7 @@
 43	nem	nem	ADV	_	PronType=Neg	44	advmod	_	_
 44	kíván	kíván	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	acl	_	_
 45	-e	-e	ADV	_	PronType=Int	44	advmod:que	_	_
-46	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	47	advmod:to	_	_
+46	elébe	elébe	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	47	obl	_	orig_deprel=advmod:to
 47	menni	megy	VERB	_	VerbForm=Inf|Voice=Act	44	xcomp	_	_
 48	a	a	DET	_	Definite=Def|PronType=Art	50	det	_	_
 49	várható	várható	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	50	amod:att	_	_
@@ -1899,7 +1899,7 @@
 # text = Ugyanakkor tiltakozik az ellen, hogy bárki is "Goebbels módszereit használó" újságíróknak minősítsen 13 hazai Pulitzer-emlékdíjas zsurnalisztát.
 1	Ugyanakkor	ugyanakkor	ADV	_	PronType=Dem	2	advmod:mode	_	_
 2	tiltakozik	tiltakozik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	az	az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	advmod:mode	_	_
+3	az	az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	obl	_	orig_deprel=advmod:mode
 4	ellen	ellen	ADP	_	_	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	15	punct	_	_
 6	hogy	hogy	SCONJ	_	_	15	mark	_	_
@@ -1996,7 +1996,7 @@
 35	teszi	tesz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	42	punct	_	_
 37	amely	amely	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rel	42	nsubj	_	_
-38	szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	42	advmod:mode	_	_
+38	szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	42	obl	_	orig_deprel=advmod:mode
 39	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
 40	minden	minden	DET	_	Definite=Ind|PronType=Tot	41	det	_	_
 41	kezdeményezést	kezdeményezés	NOUN	_	Case=Acc|Number=Sing	42	obj	_	_
@@ -2241,7 +2241,7 @@
 3	jelentés	jelentés	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 4	szerint	szerint	ADP	_	_	3	case	_	_
 5	ezt	ez	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	obj	_	_
-6	annak	az	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Dem	8	advmod:mode	_	_
+6	annak	az	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Dem	8	obl	_	orig_deprel=advmod:mode
 7	ellenére	ellenére	ADP	_	_	6	case	_	_
 8	tette	tesz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	16	punct	_	_
@@ -2819,7 +2819,7 @@
 19	bíróságtól	bíróság	NOUN	_	Case=Abl|Number=Sing	16	obl	_	_
 20	a	a	DET	_	Definite=Def|PronType=Art	21	det	_	_
 21	győztessel	győztes	NOUN	_	Case=Ins|Number=Sing	24	obl	_	_
-22	szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	advmod:mode	_	_
+22	szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	obl	_	orig_deprel=advmod:mode
 23	jogszerűtlenül	jogszerűtlen	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	24	advmod:mode	_	_
 24	megkötött	megkötött	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	25	amod:attlvc	_	_
 25	szerződés	szerződés	NOUN	_	Case=Nom|Number=Sing	26	nmod:att	_	_
@@ -3896,7 +3896,7 @@
 20	hiányai	hiány	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	17	obl	_	_
 21	miatt	miatt	ADP	_	_	20	case	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	17	punct	_	_
-23	addig	az	PRON	_	Case=Ter|Number=Sing|Person=3|PronType=Dem	30	advmod:tto	_	_
+23	addig	az	PRON	_	Case=Ter|Number=Sing|Person=3|PronType=Dem	30	obl	_	orig_deprel=advmod:tto
 24	az	az	DET	_	Definite=Def|PronType=Art	25	det	_	_
 25	ellenzék	ellenzék	NOUN	_	Case=Nom|Number=Sing	30	obl	_	_
 26	szerint	szerint	ADP	_	_	25	case	_	_
@@ -4431,7 +4431,7 @@
 5	intézményt	intézmény	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 6	érintenek	érint	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	közülük	közül	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	advmod:tfrom	_	_
+8	közülük	közül	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	obl	_	orig_deprel=advmod:tfrom
 9	négyet	négy	NUM	_	Case=Acc|Number=Sing|NumType=Card	10	obj	_	_
 10	vonnak	von	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 11	ki	ki	ADV	_	Degree=Pos	10	compound:preverb	_	_
@@ -5777,7 +5777,7 @@
 20	sorozatot	sorozat	NOUN	_	Case=Acc|Number=Sing	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	29	punct	_	_
 22	amely	amely	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rel	29	nsubj	_	_
-23	szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	advmod:mode	_	_
+23	szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	obl	_	orig_deprel=advmod:mode
 24	még	még	ADV	_	_	29	advmod:tlocy	_	_
 25	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
 26	Tv	Tv	PROPN	_	Case=Nom|Number=Sing	29	obl	_	_
@@ -5791,7 +5791,7 @@
 
 # sent_id = dev-226
 # text = Szerinte nemesebb verseny az, amikor két azonos kategóriájú műsor vetélkedik egymással, és fájlalja, hogy így a kevésbé értékes sorozatok "megeszik" az aktuális műsorokat, amelyek még a leginkább közszolgálati műsoroknak tekinthetők a kereskedelmi televíziózásban.
-1	Szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	advmod:mode	_	_
+1	Szerinte	szerint	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	obl	_	orig_deprel=advmod:mode
 2	nemesebb	nemes	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing	3	amod:att	_	_
 3	verseny	verseny	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 4	az	az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
@@ -7242,7 +7242,7 @@
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	elosztanák	el+oszt	VERB	_	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	_
-10	egymás	egymás	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rcp	8	advmod:mode	_	_
+10	egymás	egymás	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Rcp	8	obl	_	orig_deprel=advmod:mode
 11	között	között	ADP	_	_	10	case	_	_
 12	az	az	DET	_	Definite=Def|PronType=Art	15	det	_	_
 13	iraki	iraki	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	15	amod:att	_	_
@@ -10044,7 +10044,7 @@
 
 # sent_id = dev-360
 # text = Ezzel szemben például a jövedéki adó 7 százalékos növelésére tesz javaslatot.
-1	Ezzel	ez	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Dem	10	advmod:mode	_	_
+1	Ezzel	ez	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Dem	10	obl	_	orig_deprel=advmod:mode
 2	szemben	szemben	ADP	_	_	1	case	_	_
 3	például	például	ADV	_	_	10	advmod:mode	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
