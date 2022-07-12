@@ -19112,8 +19112,8 @@
 18	:	:	PUNCT	_	_	21	punct	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
 20	parlament	parlament	NOUN	_	Case=Nom|Number=Sing	21	nsubj	_	_
-21	elfogad-	elfogad-	NOUN	_	Case=Nom|Number=Sing	16	advcl	_	_
-22	ta	ta	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	goeswith	_	_
+21	elfogad-	elfogad	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin|Voice=Act	16	advcl	_	CorrectForm=elfogadta
+22	ta	_	X	_	_	21	goeswith	_	_
 23	a	a	DET	_	Definite=Def|PronType=Art	28	det	_	_
 24	társadalombiztosítási	társadalombiztosítási	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	28	amod:att	_	_
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
