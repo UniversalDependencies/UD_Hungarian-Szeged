@@ -138,7 +138,7 @@
 4	az	az	DET	_	Definite=Def|PronType=Art	6	det	_	_
 5	arab	arab	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	6	amod:att	_	_
 6	állam	állam	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
-7	1996-tól	1996	NUM	_	Case=Abl|Number=Sing|NumType=Card	11	advmod:tfrom	_	_
+7	1996-tól	1996	NUM	_	Case=Abl|Number=Sing|NumType=Card	11	obl	_	orig_deprel=advmod:tfrom
 8	félévente	félév	ADV	_	_	9	advmod:mode	_	_
 9	meghatározott	meg+határozott	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	10	amod:att	_	_
 10	értékben	érték	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
@@ -1148,7 +1148,7 @@
 8	hogy	hogy	SCONJ	_	_	14	mark	_	_
 9	egykori	egykori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	10	amod:att	_	_
 10	vezetőjüket	vezető	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	obj	_	_
-11	1992-ben	1992	NUM	_	Case=Ine|Number=Sing|NumType=Card	14	advmod:tlocy	_	_
+11	1992-ben	1992	NUM	_	Case=Ine|Number=Sing|NumType=Card	14	obl	_	orig_deprel=advmod:tlocy
 12	egyszerű	egyszerű	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	amod:att	_	_
 13	autóbalesetben	autóbaleset	NOUN	_	Case=Ine|Number=Sing	14	obl	_	_
 14	vesztették	veszt	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp:obj	_	_

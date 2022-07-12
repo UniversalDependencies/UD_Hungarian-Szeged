@@ -114,8 +114,8 @@
     <dep name="advmod:locy">86</dep>
     <dep name="advmod:mode">1571</dep>
     <dep name="advmod:que">22</dep>
-    <dep name="advmod:tfrom">15</dep>
-    <dep name="advmod:tlocy">744</dep>
+    <dep name="advmod:tfrom">14</dep>
+    <dep name="advmod:tlocy">743</dep>
     <dep name="advmod:to">22</dep>
     <dep name="advmod:tto">36</dep>
     <dep name="amod:att">5004</dep>
@@ -152,7 +152,7 @@
     <dep name="nummod">366</dep>
     <dep name="obj">1762</dep>
     <dep name="obj:lvc">42</dep>
-    <dep name="obl">4279</dep>
+    <dep name="obl">4281</dep>
     <dep name="obl:lvc">16</dep>
     <dep name="orphan">56</dep>
     <dep name="parataxis">178</dep>
