@@ -20408,7 +20408,7 @@
 13	engedésének	engedés	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	_
 14	négy	négy	NUM	_	Case=Nom|Number=Sing|NumType=Card	15	amod:att	_	_
 15	főszereplője	főszereplő	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	41	obl	_	_
-16	—	—	PUNCT	_	_	24	punct	_	_
+16	—	—	PUNCT	_	_	17	punct	_	_
 17	Helmut	Helmut	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
 18	Kohl	Kohl	PROPN	_	Case=Nom|Number=Sing	17	flat:name	_	_
 19	nyugatnémet	nyugatnémet	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	appos	_	_
@@ -21312,7 +21312,7 @@
 16	szerdán	szerda	NOUN	_	Case=Sup|Number=Sing	9	conj	_	_
 17	Cottbusban	Cottbus	PROPN	_	Case=Ine|Number=Sing	16	orphan	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
-19	csütörtökön	csütörtök	NOUN	_	Case=Sup|Number=Sing	21	conj	_	_
+19	csütörtökön	csütörtök	NOUN	_	Case=Sup|Number=Sing	21	obl	_	_
 20	Saarbrückenben	Saarbrücken	PROPN	_	Case=Ine|Number=Sing	21	obl	_	_
 21	kellett	kell	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 22	kampányolnia	kampányolnia	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	21	xcomp	_	_
