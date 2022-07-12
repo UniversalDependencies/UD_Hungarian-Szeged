@@ -5258,7 +5258,7 @@
 12	úgy	úgy	ADV	_	PronType=Dem	11	advmod:mode	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	mint	mint	SCONJ	_	_	16	mark	_	_
-15	mondjuk	mond	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advmod:mode	_	_
+15	mondjuk	mond	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	orig_deprel=advmod:mode
 16	Wimbledonban	Wimbledon	PROPN	_	Case=Ine|Number=Sing	12	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	_
 

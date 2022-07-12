@@ -109,10 +109,10 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="52">
     <dep name="acl">362</dep>
-    <dep name="advcl">409</dep>
-    <dep name="advmod">432</dep>
+    <dep name="advcl">411</dep>
+    <dep name="advmod">431</dep>
     <dep name="advmod:locy">86</dep>
-    <dep name="advmod:mode">1571</dep>
+    <dep name="advmod:mode">1570</dep>
     <dep name="advmod:que">22</dep>
     <dep name="advmod:tfrom">14</dep>
     <dep name="advmod:tlocy">743</dep>
