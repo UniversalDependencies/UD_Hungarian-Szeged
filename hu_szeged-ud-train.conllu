@@ -4141,7 +4141,7 @@
 2	az	az	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	élet	élet	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 4	természeténél	természet	NOUN	_	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod:obl	_	_
-5	fogva	fogva	ADP	_	_	6	advmod:mode	_	_
+5	fogva	fogva	ADP	_	_	6	case	_	_
 6	leírhatatlan	leírhatatlan	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	20	punct	_	_
 8	és	és	CCONJ	_	_	20	cc	_	_
@@ -16420,8 +16420,8 @@
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	szerződés	szerződés	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	_
-4	jövőre	jövő	NOUN	_	Case=Sbl|Number=Sing	5	nmod:obl	_	_
-5	nézve	nézve	ADP	_	_	6	advmod:mode	_	_
+4	jövőre	jövő	NOUN	_	Case=Sbl|Number=Sing	6	obl	_	_
+5	nézve	nézve	ADP	_	_	4	case	_	_
 6	liberalizálja	liberalizál	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	számos	számos	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	amod:att	_	_
 8	mezőgazdasági	mezőgazdasági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	9	amod:att	_	_
@@ -16610,8 +16610,8 @@
 25	készül	készül	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	hogy	hogy	SCONJ	_	_	30	mark	_	_
-28	hatályon	hatály	NOUN	_	Case=Sup|Number=Sing	29	nmod:obl	_	_
-29	kívül	kívül	ADP	_	_	30	advmod:to	_	_
+28	hatályon	hatály	NOUN	_	Case=Sup|Number=Sing	30	obl	_	_
+29	kívül	kívül	ADP	_	_	28	case	_	_
 30	helyeztetik	helyeztet	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	25	ccomp:obl	_	_
 31	az	az	DET	_	Definite=Def|PronType=Art	34	det	_	_
 32	1947-es	1947-es	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	34	amod:att	_	_
@@ -16694,8 +16694,8 @@
 # text = Az akkori akcióval ellentétben most nem 100, hanem 70, illetve 90 százalékos garanciát vállal az állam, a kedvezményezett ötven cég pedig — Galambos József, a Magyar Konzervgyártók Szövetségének titkára szerint — gyakorlatilag az egész iparágat lefedi.
 1	Az	az	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	akkori	akkori	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	3	amod:att	_	_
-3	akcióval	akció	NOUN	_	Case=Ins|Number=Sing	4	nmod:obl	_	_
-4	ellentétben	ellentétben	ADP	_	_	16	advmod:mode	_	_
+3	akcióval	akció	NOUN	_	Case=Ins|Number=Sing	16	obl	_	_
+4	ellentétben	ellentétben	ADP	_	_	3	case	_	_
 5	most	most	ADV	_	_	16	advmod:tlocy	_	_
 6	nem	nem	ADV	_	PronType=Neg	7	advmod	_	_
 7	100	100	NUM	_	Case=Nom|Number=Sing|NumType=Card	14	amod:att	_	SpaceAfter=No
@@ -17523,8 +17523,8 @@
 3	helyzetét	helyzet	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 4	a	a	DET	_	Definite=Def|PronType=Art	6	det	_	_
 5	növekvő	növekvő	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	6	amod:att	_	_
-6	konkurencián	konkurencia	NOUN	_	Case=Sup|Number=Sing	7	nmod:obl	_	_
-7	kívül	kívül	ADP	_	_	8	advmod:mode	_	_
+6	konkurencián	konkurencia	NOUN	_	Case=Sup|Number=Sing	8	obl	_	_
+7	kívül	kívül	ADP	_	_	6	case	_	_
 8	rontotta	ront	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	20	punct	_	_
 10	hogy	hogy	SCONJ	_	_	20	mark	_	_
@@ -19461,8 +19461,8 @@
 6	dollárért	dollár	NOUN	_	Case=Cau|Number=Sing	15	obl	_	_
 7	—	—	PUNCT	_	_	13	punct	_	_
 8	a	a	DET	_	Definite=Def|PronType=Art	9	det	_	_
-9	tavalyihoz	tavalyi	ADJ	_	Case=All|Degree=Pos|Number=Sing	10	nmod:obl	_	_
-10	képest	képest	ADP	_	_	13	advmod:mode	_	_
+9	tavalyihoz	tavalyi	ADJ	_	Case=All|Degree=Pos|Number=Sing	13	obl	_	_
+10	képest	képest	ADP	_	_	9	case	_	_
 11	51	51	NUM	_	Case=Nom|Number=Sing|NumType=Card	12	amod:att	_	_
 12	százalékkal	százalék	NOUN	_	Case=Ins|Number=Sing	13	nmod:obl	_	_
 13	többért	több	NUM	_	Case=Cau|Number=Sing|NumType=Card	6	conj	_	_

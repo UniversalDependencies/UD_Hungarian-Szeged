@@ -7914,8 +7914,8 @@
 28	alkalommal	alkalom	NOUN	_	Case=Ins|Number=Sing	19	obl	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	47	punct	_	_
-31	ezzel	ez	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Dem	32	nmod:obl	_	_
-32	szemben	szemben	ADP	_	_	47	advmod:mode	_	_
+31	ezzel	ez	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Dem	47	obl	_	orig_deprel=advmod:mode
+32	szemben	szemben	ADP	_	_	31	case	_	_
 33	a	a	DET	_	Definite=Def|PronType=Art	35	det	_	_
 34	jelenlegi	jelenlegi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	35	amod:att	_	_
 35	kormány	kormány	NOUN	_	Case=Nom|Number=Sing	37	nmod:att	_	_
@@ -7938,8 +7938,8 @@
 52	mint	mint	SCONJ	_	_	60	cc	_	_
 53	a	a	DET	_	Definite=Def|PronType=Art	55	det	_	_
 54	többpárti	többpárti	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	55	amod:att	_	_
-55	parlamenttel	parlament	NOUN	_	Case=Ins|Number=Sing	56	nmod:obl	_	_
-56	szemben	szemben	ADP	_	_	59	advmod:mode	_	_
+55	parlamenttel	parlament	NOUN	_	Case=Ins|Number=Sing	59	obl	_	orig_deprel=advmod:mode
+56	szemben	szemben	ADP	_	_	55	case	_	_
 57	közismerten	közismert	ADJ	_	Case=Ess|Degree=Pos|Number=Sing	59	obl	_	_
 58	averziókat	averzió	NOUN	_	Case=Acc|Number=Plur	59	obj	_	_
 59	tápláló	tápláló	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	60	amod:att	_	_
@@ -9693,8 +9693,8 @@
 20	1999.	1999.	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	21	amod:att	_	_
 21	évi	évi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	_
 22	költségvetési	költségvetési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	23	amod:att	_	_
-23	előirányzatokhoz	előirányzat	NOUN	_	Case=All|Number=Plur	24	nmod:obl	_	_
-24	képest	képest	ADP	_	_	28	advmod:mode	_	_
+23	előirányzatokhoz	előirányzat	NOUN	_	Case=All|Number=Plur	28	obl	_	orig_deprel=advmod:mode
+24	képest	képest	ADP	_	_	23	case	_	_
 25	mindössze	mindössze	ADV	_	_	27	advmod:mode	_	_
 26	6	6	NUM	_	Case=Nom|Number=Sing|NumType=Card	27	amod:att	_	_
 27	százalékkal	százalék	NOUN	_	Case=Ins|Number=Sing	28	obl	_	_
@@ -10701,8 +10701,8 @@
 11	kapott	kap	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	csubj	_	_
 12	az	az	DET	_	Definite=Def|PronType=Art	14	det	_	_
 13	új	új	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod:att	_	_
-14	feladatok	feladat	NOUN	_	Case=Nom|Number=Plur	15	nmod:obl	_	_
-15	mellé	mellé	ADP	_	_	11	advmod:to	_	SpaceAfter=No
+14	feladatok	feladat	NOUN	_	Case=Nom|Number=Plur	11	obl	_	orig_deprel=advmod:to
+15	mellé	mellé	ADP	_	_	14	case	_	SpaceAfter=No
 16	;	;	PUNCT	_	_	29	punct	_	_
 17	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
 18	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	19	amod:att	_	_

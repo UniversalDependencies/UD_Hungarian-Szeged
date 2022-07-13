@@ -5696,7 +5696,7 @@
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	lányt	lány	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
 3	—	—	PUNCT	_	_	6	punct	_	_
-4	amint	amint	SCONJ	_	_	6	advmod:tlocy	_	_
+4	amint	amint	SCONJ	_	_	6	mark	_	_
 5	Szegedre	Szeged	PROPN	_	Case=Sbl|Number=Sing	6	obl	_	_
 6	indult	indul	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
 7	kocsijával	kocsi	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
@@ -9097,7 +9097,7 @@
 19	s	s	CCONJ	_	_	29	cc	_	_
 20	az	az	DET	_	Definite=Def|PronType=Art	25	det	_	_
 21	éppen	éppen	ADV	_	_	22	advmod:mode	_	_
-22	hogy	hogy	SCONJ	_	_	23	advmod:mode	_	_
+22	hogy	hogy	SCONJ	_	_	23	mark	_	_
 23	megkezdett	megkezdett	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	25	amod:att	_	_
 24	gazdasági	gazdasági	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	amod:att	_	_
 25	reformok	reform	NOUN	_	Case=Nom|Number=Plur	26	nmod:att	_	_
@@ -9502,13 +9502,13 @@
 20	Gazprom	Gazprom	PROPN	_	Case=Nom|Number=Sing	22	nmod:att	_	_
 21	külkereskedelmi	külkereskedelmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	_
 22	vállalatát	vállalat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	obj	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	25	punct	_	_
-24	a	a	DET	_	Definite=Def|PronType=Art	25	det	_	_
-25	Gazekszportot	Gazekszport	PROPN	_	Case=Acc|Number=Sing	22	appos	_	_
-26	igazgató	igazgató	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	27	amod:att	_	_
-27	Jurij	Jurij	PROPN	_	Case=Nom|Number=Sing	17	appos	_	_
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	a	a	DET	_	Definite=Def|PronType=Art	24	det	_	_
+25	Gazekszportot	Gazekszport	PROPN	_	Case=Acc|Number=Sing	26	obj	_	_
+26	igazgató	igazgató	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	17	appos	_	_
+27	Jurij	Jurij	PROPN	_	Case=Nom|Number=Sing	26	appos	_	_
 28	Vjahirevre	Vjahirev	PROPN	_	Case=Sbl|Number=Sing	27	flat:name	_	_
-29	nézve	nézve	ADP	_	_	12	advmod:mode	_	SpaceAfter=No
+29	nézve	nézve	ADP	_	_	26	case	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	8	punct	_	_
 
