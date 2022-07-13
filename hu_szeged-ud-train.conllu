@@ -4140,8 +4140,8 @@
 1	Mivel	mivel	SCONJ	_	_	6	mark	_	_
 2	az	az	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	élet	élet	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-4	természeténél	természet	NOUN	_	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod:obl	_	_
-5	fogva	fogva	ADP	_	_	6	case	_	_
+4	természeténél	természet	NOUN	_	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod:obl	_	_
+5	fogva	fogva	ADP	_	_	4	case	_	_
 6	leírhatatlan	leírhatatlan	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	25	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	20	punct	_	_
 8	és	és	CCONJ	_	_	20	cc	_	_

@@ -9503,7 +9503,7 @@
 21	külkereskedelmi	külkereskedelmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	_
 22	vállalatát	vállalat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	a	a	DET	_	Definite=Def|PronType=Art	24	det	_	_
+24	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
 25	Gazekszportot	Gazekszport	PROPN	_	Case=Acc|Number=Sing	26	obj	_	_
 26	igazgató	igazgató	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	17	appos	_	_
 27	Jurij	Jurij	PROPN	_	Case=Nom|Number=Sing	26	appos	_	_
