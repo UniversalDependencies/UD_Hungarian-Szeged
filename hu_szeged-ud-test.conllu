@@ -9494,10 +9494,10 @@
 12	gyűjtsenek	gyűjt	VERB	_	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp:obl	_	_
 13	terhelő	terhelő	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	14	amod:att	_	_
 14	adatokat	adat	NOUN	_	Case=Acc|Number=Plur	12	obj	_	_
-15	Vjahirevre	Vjahirev	PROPN	_	Case=Sbl|Number=Sing	29	nmod:obl	_	_
+15	Vjahirevre	Vjahirev	PROPN	_	Case=Sbl|Number=Sing	14	nmod:obl	_	_
 16	és	és	CCONJ	_	_	17	cc	_	_
 17	fiára	fia	NOUN	_	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	conj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	27	punct	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
 19	a	a	DET	_	Definite=Def|PronType=Art	20	det	_	_
 20	Gazprom	Gazprom	PROPN	_	Case=Nom|Number=Sing	22	nmod:att	_	_
 21	külkereskedelmi	külkereskedelmi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	22	amod:att	_	_
