@@ -50,33 +50,39 @@ The UD version of the treebank has been prepared by Richárd Farkas (rfarkas@inf
 
 # Changelog
 
-2015-05-15 v1.1
-Sentences with multiple roots have been corrected.
-
-2015-11-15 v1.2
-Empty morphological features have been removed. Adverbial participles have been annotated as VerbForm=Trans. Format of morphological features with more than one values has been corrected.
-
-2015-05-15 v1.3
-500 new sentences added.
-
-2017-03-01 v2.0
-Data re-split so that there is 10K dev and 10K test for the CoNLL shared task.
-Converted to follow the UD v2 guidelines.
-
-2018-04-15 v2.2
-Repository renamed from UD_Hungarian to UD_Hungarian-Szeged.
-
-2021-05-15 v2.8
-Removed superfluous features Number[psor]=None, Number[psed]=None, Person[psor]=None.
-The relations nmod:obl and amod:obl changed to just obl under a VERB, ADJ or ADV.
-The relation nmod:obllvc changed to obl:lvc.
-The relation amod:mode changed to advmod:mode under a VERB, ADJ or ADV (but the UPOS tag of the dependent is still ADJ).
-The undocumented relation amod:obl changed to amod:att (4 occurrences).
-Fixed non-projective punctuation with udapy -s ud.FixPunct.
-
-2022-05-15 v2.10
-Case=Sub now means subessive in UD; sublative relabeled to Case=Sbl.
-
+* 2022-11-15 v2.11
+  * The lemma of "volna" is "van".
+  * Fixed: spurious copulas.
+  * Fixed: case/mark/cc/aux dependents should be leaves.
+  * Fixed: only the first element of a goeswith sequence should have morphological annotation.
+  * Fixed: clause has at most one subject.
+  * Fixed: structure of orphans in gapping.
+  * Fixed: pronouns, nouns, verbs, adpositions cannot be advmod.
+  * Fixed: appos must go left to right.
+* 2022-05-15 v2.10
+  * Case=Sub now means subessive in UD; sublative relabeled to Case=Sbl.
+* 2021-05-15 v2.8
+  * Removed superfluous features Number[psor]=None, Number[psed]=None, Person[psor]=None.
+  * The relations nmod:obl and amod:obl changed to just obl under a VERB, ADJ or ADV.
+  * The relation nmod:obllvc changed to obl:lvc.
+  * The relation amod:mode changed to advmod:mode under a VERB, ADJ or ADV (but the UPOS tag of the dependent is still ADJ).
+  * The undocumented relation amod:obl changed to amod:att (4 occurrences).
+  * Fixed non-projective punctuation with udapy -s ud.FixPunct.
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Hungarian to UD_Hungarian-Szeged.
+* 2017-03-01 v2.0
+  * Data re-split so that there is 10K dev and 10K test for the CoNLL shared task.
+  * Converted to follow the UD v2 guidelines.
+* 2016-05-15 v1.3
+  * 500 new sentences added.
+* 2015-11-15 v1.2
+  * Empty morphological features have been removed.
+  * Adverbial participles have been annotated as VerbForm=Trans.
+  * Format of morphological features with more than one values has been corrected.
+* 2015-05-15 v1.1
+  * Sentences with multiple roots have been corrected.
+* 2015-01-15 v1.0
+  * First release in UD
 
 
 <pre>
