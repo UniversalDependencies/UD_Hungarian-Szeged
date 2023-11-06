@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Hungarian-Szeged:
-commit 599fff68fa6c3f81338fbf80bed4899350712c94
+commit 65110390feb2eb8a59d70d7bd38df500799d30d4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:14:20 2022 +0100
+Date:   Tue May 9 10:38:22 2023 +0200
 Size: counted 42032 of 42032 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.47686246588637.
 Size: maximum value 13.815511 is for 1000000 words or more.
