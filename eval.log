@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Hungarian-Szeged:
-commit 65110390feb2eb8a59d70d7bd38df500799d30d4
+commit 4a6451f16befdcee458ad5945431f4033430bec5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 10:38:22 2023 +0200
+Date:   Mon Nov 6 12:07:33 2023 +0100
 Size: counted 42032 of 42032 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.47686246588637.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.9.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL        138
-Udapi: found 138 bugs.
+               TOTAL        134
+Udapi: found 134 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 42032 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.541193351813998) = 0.138767526106153
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
-(weight=0.307692307692308) * (score{udapi}=0.96716787209745) = 0.297590114491523
+(weight=0.307692307692308) * (score{udapi}=0.968119527978683) = 0.297882931685749
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.759401951877282) * (availability=1) * (validity=1) = 0.759401951877282
+(TOTAL score=0.759694769071508) * (availability=1) * (validity=1) = 0.759694769071508
 STARS = 4
-UD_Hungarian-Szeged	0.759401951877282	4
+UD_Hungarian-Szeged	0.759694769071508	4
