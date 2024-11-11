@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Hungarian-Szeged:
-commit 4a6451f16befdcee458ad5945431f4033430bec5
+commit 3af0fea70bc000817036e7b38aa726ddfe08e1c7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:07:33 2023 +0100
+Date:   Sun May 5 12:32:18 2024 +0200
 Size: counted 42032 of 42032 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.47686246588637.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,24 @@ Udapi: found 134 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 42032 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-dev.conllu
+[Line 3151 Sent dev-118 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:több:det --> 21:milliárd:advcl)
+[Line 4562 Sent dev-172 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Több:det --> 3:2000:advcl)
+[Line 5173 Sent dev-201 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:kevesebb:det --> 16:minimálbérnél:nmod)
+[Line 6117 Sent dev-236 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:akkora:det --> 21:versenytársaik:advcl)
+[Line 6277 Sent dev-243 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:más:det --> 14:élelmiszeriparban:advcl)
+[Line 7404 Sent dev-286 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:több:det --> 12:130:advcl)
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hu --max-err=10 UD_Hungarian-Szeged/hu_szeged-ud-train.conllu
+[Line 1083 Sent train-57 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:több:det --> 13:száz:advcl)
+[Line 3390 Sent train-183 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:több:det --> 14:100:advcl)
+[Line 3419 Sent train-185 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:több:det --> 7:egy:advcl)
+[Line 3455 Sent train-187 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:több:det --> 10:80:advcl)
+[Line 8247 Sent train-396 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:több:det --> 4:mint:mark)
+[Line 19102 Sent train-801 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:a:det --> 8:héttel:nmod)
+Warnings: 6
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
