@@ -1411,7 +1411,7 @@
 10	Tóth	Tóth	PROPN	_	Case=Nom|Number=Sing	8	appos	_	_
 11	András	András	PROPN	_	Case=Nom|Number=Sing	10	flat:name	_	_
 12	ellenében	ellenében	ADP	_	_	8	case	_	_
-13	többek	több	DET	_	Definite=Ind|PronType=Ind	17	nmod	_	_
+13	többek	több	PRON	_	PronType=Ind	17	nmod	_	Correct=DetToPron,RemoveDefiniteInd
 14	között	között	ADP	_	_	13	case	_	_
 15	az	az	DET	_	Definite=Def|PronType=Art	16	det	_	_
 16	MSZP	MSZP	PROPN	_	Case=Nom|Number=Sing	17	nmod:att	_	_
@@ -2025,7 +2025,7 @@
 15	az	az	DET	_	Definite=Def|PronType=Art	17	det	_	_
 16	amerikai	amerikai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	17	amod:att	_	_
 17	szerző	szerző	NOUN	_	Case=Nom|Number=Sing	22	nsubj	_	_
-18	többek	több	DET	_	Definite=Ind|PronType=Ind	22	obl	_	_
+18	többek	több	PRON	_	PronType=Ind	22	obl	_	Correct=DetToPron,RemoveDefiniteInd
 19	között	között	ADP	_	_	18	case	_	_
 20	intézményes	intézményes	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	21	amod:att	_	_
 21	rasszizmusról	rasszizmus	NOUN	_	Case=Del|Number=Sing	22	obl	_	_
@@ -3023,7 +3023,7 @@
 7	alelnöke	alelnök	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	appos	_	_
 8	elmondta	el+mond	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	34	punct	_	_
-10	többek	több	DET	_	Definite=Ind|PronType=Ind	34	obl	_	_
+10	többek	több	PRON	_	PronType=Ind	34	obl	_	Correct=DetToPron,RemoveDefiniteInd
 11	között	között	ADP	_	_	10	case	_	_
 12	Bárdossy	Bárdossy	PROPN	_	Case=Nom|Number=Sing	20	nmod:att	_	_
 13	László	László	PROPN	_	Case=Nom|Number=Sing	12	flat:name	_	_
@@ -6956,7 +6956,7 @@
 2	Kopint-Datorg	Kopint-Datorg	PROPN	_	Case=Nom|Number=Sing	4	nmod:att	_	_
 3	negyedéves	negyedéves	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	amod:att	_	_
 4	konjunktúratesztjében	konjunktúrateszt	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
-5	többek	több	DET	_	Definite=Ind|PronType=Ind	8	obl	_	_
+5	többek	több	PRON	_	PronType=Ind	8	obl	_	Correct=DetToPron,RemoveDefiniteInd
 6	között	között	ADP	_	_	5	case	_	_
 7	az	az	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 8	áll	áll	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -7015,7 +7015,7 @@
 5	a	a	DET	_	Definite=Def|PronType=Art	10	det	_	_
 6	100	100	NUM	_	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
 7	főnél	fő	NOUN	_	Case=Ade|Number=Sing	8	nmod:obl	_	_
-8	többet	több	DET	_	Case=Acc|Definite=Ind|PronType=Ind	9	obj	_	_
+8	többet	több	PRON	_	Case=Acc|PronType=Ind	9	obj	_	Correct=DetToPron,RemoveDefiniteInd
 9	foglalkoztató	foglalkoztató	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPres	10	amod:att	_	_
 10	cégek	cég	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
@@ -7681,7 +7681,7 @@
 11	megszavazni	megszavaz	VERB	_	VerbForm=Inf|Voice=Act	10	xcomp	_	_
 12	a	a	DET	_	Definite=Def|PronType=Art	18	det	_	_
 13	tavasszal	tavasz	NOUN	_	Case=Ins|Number=Sing	17	obl	_	_
-14	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	15	amod:att	_	_
+14	több	több	DET	_	Case=Nom|Number=Sing	15	amod:att	_	Correct=NumToDet
 15	ízben	íz	NOUN	_	Case=Ine|Number=Sing	17	obl	_	_
 16	botrányt	botrány	NOUN	_	Case=Acc|Number=Sing	17	obj	_	_
 17	kiváltó	kiváltó	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	18	amod:att	_	_
@@ -9114,7 +9114,7 @@
 24	viszonyait	viszony	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	19	obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	megszüntetve	megszüntetve	ADV	_	VerbForm=Conv	19	advmod:mode	_	_
-27	többek	több	NUM	_	Case=Nom|Number=Plur|NumType=Card	26	obl	_	_
+27	többek	több	PRON	_	Case=Nom|Number=Plur	26	obl	_	Correct=NumToPron
 28	között	között	ADP	_	_	27	case	_	_
 29	a	a	DET	_	Definite=Def|PronType=Art	30	det	_	_
 30	főpolgármester	főpolgármester	NOUN	_	Case=Nom|Number=Sing	32	nmod:att	_	_
@@ -9867,7 +9867,7 @@
 31	akár	akár	ADV	_	_	34	advmod:mode	_	_
 32	néhány	néhány	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Ind	33	amod:att	_	_
 33	tizeddel	tized	NUM	_	Case=Ins|Number=Sing|NumType=Frac	34	nmod:obl	_	_
-34	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	19	acl	_	_
+34	több	több	ADV	_	PronType=Ind	19	advcl	_	Correct=NumToAdv
 35	is	is	CCONJ	_	_	34	cc	_	ToDo=cc-without-conj
 36	lehet	lehet	AUX	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
@@ -10705,7 +10705,7 @@
 15	mellé	mellé	ADP	_	_	14	case	_	SpaceAfter=No
 16	;	;	PUNCT	_	_	29	punct	_	_
 17	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
-18	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	19	amod:att	_	_
+18	több	több	DET	_	Case=Nom|Number=Sing	19	amod:att	_	Correct=NumToDet
 19	munkát	munka	NOUN	_	Case=Acc|Number=Sing	30	obj	_	_
 20	—	—	PUNCT	_	_	24	punct	_	_
 21	mint	mint	ADV	_	PronType=Rel	24	advmod:mode	_	_
@@ -11528,7 +11528,7 @@
 15	tavalyinál	tavalyi	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	18	nmod:obl	_	_
 16	160	160	NUM	_	Case=Nom|Number=Sing|NumType=Card	17	compound	_	_
 17	ezerrel	ezer	NUM	_	Case=Ins|Number=Sing|NumType=Card	18	nmod:obl	_	_
-18	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	23	amod:att	_	SpaceAfter=No
+18	több	több	ADV	_	PronType=Ind	23	advmod	_	Correct=NumToAdv|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	mintegy	mintegy	ADV	_	_	22	advmod:mode	_	_
 21	2,2	2,2	NUM	_	Case=Nom|Number=Sing|NumType=Frac	22	compound	_	_
@@ -12138,7 +12138,7 @@
 10	—	—	PUNCT	_	_	11	punct	_	_
 11	köztük	közte	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	parataxis	_	_
 12	Omár	Omár	PROPN	_	Case=Nom|Number=Sing	14	nmod:att	_	_
-13	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	14	amod:att	_	_
+13	több	több	DET	_	Case=Nom|Number=Sing	14	amod:att	_	Correct=NumToDet
 14	testőre	testőr	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod:att	_	_
 15	—	—	PUNCT	_	_	11	punct	_	_
 16	meghaltak	meghal	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	SpaceAfter=No
