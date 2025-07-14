@@ -3145,7 +3145,7 @@
 15	szerint	szerint	ADP	_	_	14	case	_	_
 16	azonban	azonban	CCONJ	_	_	26	cc	_	_
 17	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
-18	több	több	DET	_	Definite=Ind|PronType=Ind	22	det	_	_
+18	több	több	ADV	_	PronType=Ind	22	advmod	_	Correct=DetToAdv,RemoveDefiniteInd
 19	mint	mint	SCONJ	_	_	21	mark	_	_
 20	31	31	NUM	_	Case=Nom|Number=Sing|NumType=Card	21	compound	_	_
 21	milliárd	milliárd	NUM	_	Case=Nom|Number=Sing|NumType=Card	18	advcl	_	_
@@ -4557,7 +4557,7 @@
 
 # sent_id = dev-172
 # text = Több mint 2000 tanuló kényszerülhet más intézményben, esetleg más pedagógiai módszerek alapján tanulni.
-1	Több	több	DET	_	Definite=Ind|PronType=Ind	4	det	_	_
+1	Több	több	ADV	_	PronType=Ind	4	advmod	_	Correct=DetToAdv,RemoveDefiniteInd
 2	mint	mint	SCONJ	_	_	3	mark	_	_
 3	2000	2000	NUM	_	Case=Nom|Number=Sing|NumType=Card	1	advcl	_	_
 4	tanuló	tanuló	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -5170,7 +5170,7 @@
 13	munkavállalókat	munkavállaló	NOUN	_	Case=Acc|Number=Plur	19	obj	_	_
 14	akár	akár	ADV	_	_	19	advmod:mode	_	_
 15	a	a	DET	_	Definite=Def|PronType=Art	16	det	_	_
-16	minimálbérnél	minimálbér	NOUN	_	Case=Ade|Number=Sing	17	nmod:obl	_	_
+16	minimálbérnél	minimálbér	NOUN	_	Case=Ade|Number=Sing	18	nmod:obl	_	Correct=PointToNounNotDet
 17	kevesebb	kevesebb	DET	_	Definite=Ind|PronType=Ind	18	det	_	_
 18	pénzért	pénz	NOUN	_	Case=Cau|Number=Sing	19	obl	_	_
 19	dolgoztassák	dolgozik	VERB	_	Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	8	ccomp:obl	_	SpaceAfter=No
@@ -6114,7 +6114,7 @@
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	mint	mint	SCONJ	_	_	21	mark	_	_
 20	amerikai	amerikai	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	21	amod:att	_	_
-21	versenytársaik	versenytárs	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	14	advcl	_	SpaceAfter=No
+21	versenytársaik	versenytárs	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	15	advcl	_	Correct=PointToNounNotDet|SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-237
@@ -6274,7 +6274,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	mint	mint	SCONJ	_	_	14	mark	_	_
 13	az	az	DET	_	Definite=Def|PronType=Art	14	det	_	_
-14	élelmiszeriparban	élelmiszeripar	NOUN	_	Case=Ine|Number=Sing	4	advcl	_	SpaceAfter=No
+14	élelmiszeriparban	élelmiszeripar	NOUN	_	Case=Ine|Number=Sing	5	advcl	_	Correct=PointToNounNotDet|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-244
@@ -7399,7 +7399,7 @@
 7	literenkénti	literenkénti	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 8	árából	ár	NOUN	_	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
 9	jövőre	jövőre	ADV	_	_	14	advmod:tlocy	_	_
-10	több	több	DET	_	Definite=Ind|PronType=Ind	13	det	_	_
+10	több	több	ADV	_	PronType=Ind	13	advmod	_	Correct=DetToAdv,RemoveDefiniteInd
 11	mint	mint	SCONJ	_	_	12	mark	_	_
 12	130	130	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	advcl	_	_
 13	forintot	forint	NOUN	_	Case=Acc|Number=Sing	14	obj	_	_
@@ -11991,8 +11991,8 @@
 27	motorolajok	motorolaj	NOUN	_	Case=Nom|Number=Plur	25	conj	_	_
 28	jövedéki	jövedéki	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	29	amod:att	_	_
 29	adóját	adó	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	34	obj	_	_
-30	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	33	amod:att	_	_
-31	mint	mint	SCONJ	_	_	30	fixed	_	_
+30	több	több	ADV	_	PronType=Ind	34	advmod	_	Correct=NumToAdv,RemoveDefiniteInd
+31	mint	mint	SCONJ	_	_	30	mark	_	_
 32	a	a	DET	_	Definite=Def|PronType=Art	33	det	_	_
 33	háromszorosára	háromszoros	NOUN	_	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	34	obl	_	_
 34	emelnék	emel	VERB	_	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	SpaceAfter=No
