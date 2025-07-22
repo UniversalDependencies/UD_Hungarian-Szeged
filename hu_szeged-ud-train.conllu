@@ -16945,7 +16945,7 @@
 47	között	között	ADP	_	_	46	case	_	_
 48	vált	válik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	_
 49	fantommá	fantom	NOUN	_	Case=Tra|Number=Sing	48	obl	_	_
-50	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	52	amod:att	_	_
+50	több	több	DET	_	Definite=Ind|PronType=Ind	52	det	_	Correct=NumToDet
 51	olyan	olyan	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	52	nmod:att	_	_
 52	cég	cég	NOUN	_	Case=Nom|Number=Sing	48	nsubj	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	59	punct	_	_
@@ -17535,7 +17535,7 @@
 15	szolgáló	szolgáló	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	16	amod:att	_	_
 16	előprivatizáció	előprivatizáció	NOUN	_	Case=Nom|Number=Sing	17	nmod:att	_	_
 17	keretében	keret	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl	_	_
-18	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	19	amod:att	_	_
+18	több	több	DET	_	Definite=Ind|PronType=Ind	19	det	_	Correct=NumToDet
 19	boltját	bolt	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obj	_	_
 20	elvonták	elvon	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	csubj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
@@ -18534,7 +18534,7 @@
 7	hivatalos	hivatalos	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	8	amod:att	_	_
 8	közlések	közlés	NOUN	_	Case=Nom|Number=Plur	10	nmod	_	ToDo=nmod
 9	szerint	szerint	ADP	_	_	8	case	_	_
-10	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	0	root	_	_
+10	több	több	ADV	_	PronType=Ind	0	root	_	Correct=NumToAdv
 11	mint	mint	SCONJ	_	_	13	mark	_	_
 12	14	14	NUM	_	Case=Nom|Number=Sing|NumType=Card	13	compound	_	_
 13	ezer	ezer	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	advcl	_	SpaceAfter=No
@@ -18839,7 +18839,7 @@
 19	ki	ki	ADV	_	Degree=Pos	18	compound:preverb	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	30	punct	_	_
 21	amiből	ami	PRON	_	Case=Ela|Number=Sing|Person=3|PronType=Rel	30	obl	_	_
-22	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	26	amod:att	_	_
+22	több	több	ADV	_	PronType=Ind	26	advmod	_	Correct=NumToAdv
 23	mint	mint	SCONJ	_	_	25	mark	_	_
 24	100	100	NUM	_	Case=Nom|Number=Sing|NumType=Card	25	compound	_	_
 25	millió	millió	NUM	_	Case=Nom|Number=Sing|NumType=Card	22	amod:att	_	_
@@ -19197,7 +19197,7 @@
 16	a	a	DET	_	Definite=Def|PronType=Art	18	det	_	_
 17	költségvetési	költségvetési	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	18	amod:att	_	_
 18	deficit	deficit	NOUN	_	Case=Nom|Number=Sing	21	nmod:att	_	_
-19	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	21	amod:att	_	_
+19	több	több	ADV	_	PronType=Ind	21	advmod	_	Correct=NumToAdv
 20	mint	mint	SCONJ	_	_	19	mark	_	_
 21	negyedét	negyed	NUM	_	Case=Acc|Number=Sing|Number[psor]=Sing|NumType=Frac|Person[psor]=3	22	obj	_	_
 22	okozza	okoz	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	SpaceAfter=No
@@ -19465,7 +19465,7 @@
 10	képest	képest	ADP	_	_	9	case	_	_
 11	51	51	NUM	_	Case=Nom|Number=Sing|NumType=Card	12	amod:att	_	_
 12	százalékkal	százalék	NOUN	_	Case=Ins|Number=Sing	13	nmod:obl	_	_
-13	többért	több	NUM	_	Case=Cau|Number=Sing|NumType=Card	6	conj	_	_
+13	többért	több	PRON	_	Case=Cau|Number=Sing|PronType=Ind	6	conj	_	Correct=NumToPron
 14	—	—	PUNCT	_	_	13	punct	_	_
 15	vásárolja	vásárol	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 16	fel	fel	ADV	_	Degree=Pos	15	compound:preverb	_	_
@@ -20611,7 +20611,7 @@
 1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	hét	hét	NUM	_	Case=Nom|Number=Sing|NumType=Card	3	nmod:att	_	_
 3	végén	vég	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
-4	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	amod:att	_	_
+4	több	több	ADV	_	PronType=Ind	9	advmod	_	Correct=NumToAdv
 5	mint	mint	SCONJ	_	_	7	mark	_	_
 6	két	két	NUM	_	Case=Nom|Number=Sing|NumType=Card	7	amod:att	_	_
 7	tucat	tucat	NOUN	_	Case=Nom|Number=Sing	4	nmod:att	_	_
@@ -21079,7 +21079,7 @@
 6	az	az	DET	_	Definite=Def|PronType=Art	7	det	_	_
 7	utóbbira	utóbbi	NOUN	_	Case=Sbl|Number=Sing	8	obl	_	_
 8	mutatkozik	mutatkozik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-9	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	amod:att	_	_
+9	több	több	DET	_	Definite=Ind|PronType=Ind	10	det	_	Correct=NumToDet
 10	esély	esély	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -21796,7 +21796,7 @@
 39	ezer	ezer	NUM	_	Case=Nom|Number=Sing|NumType=Card	40	amod:att	_	_
 40	szerb	szerb	NOUN	_	Case=Nom|Number=Sing	46	obl	_	_
 41	közül	közül	ADP	_	_	40	case	_	_
-42	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	45	amod:att	_	_
+42	több	több	ADV	_	PronType=Ind	45	advmod	_	Correct=NumToAdv
 43	mint	mint	SCONJ	_	_	44	mark	_	_
 44	180	180	NUM	_	Case=Nom|Number=Sing|NumType=Card	42	amod:att	_	_
 45	ezren	ezer	NUM	_	Case=Ess|Number=Sing|NumType=Card	46	obl	_	_
@@ -21886,7 +21886,7 @@
 15	alapján	alap	NOUN	_	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	nmod:obl	_	_
 16	még	még	ADV	_	_	18	advmod:tlocy	_	_
 17	mindig	mindig	ADV	_	PronType=Tot	18	advmod:tlocy	_	_
-18	többen	több	NUM	_	Case=Ess|Number=Sing|NumType=Card	6	conj	_	_
+18	többen	több	PRON	_	Case=Ess|Number=Sing|PronType=Ind	6	conj	_	Correct=NumToPron
 19	vannak	van	AUX	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 20	a	a	DET	_	Definite=Def|PronType=Art	21	det	_	_
 21	távozók	távozó	NOUN	_	Case=Nom|Number=Plur	18	nsubj	_	SpaceAfter=No
@@ -21957,7 +21957,7 @@
 11	az	az	DET	_	Definite=Def|PronType=Art	12	det	_	_
 12	albánok	albán	NOUN	_	Case=Nom|Number=Plur	19	nsubj	_	_
 13	már	már	ADV	_	_	19	advmod:tlocy	_	_
-14	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	17	amod:att	_	_
+14	több	több	ADV	_	PronType=Ind	17	advmod	_	Correct=NumToAdv
 15	mint	mint	SCONJ	_	_	14	mark	_	_
 16	egy	egy	NUM	_	Case=Nom|Number=Sing|NumType=Card	14	amod:att	_	_
 17	hete	hét	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
@@ -22011,7 +22011,7 @@
 24	elleni	elleni	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	26	amod:att	_	_
 25	szerb	szerb	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	26	amod:att	_	_
 26	támadásokban	támadás	NOUN	_	Case=Ine|Number=Plur	33	obl	_	_
-27	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	28	amod:att	_	_
+27	több	több	DET	_	Definite=Ind|PronType=Ind	28	det	_	Correct=NumToDet
 28	száz	száz	NUM	_	Case=Nom|Number=Sing|NumType=Card	30	amod:att	_	_
 29	orosz	orosz	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	30	amod:att	_	_
 30	zsoldos	zsoldos	NOUN	_	Case=Nom|Number=Sing	33	nsubj	_	_
@@ -22500,7 +22500,7 @@
 2	Szerb	Szerb	PROPN	_	Case=Nom|Number=Sing	7	nmod:att	_	_
 3	Tudományos	Tudományos	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
 4	Akadémia	Akadémia	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
-5	több	több	NUM	_	Case=Nom|Number=Sing|NumType=Card	7	amod:att	_	_
+5	több	több	DET	_	Definite=Ind|PronType=Ind	7	det	_	Correct=NumToDet
 6	neves	neves	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	7	amod:att	_	_
 7	tudósa	tudós	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
 8	által	által	ADP	_	_	7	case	_	_
