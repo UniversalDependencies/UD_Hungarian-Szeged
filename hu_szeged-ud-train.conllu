@@ -3917,7 +3917,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	szenátornak	szenátor	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 10	nevezi	nevez	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-11	magát	maga	PRON	_	Case=Acc|Number=Sing|Person=3|Reflex=Yes	10	obj	_	SpaceAfter=No
+11	magát	maga	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	ugyanaz	ugyanaz	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	15	nmod:att	_	_
 14	a	a	DET	_	Definite=Def|PronType=Art	15	det	_	_

@@ -7681,7 +7681,7 @@
 11	megszavazni	megszavaz	VERB	_	VerbForm=Inf|Voice=Act	10	xcomp	_	_
 12	a	a	DET	_	Definite=Def|PronType=Art	18	det	_	_
 13	tavasszal	tavasz	NOUN	_	Case=Ins|Number=Sing	17	obl	_	_
-14	több	több	DET	_	Case=Nom|Number=Sing	15	amod:att	_	Correct=NumToDet
+14	több	több	DET	_	Case=Nom|Number=Sing|PronType=Ind	15	amod:att	_	Correct=NumToDet
 15	ízben	íz	NOUN	_	Case=Ine|Number=Sing	17	obl	_	_
 16	botrányt	botrány	NOUN	_	Case=Acc|Number=Sing	17	obj	_	_
 17	kiváltó	kiváltó	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	18	amod:att	_	_
@@ -7816,7 +7816,7 @@
 22	kormányát	kormány	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	28	obj	_	_
 23	s	s	CCONJ	_	_	25	cc	_	_
 24	mindenekelőtt	mindenekelőtt	ADV	_	_	25	advmod:mode	_	_
-25	önmagát	önmaga	PRON	_	Case=Acc|Number=Sing|Person=3|Reflex=Yes	22	conj	_	_
+25	önmagát	önmaga	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	conj	_	_
 26	jelentős	jelentős	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	27	amod:att	_	_
 27	mértékben	mérték	NOUN	_	Case=Ine|Number=Sing	28	obl	_	_
 28	kivonta	kivon	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9114,7 +9114,7 @@
 24	viszonyait	viszony	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	19	obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	megszüntetve	megszüntetve	ADV	_	VerbForm=Conv	19	advmod:mode	_	_
-27	többek	több	PRON	_	Case=Nom|Number=Plur	26	obl	_	Correct=NumToPron
+27	többek	több	PRON	_	Case=Nom|Number=Plur|PronType=Ind	26	obl	_	Correct=NumToPron
 28	között	között	ADP	_	_	27	case	_	_
 29	a	a	DET	_	Definite=Def|PronType=Art	30	det	_	_
 30	főpolgármester	főpolgármester	NOUN	_	Case=Nom|Number=Sing	32	nmod:att	_	_
@@ -10705,7 +10705,7 @@
 15	mellé	mellé	ADP	_	_	14	case	_	SpaceAfter=No
 16	;	;	PUNCT	_	_	29	punct	_	_
 17	a	a	DET	_	Definite=Def|PronType=Art	19	det	_	_
-18	több	több	DET	_	Case=Nom|Number=Sing	19	amod:att	_	Correct=NumToDet
+18	több	több	DET	_	Case=Nom|Number=Sing|PronType=Ind	19	amod:att	_	Correct=NumToDet
 19	munkát	munka	NOUN	_	Case=Acc|Number=Sing	30	obj	_	_
 20	—	—	PUNCT	_	_	24	punct	_	_
 21	mint	mint	ADV	_	PronType=Rel	24	advmod:mode	_	_
@@ -12138,7 +12138,7 @@
 10	—	—	PUNCT	_	_	11	punct	_	_
 11	köztük	közte	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	parataxis	_	_
 12	Omár	Omár	PROPN	_	Case=Nom|Number=Sing	14	nmod:att	_	_
-13	több	több	DET	_	Case=Nom|Number=Sing	14	amod:att	_	Correct=NumToDet
+13	több	több	DET	_	Case=Nom|Number=Sing|PronType=Ind	14	amod:att	_	Correct=NumToDet
 14	testőre	testőr	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod:att	_	_
 15	—	—	PUNCT	_	_	11	punct	_	_
 16	meghaltak	meghal	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	SpaceAfter=No

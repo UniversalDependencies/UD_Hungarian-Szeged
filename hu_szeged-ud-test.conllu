@@ -9504,7 +9504,7 @@
 22	vállalatát	vállalat	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	a	a	DET	_	Definite=Def|PronType=Art	26	det	_	_
-25	Gazekszportot	Gazekszport	PROPN	_	Case=Acc|Number=Sing	26	obj	_	_
+25	Gazekszportot	Gazekszport	PROPN	_	Case=Acc|Number=Sing	22	appos	_	_
 26	igazgató	igazgató	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	17	appos	_	_
 27	Jurij	Jurij	PROPN	_	Case=Nom|Number=Sing	26	appos	_	_
 28	Vjahirevre	Vjahirev	PROPN	_	Case=Sbl|Number=Sing	27	flat:name	_	_
@@ -10884,7 +10884,7 @@
 3	számítottnál	számított	ADJ	_	Case=Ade|Degree=Pos|Number=Sing|VerbForm=PartPast	6	advmod:mode	_	_
 4	5	5	NUM	_	Case=Nom|Number=Sing|NumType=Card	5	compound	_	_
 5	millióval	millió	NUM	_	Case=Ins|Number=Sing|NumType=Card	6	nmod:obl	_	_
-6	többre	több	PRON	_	Case=Sbl|Number=Sing	11	obl	_	Correct=NumToPron|SpaceAfter=No
+6	többre	több	PRON	_	Case=Sbl|Number=Sing|PronType=Ind	11	obl	_	Correct=NumToPron|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	29	29	NUM	_	Case=Nom|Number=Sing|NumType=Card	9	compound	_	_
 9	millió	millió	NUM	_	Case=Nom|Number=Sing|NumType=Card	10	amod:att	_	_
