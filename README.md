@@ -53,6 +53,7 @@ The UD version of the treebank has been prepared by Richárd Farkas (rfarkas@inf
 * 2025-10-30 v2.17
   * Fixed: PronType for "több", "maga", "önmaga".
   * Fixed: double object, one instance "Gazekszportot" received appos deprel in test
+  * Fixed: a few deprels from "obl" to "nmod" where parent was a nominal.
 * 2022-11-15 v2.11
   * The lemma of "volna" is "van".
   * Fixed: spurious copulas.

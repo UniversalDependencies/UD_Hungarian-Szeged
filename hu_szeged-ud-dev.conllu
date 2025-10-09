@@ -2727,7 +2727,7 @@
 4	támadták	támad	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	meg	meg	PART	_	_	4	compound:preverb	_	_
 6	a	a	DET	_	Definite=Def|PronType=Art	8	det	_	_
-7	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	8	obl:lvc	_	_
+7	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	8	nmod	_	orig_deprel=obl:lvc
 8	vételt	vétel	NOUN	_	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	17	punct	_	_
 10	mert	mert	SCONJ	_	_	17	mark	_	_
@@ -2762,7 +2762,7 @@
 12	három	három	NUM	_	Case=Nom|Number=Sing|NumType=Card	14	nummod	_	_
 13	elnökségi	elnökségi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	14	amod:att	_	_
 14	tag	tag	NOUN	_	Case=Nom|Number=Sing	16	nmod:att	_	_
-15	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	16	obl:lvc	_	_
+15	nyilvántartásba	nyilvántartás	NOUN	_	Case=Ill|Number=Sing	16	nmod	_	orig_deprel=obl:lvc
 16	vétele	vétel	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	nsubj	_	_
 17	és	és	CCONJ	_	_	23	cc	_	_
 18	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_

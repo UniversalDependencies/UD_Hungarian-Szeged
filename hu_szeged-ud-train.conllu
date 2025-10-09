@@ -13711,7 +13711,7 @@
 17	beazonosított	beazonosított	ADJ	_	Case=Nom|Number=Sing|VerbForm=PartPast	18	amod:att	_	_
 18	műtárgyak	műtárgy	NOUN	_	Case=Nom|Number=Plur	25	nmod:att	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	_
-20	köztük	közt	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	obl	_	orig_deprel=advmod:mode
+20	köztük	közt	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nmod	_	orig_deprel=advmod:mode
 21	a	a	DET	_	Definite=Def|PronType=Art	22	det	_	_
 22	Sárospataki	Sárospataki	PROPN	_	Case=Nom|Number=Sing	24	nmod:att	_	_
 23	könyvtár	Könyvtár	PROPN	_	Case=Nom|Number=Sing	22	flat:name	_	_
